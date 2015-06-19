@@ -1,0 +1,25 @@
+# /etc/conf.d/bittorrent-tracker: config file for /etc/init.d/bittorrent-tracker
+
+# Change this to this to the port you would like to connect to for the tracker.
+# It is accessible at http://localhost:PORT/ from any web browser.
+PORT=8082
+
+# where to store recent downloader info
+DFILE=/usr/share/bittorrent/tracker.dfile
+
+# Where torrents are stored
+ALLOWED_DIR=/var/www/torrents
+
+# use  with allowed_dir; adds a /file?hash=hash URL that allows
+# users to download the torrent file (defaults to 0) (0 or 1)
+ALLOW_GET=0
+
+# CSS URL that will be used in the HTML info page
+CSS_URL=
+
+# path to favicon.ico which many popular web browsers can use
+FAVICON=/usr/share/pixmaps/bittorrent.ico
+
+# Connection logs are sent to stdout by default, so they should be sent to a
+# file when using this script.
+LOGFILE=/var/log/bittorrent/bttrack.log

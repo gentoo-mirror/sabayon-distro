@@ -1,0 +1,15 @@
+#!/sbin/runscript
+
+depend() {
+	after mtab sabayonlive
+	before xdm
+	need dbus
+	need net
+}
+
+start() {
+	ebegin "Configuring Sabayon Media Center if needed"
+	/usr/libexec/sabayon-mce.sh
+	eend $?
+}
+
