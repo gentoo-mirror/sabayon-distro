@@ -4,11 +4,11 @@
 
 EAPI=5
 
-inherit eutils flag-o-matic
+inherit eutils flag-o-matic toolchain-funcs
 
-MY_PN=${PN/-gtk2}
-MY_P=${P/-gtk2}
-DESCRIPTION="Gtk+2 frontend for pinentry"
+MY_PN=${PN/-gnome}
+MY_P=${P/-gnome}
+DESCRIPTION="GNOME 3 frontend for pinentry"
 HOMEPAGE="http://gnupg.org/aegypten2/index.html"
 SRC_URI="mirror://gnupg/${MY_PN}/${MY_P}.tar.bz2"
 
@@ -20,8 +20,9 @@ IUSE="caps"
 RDEPEND="
 	~app-crypt/pinentry-base-${PV}
 	!app-crypt/pinentry-base[static]
+	app-crypt/libsecret
+	>=app-eselect/eselect-pinentry-0.6
 	caps? ( sys-libs/libcap )
-	x11-libs/gtk+:2
 "
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
@@ -29,25 +30,25 @@ DEPEND="${RDEPEND}
 S="${WORKDIR}/${MY_P}"
 
 src_configure() {
+	[[ "$(gcc-major-version)" -ge 5 ]] && append-cxxflags -std=gnu++11
+
 	econf \
 		--disable-pinentry-tty \
-		--enable-pinentry-gtk2 \
+		--disable-pinentry-gtk2 \
 		--disable-pinentry-curses \
 		--disable-fallback-curses \
 		--disable-pinentry-qt4 \
-		$(use_with caps libcap)
-}
-
-src_compile() {
-	emake AR="$(tc-getAR)"
+		$(use_with caps libcap) \
+		--enable-libsecret \
+		--enable-pinentry-gnome3
 }
 
 src_install() {
-	cd gtk+-2 && emake DESTDIR="${D}" install
+	cd gnome3 && emake DESTDIR="${D}" install
 }
 
 pkg_postinst() {
-	eselect pinentry set pinentry-gtk-2
+	eselect pinentry set pinentry-gnome3
 	# eselect pinentry update ifunset
 }
 

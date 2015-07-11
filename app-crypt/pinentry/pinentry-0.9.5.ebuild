@@ -12,13 +12,14 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~arm ~amd64 ~x86"
 # ncurses use flag is fake, used to mimic portage ebuild USE flags
-IUSE="gtk ncurses qt4 caps static"
+IUSE="clipboard gtk ncurses qt4 caps gnome-keyring static"
 
 RDEPEND="
 	~app-crypt/pinentry-base-${PV}
 	caps? ( ~app-crypt/pinentry-base-${PV}[caps] )
+	gnome-keyring? ( ~app-crypt/pinentry-gnome-${PV} )
 	gtk? ( ~app-crypt/pinentry-gtk2-${PV} )
-	qt4? ( ~app-crypt/pinentry-qt4-${PV} )
+	qt4? ( ~app-crypt/pinentry-qt4-${PV}[clipboard=] )
 	static? ( ~app-crypt/pinentry-base-${PV}[static] )"
 DEPEND=""
 
