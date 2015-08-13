@@ -1,10 +1,169 @@
-# Copyright 1999-2008 Gentoo Foundation.
-# Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
 
-# This file contains descriptions of local USE flags, and the ebuilds which
-# contain them.
-
-# Keep it sorted.
-
-x11-drivers/xf86-video-i810:ubuntu-patches - Apply patches from ubuntu mainstream
+app-admin/conky:apcupsd - enable support for sys-power/apcupsd
+app-admin/conky:audacious - enable monitoring of music played by media-sound/audacious
+app-admin/conky:eve - enable support for the eve-online skill monitor
+app-admin/conky:iostats - enable support for per-task I/O statistics
+app-admin/conky:lua - enable if you want Lua scripting support
+app-admin/conky:lua-cairo - enable if you want Lua Cairo bindings for Conky (also enables lua support)
+app-admin/conky:lua-imlib - enable if you want Lua Imlib2 bindings for Conky (also enables lua and imlib support)
+app-admin/conky:math - enable support for glibc's libm math library
+app-admin/conky:moc - enable monitoring of music played by media-sound/moc
+app-admin/conky:mpd - enable monitoring of music controlled by media-sound/mpd
+app-admin/conky:nano-syntax - enable syntax highlighting for app-editors/nano
+app-admin/conky:nvidia - enable reading of nvidia card temperature sensors via media-video/nvidia-settings
+app-admin/conky:portmon - enable support for tcp (ip4) port monitoring
+app-admin/conky:thinkpad - enable support for IBM/Lenovo notebooks
+app-admin/conky:weather-metar - enable support for metar weather service
+app-admin/conky:weather-xoap - enable support for metar and xoap weather service
+app-admin/conky:xmms2 - enable monitoring of music played by media-sound/xmms2
+app-arch/file-roller:nautilus - Enable file-roller to integrate with gnome-base/nautilus by providing entries in its context menu
+app-arch/file-roller:packagekit - Enable support for the distro-neutral package manager GUI app-admin/packagekit
+app-misc/screenfetch:X - Use the media-gfx/scrot package to take screenshots
+app-office/libreoffice:binfilter - Enable support for legacy StarOffice 5.x and earlier file formats
+app-office/libreoffice:binfilterdebug - Generate debug info for binfilter code (not recommended, huge files result)
+app-office/libreoffice:graphite - Enable support for non-Roman fonts via media-gfx/graphite2
+app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
+app-office/libreoffice:nlpsolver - Build extension for non-linear solving in calc
+app-office/libreoffice:odk - Build the Office Development Kit
+app-office/libreoffice:pdfimport - Build pdf-import extension using app-text/poppler. Note that you don't need this for pdf-export!
+app-office/libreoffice:vba - Enable support for VBA compatibility and ActiveX embedding
+app-office/libreoffice:webdav - Adds support for HTTP content adding via net-libs/neon
+app-office/libreoffice:xmlsec - Adds support for document signing using internal modified dev-libs/xmlsec and system dev-libs/nss
+app-text/poppler:introspection - Enable GObject introspection.
+app-text/poppler:utils - Install command-line PDF converters and various utilities.
+app-text/poppler-base:utils - Install command-line PDF converters and various utilities.
+app-text/poppler-glib:introspection - Enable GObject introspection.
+dev-vcs/git:blksha1 - Use the new optimized SHA1 implementation
+dev-vcs/git:cgi - Install gitweb too
+dev-vcs/git:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
+dev-vcs/git:gpg - Pull in gnupg for signing -- without gnupg, attempts at signing will fail at runtime!
+dev-vcs/git:gtk - Include the gitview contrib tool
+dev-vcs/git:highlight - GitWeb support for app-text/highlight
+dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
+dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PPC arch
+dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
+dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
+dev-vcs/subversion:ctypes-python - Build and install Ctypes Python bindings
+dev-vcs/subversion:dso - Enable runtime module search
+dev-vcs/subversion:extras - Install extra scripts (examples, tools, hooks)
+dev-vcs/subversion:http - Enable http support using net-libs/serf
+gnome-base/nautilus:introspection - Use dev-libs/gobject-introspection for introspection
+gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
+kde-misc/kcm-grub2:hwinfo - Used to work out supported framebuffer resolutions
+kde-misc/kcm-grub2:imagemagick - Create splash images compatible with GRUB2
+kde-misc/kcm-grub2:packagekit - Add support for packagekit integration
+lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
+lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
+media-tv/xbmc:airplay - enable AirPlay support
+media-tv/xbmc:bluray - Enable playback of Blu-ray filesystems
+media-tv/xbmc:cec - Enable support for HDMI-CEC devices via libcec
+media-tv/xbmc:goom - Enable GOOM visualization plugin
+media-tv/xbmc:midi - Support MIDI files
+media-tv/xbmc:nfs - Enable NFS client support
+media-tv/xbmc:projectm - Enable projectM visualization plugin
+media-tv/xbmc:pvr - Enable MythTV support
+media-tv/xbmc:rsxs - Enable really slick X screensavers
+media-tv/xbmc:rtmp - Enable Real Time Messaging Protocol using librtmp
+media-tv/xbmc:sftp - Support browsing files over SFTP
+media-tv/xbmc:vaapi - Enables VAAPI (Video Acceleration API) for hardware decoding
+media-tv/xbmc:webserver - Enable internal webserver
+media-tv/xbmc:xrandr - Support X randr extension
+net-analyzer/nmap:lua - Include support for the Nmap Scripting Engine (NSE) through dev-lang/lua
+net-analyzer/nmap:ncat - Install the ncat utility
+net-analyzer/nmap:ndiff - Install the ndiff utility
+net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
+net-analyzer/nmap:nping - Install the nping utility
+net-dns/avahi:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
+net-dns/avahi:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted)
+net-dns/avahi:howl-compat - Enable compat libraries for howl
+net-dns/avahi:mdnsresponder-compat - Enable compat libraries for mDNSResponder
+net-dns/avahi-base:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
+net-dns/avahi-base:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted)
+net-dns/avahi-base:howl-compat - Enable compat libraries for howl
+net-dns/avahi-base:mdnsresponder-compat - Enable compat libraries for mDNSResponder
+net-irc/quassel:X - Build the Qt 4 GUI client for quassel. If this USE flag is disabled, the GUI is not built, and cannot be used. You might want to disable this on the server, but you need it enabled on the client.
+net-irc/quassel:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca:2.
+net-irc/quassel:monolithic - Build Standalone client with integrated core, no external quasselcore needed. Only useful if you don't want to use quassels client/server model. The server and X flags are not needed in this case but it is possible to enable them too.
+net-irc/quassel:phonon - Build client with phonon backend support. This enables sound playback in client.
+net-irc/quassel:server - Build the server binary. If this USE flag is disabled, the 'core' server binary for quassel is not built, and cannot be used. You need this enabled on the server, but you might want to disable it on the client.
+net-irc/quassel:webkit - Use qt-webkit rendering engine for showing URL thumbnails and for other things that need web browser integration.
+net-irc/quassel-client:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca:2.
+net-irc/quassel-client:phonon - Build client with phonon backend support. This enables sound playback in client.
+net-irc/quassel-client:webkit - Use qt-webkit rendering engine for showing URL thumbnails and for other things that need web browser integration.
+net-misc/hylafax:html - Adds HTML documentation
+net-misc/hylafax:mgetty - Adds support for mgetty and vgetty
+net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
+net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
+net-p2p/transmission-base:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
+net-p2p/transmission-base:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
+sys-apps/systemd:apparmor - Enable AppArmor support
+sys-apps/systemd:audit - Enable support for sys-process/audit
+sys-apps/systemd:cryptsetup - Enable cryptsetup tools (includes unit generator for crypttab)
+sys-apps/systemd:curl - Enable support for uploading journals; required to build systemd-import/systemd-pull
+sys-apps/systemd:elfutils - Enable coredump stacktraces in the journal
+sys-apps/systemd:firmware-loader - Enable user-space firmware loader (for kernels prior to 3.8)
+sys-apps/systemd:gcrypt - Enable sealing of journal files using gcrypt; required to build systemd-import/systemd-pull
+sys-apps/systemd:gnuefi - Enable EFI boot manager and stub loader (built using sys-boot/gnu-efi)
+sys-apps/systemd:gudev - enable libudev gobject interface
+sys-apps/systemd:http - Enable embedded HTTP server in journald
+sys-apps/systemd:importd - Enable import daemon
+sys-apps/systemd:kdbus - Connect to kernel dbus (KDBUS) instead of userspace dbus if available
+sys-apps/systemd:kmod - Enable kernel module loading via sys-apps/kmod
+sys-apps/systemd:lz4 - Enable lz4 compression for the journal
+sys-apps/systemd:nat - Enable support for network address translation in networkd
+sys-apps/systemd:qrcode - Enable qrcode output support in journal
+sys-apps/systemd:sysv-utils - Install sysvinit compatibility symlinks and manpages for init, telinit, halt, poweroff, reboot, runlevel, and shutdown
+sys-apps/systemd:terminal - Enable experimental userspace virtual terminal support
+sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
+sys-apps/systemd:xkb - Validate XKB keymap in logind
+sys-boot/plymouth:gdm - Enables smooth transition to GDM
+sys-boot/plymouth:libkms - Provides abstraction to the DRM drivers (intel, nouveau and vmwgfx at this moment)
+sys-boot/plymouth:openrc - Installs plugin for OpenRC
+sys-boot/plymouth:pango - Adds support for printing text on splash screen and text prompts, e.g. for password
+sys-devel/base-gcc:d - Enable support for the D programming language
+sys-devel/base-gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
+sys-devel/base-gcc:go - Build the GCC Go language frontend.
+sys-devel/base-gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
+sys-devel/base-gcc:ip28 - Enable building a compiler capable of building a kernel for SGI Indigo2 Impact R10000 (IP28)
+sys-devel/base-gcc:ip32r10k - Enable building a compiler capable of building an experimental kernel for SGI O2 w/ R1x000 CPUs (IP32)
+sys-devel/base-gcc:libffi - Build the portable foreign function interface library
+sys-devel/base-gcc:lto - Add support for link-time optimizations (unsupported, use at your own risk).
+sys-devel/base-gcc:mudflap - Add support for mudflap, a pointer use checking library
+sys-devel/base-gcc:multislot - Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
+sys-devel/base-gcc:n32 - Enable n32 ABI support on mips
+sys-devel/base-gcc:n64 - Enable n64 ABI support on mips
+sys-devel/base-gcc:nopie - Disable PIE support (NOT FOR GENERAL USE)
+sys-devel/base-gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
+sys-devel/base-gcc:objc - Build support for the Objective C code language
+sys-devel/base-gcc:objc++ - Build support for the Objective C++ language
+sys-devel/base-gcc:objc-gc - Build support for the Objective C code language Garbage Collector
+sys-devel/gcc:d - Enable support for the D programming language
+sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
+sys-devel/gcc:go - Build the GCC Go language frontend.
+sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
+sys-devel/gcc:ip28 - Enable building a compiler capable of building a kernel for SGI Indigo2 Impact R10000 (IP28)
+sys-devel/gcc:ip32r10k - Enable building a compiler capable of building an experimental kernel for SGI O2 w/ R1x000 CPUs (IP32)
+sys-devel/gcc:libffi - Build the portable foreign function interface library
+sys-devel/gcc:lto - Add support for link-time optimizations (unsupported, use at your own risk).
+sys-devel/gcc:mudflap - Add support for mudflap, a pointer use checking library
+sys-devel/gcc:multislot - Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
+sys-devel/gcc:n32 - Enable n32 ABI support on mips
+sys-devel/gcc:n64 - Enable n64 ABI support on mips
+sys-devel/gcc:nopie - Disable PIE support (NOT FOR GENERAL USE)
+sys-devel/gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
+sys-devel/gcc:objc - Build support for the Objective C code language
+sys-devel/gcc:objc++ - Build support for the Objective C++ language
+sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
+www-apps/gitweb:highlight - GitWeb support for app-text/highlight.
+x11-drivers/ati-userspace:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
+x11-drivers/ati-userspace:modules - Build the kernel modules
+x11-drivers/ati-userspace:pax_kernel - Enable pax kernel specific patches
+x11-drivers/ati-userspace:qt4 - Install qt4 dependent optional tools (e.g Catalyst Control Panel)
+x11-drivers/xf86-video-intel:glamor - Enable Glamor OpenGL 2D acceleration
+x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
+x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
+x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
+x11-misc/lightdm-base:introspection - Use dev-libs/gobject-introspection for introspection
