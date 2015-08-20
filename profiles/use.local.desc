@@ -161,7 +161,6 @@ www-apps/gitweb:highlight - GitWeb support for app-text/highlight.
 x11-drivers/ati-userspace:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
 x11-drivers/ati-userspace:modules - Build the kernel modules
 x11-drivers/ati-userspace:pax_kernel - Enable pax kernel specific patches
-x11-drivers/ati-userspace:qt4 - Install qt4 dependent optional tools (e.g Catalyst Control Panel)
 x11-drivers/xf86-video-intel:glamor - Enable Glamor OpenGL 2D acceleration
 x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
