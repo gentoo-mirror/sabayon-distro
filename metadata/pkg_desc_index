@@ -370,7 +370,7 @@ x11-themes/sabayon-artwork-nostalgia 14: Official Sabayon Linux Nostalgia Wallpa
 x11-themes/sabayon-artwork-plymouth-base 14: Official Sabayon Linux Plymouth base Artwork
 x11-themes/sabayon-artwork-plymouth-default 14: Official Sabayon Linux Plymouth Artwork
 x11-themes/sabayon-artwork-sddm-base 15: Official Sabayon Linux SDDM base Artwork
-x11-themes/sabayon-artwork-sddm-default 15: Official Sabayon Linux SDDM Artwork
+x11-themes/sabayon-artwork-sddm-default 15-r1: Official Sabayon Linux SDDM Artwork
 x11-themes/sabayon-artwork-wallpapers 14-r2: Official Sabayon Linux Wallpapers Artwork
 x11-themes/tango-icon-theme 0.8.90: SVG and PNG icon theme from the Tango project
 x11-wm/awesome 3.5.6: A dynamic floating and tiling window manager
