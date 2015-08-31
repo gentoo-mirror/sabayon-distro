@@ -209,7 +209,7 @@ lxde-base/lxpanel 0.6.1 0.7.0-r1: Lightweight X11 desktop panel for LXDE
 media-gfx/splashutils 1.5.4.4-r1: Framebuffer splash utilities.
 media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
 media-libs/jackd-firewire 0.121.3 0.124.1: FFADO backend for JACK Audio Connection Kit
-media-tv/kodi 14.1: Kodi is a free and open source media-player and entertainment hub
+media-tv/kodi 14.1 15.1: Kodi is a free and open source media-player and entertainment hub
 media-tv/xbmc 12.2-r1 12.3 13.2: XBMC is a free and open source media-player and entertainment hub
 media-video/amdcccle 13.12 14.4 14.12 15.1 15.7: AMD Catalyst Control Center Linux Edition
 media-video/nvidia-settings 331.67 334.21-r3 337.25 340.46 340.58 346.35: NVIDIA Linux X11 Settings Utility
