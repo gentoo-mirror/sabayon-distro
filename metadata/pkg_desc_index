@@ -16,7 +16,7 @@ app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't ins
 app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
 app-misc/sabayon-live 13-r3: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
-app-misc/sabayon-skel 14-r8 14-r9 14-r11: Sabayon Linux skel tree
+app-misc/sabayon-skel 14-r8 14-r9 14-r11 14-r12: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
 app-misc/sabayon-version 14.01 14.02 14.03 14.03-r1 14.04-r3 14.05 14.05-r1 14.06 14.07 14.08 14.09 14.10 14.11 14.11-r1 14.12 15.01 15.02 15.03 15.04 15.05 15.06 15.07 15.08 15.09 15.10: Sabayon system release virtual package
 app-misc/screenfetch 3.6.5-r1 9999: A Bash Screenshot Information Tool
@@ -364,7 +364,7 @@ x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
 x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4: Sabayon Linux Official GNOME artwork
 x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: Sabayon GRUB2 background images
 x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: Sabayon Isolinux Live Images Background
-x11-themes/sabayon-artwork-kde 11 12 13 14: Sabayon Linux Official KDE Artwork
+x11-themes/sabayon-artwork-kde 11 12 13 14 14-r1: Sabayon Linux Official KDE Artwork
 x11-themes/sabayon-artwork-loo 11 12 13 14: Sabayon LibreOffice Artwork
 x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
 x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
