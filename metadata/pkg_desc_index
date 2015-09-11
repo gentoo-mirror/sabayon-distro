@@ -202,7 +202,7 @@ kde-base/kde-l10n-uk 15.08.0: KDE Ukrainian localization package
 kde-base/kde-l10n-wa 15.08.0: KDE Walloon localization package
 kde-base/kde-l10n-zh_CN 15.08.0: KDE Chinese (Simplified) localization package
 kde-base/kde-l10n-zh_TW 15.08.0: KDE Chinese (traditional) localization package
-kde-base/kdm 4.11.19 4.11.20 1000: Sabayon KDM -> SDDM migration package
+kde-base/kdm 4.11.19 4.11.20: KDE login manager, similar to xdm and gdm
 kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
 kde-misc/kcm-grub2 0.6.4-r1: KCModule for configuring the GRUB2 bootloader.
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
@@ -364,7 +364,7 @@ x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
 x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4: Sabayon Linux Official GNOME artwork
 x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: Sabayon GRUB2 background images
 x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: Sabayon Isolinux Live Images Background
-x11-themes/sabayon-artwork-kde 11 12 13 14 14-r1: Sabayon Linux Official KDE Artwork
+x11-themes/sabayon-artwork-kde 11 12 13 14 14-r1 14-r2: Sabayon Linux Official KDE Artwork
 x11-themes/sabayon-artwork-loo 11 12 13 14: Sabayon LibreOffice Artwork
 x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
 x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
