@@ -9,14 +9,14 @@ inherit systemd
 DESCRIPTION="Sabayon KDM -> SDDM migration package"
 HOMEPAGE="http://www.sabayon.org/"
 LICENSE="GPL-2"
-SLOT="0"
+SLOT="4"
 
 KEYWORDS="~amd64 ~x86 ~arm"
 IUSE=""
 RDEPEND="
-                    x11-misc/sddm
-                    x11-themes/sabayon-artwork-sddm-default
-                    x11-themes/sabayon-artwork-kde
+            x11-misc/sddm
+            x11-themes/sabayon-artwork-sddm-default
+            x11-themes/sabayon-artwork-kde
 "
 
 S="${WORKDIR}/"
@@ -25,7 +25,7 @@ pkg_postinst() {
     local systemd="/etc/systemd"
     local ud=$(_systemd_get_unitdir)
     # Yeah, i know. that's ugly. Shame on me. But KDM doesn't support plasma5, kde4 is dropped.
-    if grep --quiet "ExecStart=/usr/bin/kdm" /etc/systemd/system/display-manager.service; then
+    if grep --quiet "ExecStart=/usr/bin/kdm" "${ROOT}"/"${systemd}"/system/display-manager.service; then
         # Trying to make the migration as smooth as possible
         einfo "Migrating from kdm to sddm for you"
         # Remove previously selected display-manager
