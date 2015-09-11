@@ -1,25 +1,38 @@
-# Copyright 2004-2015 Sabayon
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
+#
 
 EAPI=5
+CMAKE_REQUIRED="never"
+inherit eutils kde4-base sabayon-artwork
 
-inherit systemd
-
-DESCRIPTION="Sabayon KDM -> SDDM migration package"
+DESCRIPTION="Sabayon Linux Official KDE Artwork"
 HOMEPAGE="http://www.sabayon.org/"
-LICENSE="GPL-2"
-SLOT="4"
-
-KEYWORDS="~amd64 ~x86 ~arm"
-IUSE=""
+SRC_URI="mirror://sabayon/${CATEGORY}/${PN}/${PN}-${PVR}.tar.xz"
+LICENSE="CCPL-Attribution-ShareAlike-3.0"
+SLOT="0"
+KEYWORDS="~amd64 ~arm ~x86"
+IUSE="+ksplash"
 RDEPEND="
-            x11-misc/sddm
-            x11-themes/sabayon-artwork-sddm-default
-            x11-themes/sabayon-artwork-kde
-"
+	x11-themes/${SDDM_THEME}
+	kde-plasma/plasma-meta
+	"
 
-S="${WORKDIR}/"
+S="${WORKDIR}/${PN}"
+
+src_install() {
+	# KDM
+	dodir /usr/share/apps/kdm/themes
+	cd ${S}/kdm
+	insinto /usr/share/apps/kdm/themes
+	doins -r ./
+
+	# Kwin
+	dodir ${KDEDIR}/share/apps/aurorae/themes/
+	cd ${S}/kwin
+	insinto ${KDEDIR}/share/apps/aurorae/themes/
+	doins -r ./
+}
 
 pkg_postinst() {
     local systemd="/etc/systemd"
