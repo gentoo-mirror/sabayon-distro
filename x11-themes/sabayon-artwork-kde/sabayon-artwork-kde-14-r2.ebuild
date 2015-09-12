@@ -16,6 +16,8 @@ IUSE="+ksplash"
 RDEPEND="
 	x11-themes/${SDDM_THEME}
 	kde-plasma/plasma-meta
+	kde-apps/kde-l10n:5
+	!kde-apps/kde-l10n:4
 	"
 
 S="${WORKDIR}/${PN}"
@@ -42,10 +44,12 @@ pkg_postinst() {
         # Trying to make the migration as smooth as possible
         einfo "Migrating from kdm to sddm for you"
         # Remove previously selected display-manager
-        rm -rf "${ROOT}"/"${systemd}"/system/display-manager.service
+        #rm -rf "${ROOT}"/"${systemd}"/system/display-manager.service
         # Forcing sddm, since kdm won't support plasma5 at all
-        ln -s   "${ROOT}"/"${ud}"/sddm.service "${ROOT}"/"${systemd}"/system/display-manager.service
-        einfo "If you face issues, please file a bug : https://bugs.sabayon.org/"
+        #ln -s   "${ROOT}"/"${ud}"/sddm.service "${ROOT}"/"${systemd}"/system/display-manager.service
+	systemctl disable kdm
+	systemctl enable sddm
+	einfo "If you face issues, please file a bug : https://bugs.sabayon.org/"
     else
         einfo "Seems that you haven't enabled kdm, if you plan to use plasma5, keep in mind that kdm won't work, you have to enable sddm with systemctl:"
         einfo "\tsystemctl enable sddm"
