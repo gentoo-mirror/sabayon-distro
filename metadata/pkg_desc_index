@@ -20,110 +20,110 @@ app-misc/sabayon-skel 15-r1: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
 app-misc/sabayon-version 14.01 14.02 14.03 14.03-r1 14.04-r3 14.05 14.05-r1 14.06 14.07 14.08 14.09 14.10 14.11 14.11-r1 14.12 15.01 15.02 15.03 15.04 15.05 15.06 15.07 15.08 15.09 15.10: Sabayon system release virtual package
 app-misc/screenfetch 3.6.5-r1 9999: A Bash Screenshot Information Tool
-app-office/libreoffice 4.2.6.3 4.4.1.2: LibreOffice, a full office productivity suite
-app-office/libreoffice-l10n-af 4.2.5 4.2.6 4.4.1: LibreOffice.org Afrikaans localisation
-app-office/libreoffice-l10n-ar 4.2.5 4.2.6 4.4.1: LibreOffice.org Arabic localisation
-app-office/libreoffice-l10n-as 4.2.5 4.2.6 4.4.1: LibreOffice.org Assamese localisation
-app-office/libreoffice-l10n-ast 4.2.5 4.2.6 4.4.1: LibreOffice.org Asturian localisation
-app-office/libreoffice-l10n-be 4.2.5 4.2.6 4.4.1: LibreOffice.org Belorussian localisation
-app-office/libreoffice-l10n-bg 4.2.5 4.2.6 4.4.1: LibreOffice.org Bulgarian localisation
-app-office/libreoffice-l10n-bn 4.2.5 4.2.6 4.4.1: LibreOffice.org Bengali localisation
-app-office/libreoffice-l10n-bo 4.2.5 4.2.6 4.4.1: LibreOffice.org Tibetan localisation
-app-office/libreoffice-l10n-br 4.2.5 4.2.6 4.4.1: LibreOffice.org Breton localisation
-app-office/libreoffice-l10n-brx 4.2.5 4.2.6 4.4.1: LibreOffice.org Bodo localisation
-app-office/libreoffice-l10n-bs 4.2.5 4.2.6 4.4.1: LibreOffice.org Bosnian localisation
-app-office/libreoffice-l10n-ca 4.2.5 4.2.6 4.4.1: LibreOffice.org Catalan localisation
-app-office/libreoffice-l10n-cs 4.2.5 4.2.6 4.4.1: LibreOffice.org Czech localisation
-app-office/libreoffice-l10n-cy 4.2.5 4.2.6 4.4.1: LibreOffice.org Welsh localisation
-app-office/libreoffice-l10n-da 4.2.5 4.2.6 4.4.1: LibreOffice.org Danish localisation
-app-office/libreoffice-l10n-de 4.2.5 4.2.6 4.4.1: LibreOffice.org German localisation
-app-office/libreoffice-l10n-dgo 4.2.5 4.2.6 4.4.1: LibreOffice.org Dogri localisation
-app-office/libreoffice-l10n-dz 4.2.5 4.2.6 4.4.1: LibreOffice.org Dzongkha localisation
-app-office/libreoffice-l10n-el 4.2.5 4.2.6 4.4.1: LibreOffice.org Greek localisation
-app-office/libreoffice-l10n-en_GB 4.2.5 4.2.6 4.4.1: LibreOffice.org English (Britain) localisation
-app-office/libreoffice-l10n-en_US 4.2.5 4.2.6 4.4.1: LibreOffice.org English (American) localisation
-app-office/libreoffice-l10n-en_ZA 4.2.5 4.2.6 4.4.1: LibreOffice.org English (ZA) localisation
-app-office/libreoffice-l10n-eo 4.2.5 4.2.6 4.4.1: LibreOffice.org Esperanto localisation
-app-office/libreoffice-l10n-es 4.2.5 4.2.6 4.4.1: LibreOffice.org Spanish localisation
-app-office/libreoffice-l10n-et 4.2.5 4.2.6 4.4.1: LibreOffice.org Estonian localisation
-app-office/libreoffice-l10n-eu 4.2.5 4.2.6 4.4.1: LibreOffice.org Basque localisation
-app-office/libreoffice-l10n-fa 4.2.5 4.2.6 4.4.1: LibreOffice.org Farsi localisation
-app-office/libreoffice-l10n-fi 4.2.5 4.2.6 4.4.1: LibreOffice.org Finnish localisation
-app-office/libreoffice-l10n-fr 4.2.5 4.2.6 4.4.1: LibreOffice.org French localisation
-app-office/libreoffice-l10n-ga 4.2.5 4.2.6 4.4.1: LibreOffice.org Irish localisation
-app-office/libreoffice-l10n-gd 4.2.5 4.2.6 4.4.1: LibreOffice.org Gaelic localisation
-app-office/libreoffice-l10n-gl 4.2.5 4.2.6 4.4.1: LibreOffice.org Galician localisation
-app-office/libreoffice-l10n-gu 4.2.5 4.2.6 4.4.1: LibreOffice.org Gujarati localisation
-app-office/libreoffice-l10n-he 4.2.5 4.2.6 4.4.1: LibreOffice.org Hebrew localisation
-app-office/libreoffice-l10n-hi 4.2.5 4.2.6 4.4.1: LibreOffice.org Hindi localisation
-app-office/libreoffice-l10n-hr 4.2.5 4.2.6 4.4.1: LibreOffice.org Croatian localisation
-app-office/libreoffice-l10n-hu 4.2.5 4.2.6 4.4.1: LibreOffice.org Hungarian localisation
-app-office/libreoffice-l10n-id 4.2.5 4.2.6 4.4.1: LibreOffice.org Indonesian localisation
-app-office/libreoffice-l10n-is 4.2.5 4.2.6 4.4.1: LibreOffice.org Icelandic localisation
-app-office/libreoffice-l10n-it 4.2.5 4.2.6 4.4.1: LibreOffice.org Italian localisation
-app-office/libreoffice-l10n-ja 4.2.5 4.2.6 4.4.1: LibreOffice.org Japanese localisation
-app-office/libreoffice-l10n-ka 4.2.5 4.2.6 4.4.1: LibreOffice.org Georgian localisation
-app-office/libreoffice-l10n-kk 4.2.5 4.2.6 4.4.1: LibreOffice.org Kazakh localisation
-app-office/libreoffice-l10n-km 4.2.5 4.2.6 4.4.1: LibreOffice.org Khmer (Cambodia) localisation
-app-office/libreoffice-l10n-kn 4.2.5 4.2.6 4.4.1: LibreOffice.org Kannada localisation
-app-office/libreoffice-l10n-ko 4.2.5 4.2.6 4.4.1: LibreOffice.org Korean localisation
-app-office/libreoffice-l10n-kok 4.2.5 4.2.6 4.4.1: LibreOffice.org Konkani localisation
-app-office/libreoffice-l10n-ks 4.2.5 4.2.6 4.4.1: LibreOffice.org Kashmiri localisation
-app-office/libreoffice-l10n-lo 4.2.5 4.2.6 4.4.1: LibreOffice.org Laotian localisation
-app-office/libreoffice-l10n-lt 4.2.5 4.2.6 4.4.1: LibreOffice.org Lithuanian localisation
-app-office/libreoffice-l10n-lv 4.2.5 4.2.6 4.4.1: LibreOffice.org Latvian localisation
-app-office/libreoffice-l10n-mai 4.2.5 4.2.6 4.4.1: LibreOffice.org Maithili localisation
-app-office/libreoffice-l10n-meta 4.2.5 4.2.6 4.4.1: LibreOffice.org localisation meta-package
-app-office/libreoffice-l10n-mk 4.2.5 4.2.6 4.4.1: LibreOffice.org Macedonian localisation
-app-office/libreoffice-l10n-ml 4.2.5 4.2.6 4.4.1: LibreOffice.org Malayalam localisation
-app-office/libreoffice-l10n-mn 4.2.5 4.2.6 4.4.1: LibreOffice.org Mongolian localisation
-app-office/libreoffice-l10n-mni 4.2.5 4.2.6 4.4.1: LibreOffice.org Meithei localisation
-app-office/libreoffice-l10n-mr 4.2.5 4.2.6 4.4.1: LibreOffice.org Marathi localisation
-app-office/libreoffice-l10n-my 4.2.5 4.2.6 4.4.1: LibreOffice.org Burmi localisation
-app-office/libreoffice-l10n-nb 4.2.5 4.2.6 4.4.1: LibreOffice.org Norwegian localisation
-app-office/libreoffice-l10n-ne 4.2.5 4.2.6 4.4.1: LibreOffice.org Nepali localisation
-app-office/libreoffice-l10n-nl 4.2.5 4.2.6 4.4.1: LibreOffice.org Dutch localisation
-app-office/libreoffice-l10n-nn 4.2.5 4.2.6 4.4.1: LibreOffice.org Norwegian localisation
-app-office/libreoffice-l10n-nr 4.2.5 4.2.6 4.4.1: LibreOffice.org Ndebele (South) localisation
-app-office/libreoffice-l10n-nso 4.2.5 4.2.6 4.4.1: LibreOffice.org Northern Sotho localisation
-app-office/libreoffice-l10n-oc 4.2.5 4.2.6 4.4.1: LibreOffice.org Occitan localisation
-app-office/libreoffice-l10n-om 4.2.5 4.2.6 4.4.1: LibreOffice.org Oromo localisation
-app-office/libreoffice-l10n-or 4.2.5 4.2.6 4.4.1: LibreOffice.org Oriya localisation
-app-office/libreoffice-l10n-pa_IN 4.2.5 4.2.6 4.4.1: LibreOffice.org Punjabi localisation
-app-office/libreoffice-l10n-pl 4.2.5 4.2.6 4.4.1: LibreOffice.org Polish localisation
-app-office/libreoffice-l10n-pt 4.2.5 4.2.6 4.4.1: LibreOffice.org Portuguese localisation
-app-office/libreoffice-l10n-pt_BR 4.2.5 4.2.6 4.4.1: LibreOffice.org Brazil (Port.) localisation
-app-office/libreoffice-l10n-ro 4.2.5 4.2.6 4.4.1: LibreOffice.org Romanian localisation
-app-office/libreoffice-l10n-ru 4.2.5 4.2.6 4.4.1: LibreOffice.org Russian localisation
-app-office/libreoffice-l10n-rw 4.2.5 4.2.6 4.4.1: LibreOffice.org Kinyarwanda localisation
-app-office/libreoffice-l10n-sa_IN 4.2.5 4.2.6 4.4.1: LibreOffice.org Sanskrit localisation
-app-office/libreoffice-l10n-sat 4.2.5 4.2.6 4.4.1: LibreOffice.org Santali localisation
-app-office/libreoffice-l10n-sd 4.2.5 4.2.6 4.4.1: LibreOffice.org Sindhi localisation
-app-office/libreoffice-l10n-si 4.2.5 4.2.6 4.4.1: LibreOffice.org Sinhala localisation
-app-office/libreoffice-l10n-sk 4.2.5 4.2.6 4.4.1: LibreOffice.org Slovak localisation
-app-office/libreoffice-l10n-sl 4.2.5 4.2.6 4.4.1: LibreOffice.org Slovenian localisation
-app-office/libreoffice-l10n-sq 4.2.5 4.2.6 4.4.1: LibreOffice.org Shqip localisation
-app-office/libreoffice-l10n-sr 4.2.5 4.2.6 4.4.1: LibreOffice.org Serbian localisation
-app-office/libreoffice-l10n-ss 4.2.5 4.2.6 4.4.1: LibreOffice.org Swati localisation
-app-office/libreoffice-l10n-st 4.2.5 4.2.6 4.4.1: LibreOffice.org Southern Sotho localisation
-app-office/libreoffice-l10n-sv 4.2.5 4.2.6 4.4.1: LibreOffice.org Swedish localisation
-app-office/libreoffice-l10n-sw_TZ 4.2.5 4.2.6 4.4.1: LibreOffice.org Swahili (Tanzania) localisation
-app-office/libreoffice-l10n-ta 4.2.5 4.2.6 4.4.1: LibreOffice.org Tamil localisation
-app-office/libreoffice-l10n-te 4.2.5 4.2.6 4.4.1: LibreOffice.org Telugu localisation
-app-office/libreoffice-l10n-tg 4.2.5 4.2.6 4.4.1: LibreOffice.org Tajik localisation
-app-office/libreoffice-l10n-th 4.2.5 4.2.6 4.4.1: LibreOffice.org Thai localisation
-app-office/libreoffice-l10n-tn 4.2.5 4.2.6 4.4.1: LibreOffice.org SeTswana localisation
-app-office/libreoffice-l10n-tr 4.2.5 4.2.6 4.4.1: LibreOffice.org Turkish localisation
-app-office/libreoffice-l10n-ts 4.2.5 4.2.6 4.4.1: LibreOffice.org Tsonga localisation
-app-office/libreoffice-l10n-ug 4.2.5 4.2.6 4.4.1: LibreOffice.org Uighur localisation
-app-office/libreoffice-l10n-uk 4.2.5 4.2.6 4.4.1: LibreOffice.org Ukrainian localisation
-app-office/libreoffice-l10n-uz 4.2.5 4.2.6 4.4.1: LibreOffice.org Uzbek localisation
-app-office/libreoffice-l10n-ve 4.2.5 4.2.6 4.4.1: LibreOffice.org Venda localisation
-app-office/libreoffice-l10n-vi 4.2.5 4.2.6 4.4.1: LibreOffice.org Vietnamese localisation
-app-office/libreoffice-l10n-xh 4.2.5 4.2.6 4.4.1: LibreOffice.org Xhosa localisation
-app-office/libreoffice-l10n-zh_CN 4.2.5 4.2.6 4.4.1: LibreOffice.org Chinese (simplified) localisation
-app-office/libreoffice-l10n-zh_TW 4.2.5 4.2.6 4.4.1: LibreOffice.org Chinese (traditional) localisation
-app-office/libreoffice-l10n-zu 4.2.5 4.2.6 4.4.1: LibreOffice.org Zulu localisation
+app-office/libreoffice 4.2.6.3 4.4.1.2 5.0.1.2: LibreOffice, a full office productivity suite
+app-office/libreoffice-l10n-af 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Afrikaans localisation
+app-office/libreoffice-l10n-ar 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Arabic localisation
+app-office/libreoffice-l10n-as 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Assamese localisation
+app-office/libreoffice-l10n-ast 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Asturian localisation
+app-office/libreoffice-l10n-be 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Belorussian localisation
+app-office/libreoffice-l10n-bg 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Bulgarian localisation
+app-office/libreoffice-l10n-bn 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Bengali localisation
+app-office/libreoffice-l10n-bo 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Tibetan localisation
+app-office/libreoffice-l10n-br 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Breton localisation
+app-office/libreoffice-l10n-brx 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Bodo localisation
+app-office/libreoffice-l10n-bs 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Bosnian localisation
+app-office/libreoffice-l10n-ca 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Catalan localisation
+app-office/libreoffice-l10n-cs 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Czech localisation
+app-office/libreoffice-l10n-cy 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Welsh localisation
+app-office/libreoffice-l10n-da 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Danish localisation
+app-office/libreoffice-l10n-de 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org German localisation
+app-office/libreoffice-l10n-dgo 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Dogri localisation
+app-office/libreoffice-l10n-dz 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Dzongkha localisation
+app-office/libreoffice-l10n-el 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Greek localisation
+app-office/libreoffice-l10n-en_GB 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org English (Britain) localisation
+app-office/libreoffice-l10n-en_US 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org English (American) localisation
+app-office/libreoffice-l10n-en_ZA 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org English (ZA) localisation
+app-office/libreoffice-l10n-eo 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Esperanto localisation
+app-office/libreoffice-l10n-es 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Spanish localisation
+app-office/libreoffice-l10n-et 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Estonian localisation
+app-office/libreoffice-l10n-eu 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Basque localisation
+app-office/libreoffice-l10n-fa 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Farsi localisation
+app-office/libreoffice-l10n-fi 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Finnish localisation
+app-office/libreoffice-l10n-fr 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org French localisation
+app-office/libreoffice-l10n-ga 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Irish localisation
+app-office/libreoffice-l10n-gd 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Gaelic localisation
+app-office/libreoffice-l10n-gl 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Galician localisation
+app-office/libreoffice-l10n-gu 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Gujarati localisation
+app-office/libreoffice-l10n-he 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Hebrew localisation
+app-office/libreoffice-l10n-hi 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Hindi localisation
+app-office/libreoffice-l10n-hr 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Croatian localisation
+app-office/libreoffice-l10n-hu 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Hungarian localisation
+app-office/libreoffice-l10n-id 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Indonesian localisation
+app-office/libreoffice-l10n-is 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Icelandic localisation
+app-office/libreoffice-l10n-it 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Italian localisation
+app-office/libreoffice-l10n-ja 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Japanese localisation
+app-office/libreoffice-l10n-ka 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Georgian localisation
+app-office/libreoffice-l10n-kk 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Kazakh localisation
+app-office/libreoffice-l10n-km 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Khmer (Cambodia) localisation
+app-office/libreoffice-l10n-kn 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Kannada localisation
+app-office/libreoffice-l10n-ko 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Korean localisation
+app-office/libreoffice-l10n-kok 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Konkani localisation
+app-office/libreoffice-l10n-ks 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Kashmiri localisation
+app-office/libreoffice-l10n-lo 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Laotian localisation
+app-office/libreoffice-l10n-lt 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Lithuanian localisation
+app-office/libreoffice-l10n-lv 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Latvian localisation
+app-office/libreoffice-l10n-mai 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Maithili localisation
+app-office/libreoffice-l10n-meta 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org localisation meta-package
+app-office/libreoffice-l10n-mk 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Macedonian localisation
+app-office/libreoffice-l10n-ml 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Malayalam localisation
+app-office/libreoffice-l10n-mn 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Mongolian localisation
+app-office/libreoffice-l10n-mni 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Meithei localisation
+app-office/libreoffice-l10n-mr 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Marathi localisation
+app-office/libreoffice-l10n-my 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Burmi localisation
+app-office/libreoffice-l10n-nb 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Norwegian localisation
+app-office/libreoffice-l10n-ne 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Nepali localisation
+app-office/libreoffice-l10n-nl 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Dutch localisation
+app-office/libreoffice-l10n-nn 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Norwegian localisation
+app-office/libreoffice-l10n-nr 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Ndebele (South) localisation
+app-office/libreoffice-l10n-nso 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Northern Sotho localisation
+app-office/libreoffice-l10n-oc 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Occitan localisation
+app-office/libreoffice-l10n-om 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Oromo localisation
+app-office/libreoffice-l10n-or 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Oriya localisation
+app-office/libreoffice-l10n-pa_IN 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Punjabi localisation
+app-office/libreoffice-l10n-pl 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Polish localisation
+app-office/libreoffice-l10n-pt 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Portuguese localisation
+app-office/libreoffice-l10n-pt_BR 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Brazil (Port.) localisation
+app-office/libreoffice-l10n-ro 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Romanian localisation
+app-office/libreoffice-l10n-ru 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Russian localisation
+app-office/libreoffice-l10n-rw 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Kinyarwanda localisation
+app-office/libreoffice-l10n-sa_IN 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Sanskrit localisation
+app-office/libreoffice-l10n-sat 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Santali localisation
+app-office/libreoffice-l10n-sd 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Sindhi localisation
+app-office/libreoffice-l10n-si 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Sinhala localisation
+app-office/libreoffice-l10n-sk 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Slovak localisation
+app-office/libreoffice-l10n-sl 5.0.2.2: LibreOffice.org Slovenian localisation
+app-office/libreoffice-l10n-sq 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Shqip localisation
+app-office/libreoffice-l10n-sr 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Serbian localisation
+app-office/libreoffice-l10n-ss 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Swati localisation
+app-office/libreoffice-l10n-st 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Southern Sotho localisation
+app-office/libreoffice-l10n-sv 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Swedish localisation
+app-office/libreoffice-l10n-sw_TZ 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Swahili (Tanzania) localisation
+app-office/libreoffice-l10n-ta 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Tamil localisation
+app-office/libreoffice-l10n-te 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Telugu localisation
+app-office/libreoffice-l10n-tg 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Tajik localisation
+app-office/libreoffice-l10n-th 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Thai localisation
+app-office/libreoffice-l10n-tn 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org SeTswana localisation
+app-office/libreoffice-l10n-tr 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Turkish localisation
+app-office/libreoffice-l10n-ts 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Tsonga localisation
+app-office/libreoffice-l10n-ug 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Uighur localisation
+app-office/libreoffice-l10n-uk 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Ukrainian localisation
+app-office/libreoffice-l10n-uz 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Uzbek localisation
+app-office/libreoffice-l10n-ve 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Venda localisation
+app-office/libreoffice-l10n-vi 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Vietnamese localisation
+app-office/libreoffice-l10n-xh 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Xhosa localisation
+app-office/libreoffice-l10n-zh_CN 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Chinese (simplified) localisation
+app-office/libreoffice-l10n-zh_TW 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Chinese (traditional) localisation
+app-office/libreoffice-l10n-zu 4.2.5 4.2.6 4.4.1 5.0.2.2: LibreOffice.org Zulu localisation
 app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
 app-text/poppler 0.26.5 0.32.0 0.33.0-r1: PDF rendering library based on the xpdf-3.0 code base (meta package)
 app-text/poppler-base 0.26.5 0.32.0 0.33.0-r1: PDF rendering library based on the xpdf-3.0 code base
