@@ -245,7 +245,7 @@ sys-apps/baselayout 2.2-r1: Filesystem baselayout and init scripts
 sys-apps/cookbug 0.4: Sabayon Bug Report hardware information collector
 sys-apps/gpu-detector 4: Configures your GPU when autodetection fails do to it
 sys-apps/lsb-release 1.4: LSB version query program
-sys-apps/systemd 208-r3 215-r3 216-r3 222-r1 226: System and service manager for Linux
+sys-apps/systemd 208-r3 215-r3 216-r3 222-r1 226-r1: System and service manager for Linux
 sys-boot/grub 0.97-r22 2.00-r6 2.00-r7: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
 sys-boot/os-prober 1.65: Utility to detect other OSs on a set of drives
