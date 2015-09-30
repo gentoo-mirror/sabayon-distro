@@ -17,7 +17,7 @@ app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install t
 app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
 app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't install this)
 app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
-app-misc/sabayon-live 14: Sabayon live image scripts and tools
+app-misc/sabayon-live 15: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-skel 15-r2: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
