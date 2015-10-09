@@ -360,7 +360,7 @@ x11-misc/lightdm-gtk-greeter 1.9.0 2.0.1: LightDM GTK+ Greeter
 x11-misc/lightdm-kde 0.3.2.1: LightDM KDE greeter
 x11-misc/lightdm-qt4 1.14.1 1.14.2: Qt4 libraries for LightDM
 x11-misc/lightdm-qt5 1.14.2-r1: Qt5 libraries for LightDM
-x11-misc/sddm 0.11.0-r1 0.12.0: Simple Desktop Display Manager
+x11-misc/sddm 0.11.0-r1 0.12.0-r1: Simple Desktop Display Manager
 x11-themes/gnome-colors-common 5.5.1-r12: Colorized icons shared between all gnome-colors iconsets
 x11-themes/sabayon-artwork-core 11-r4 12 13 13-r1 13-r2 14 14-r1 14-r2: Official Sabayon Linux Core Artwork
 x11-themes/sabayon-artwork-cursor 14: Official Sabayon Linux Core Artwork
