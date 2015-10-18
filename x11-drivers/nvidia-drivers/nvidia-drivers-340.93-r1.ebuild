@@ -5,7 +5,7 @@
 EAPI=5
 
 inherit eutils flag-o-matic linux-info linux-mod multilib nvidia-driver \
-	portability toolchain-funcs unpacker user udev
+	portability toolchain-funcs unpacker user
 
 NV_URI="http://us.download.nvidia.com/XFree86/"
 X86_NV_PACKAGE="NVIDIA-Linux-x86-${PV}"
@@ -23,15 +23,10 @@ SRC_URI="
 "
 
 LICENSE="GPL-2 NVIDIA-r2"
-SLOT="0"
+SLOT="0/340"
 KEYWORDS="-* ~amd64 ~x86 ~amd64-fbsd ~x86-fbsd"
+IUSE="acpi custom-cflags multilib x-multilib kernel_FreeBSD kernel_linux pax_kernel X uvm"
 RESTRICT="bindist mirror strip"
-EMULTILIB_PKG="true"
-
-IUSE="acpi custom-cflags gtk2 gtk3 multilib x-multilib kernel_FreeBSD kernel_linux pax_kernel tools X uvm"
-REQUIRED_USE="
-	tools? ( X || ( gtk2 gtk3 ) )
-"
 
 COMMON="
 	app-eselect/eselect-opencl
@@ -48,14 +43,6 @@ DEPEND="
 RDEPEND="
 	${COMMON}
 	acpi? ( sys-power/acpid )
-	tools? (
-		dev-libs/atk
-		dev-libs/glib:2
-		x11-libs/gdk-pixbuf
-		x11-libs/libX11
-		x11-libs/libXext
-		x11-libs/pango[X]
-	)
 	X? (
 		<x11-base/xorg-server-1.17.99:=
 		>=x11-libs/libvdpau-0.3-r1
@@ -64,37 +51,11 @@ RDEPEND="
 			>=x11-libs/libXext-1.3.2[abi_x86_32]
 		)
 	)
-	~x11-drivers/nvidia-userspace-${PV}
-	x-multilib? ( ~x11-drivers/nvidia-userspace-${PV}[x-multilib] )
-	multilib? ( ~x11-drivers/nvidia-userspace-${PV}[multilib] )
-	~x11-drivers/nvidia-userspace-${PV}[tools=]
-	~x11-drivers/nvidia-userspace-${PV}[X=]
 "
-
-QA_PREBUILT="opt/* usr/lib*"
 
 S=${WORKDIR}/
 
 pkg_pretend() {
-	if use amd64 && has_multilib_profile && \
-		[ "${DEFAULT_ABI}" != "amd64" ]; then
-		eerror "This ebuild doesn't currently support changing your default ABI"
-		die "Unexpected \${DEFAULT_ABI} = ${DEFAULT_ABI}"
-	fi
-
-	if use kernel_linux && kernel_is ge 4 1 ; then
-		ewarn "Gentoo supports kernels which are supported by NVIDIA"
-		ewarn "which are limited to the following kernels:"
-		ewarn "<sys-kernel/gentoo-sources-4.1"
-		ewarn "<sys-kernel/vanilla-sources-4.1"
-		ewarn ""
-		ewarn "You are free to utilize epatch_user to provide whatever"
-		ewarn "support you feel is appropriate, but will not receive"
-		ewarn "support as a result of those changes."
-		ewarn ""
-		ewarn "Do not file a bug report about this."
-	fi
-
 	# Since Nvidia ships 3 different series of drivers, we need to give the user
 	# some kind of guidance as to what version they should install. This tries
 	# to point the user in the right direction but can't be perfect. check
@@ -125,7 +86,6 @@ pkg_setup() {
 
 		BUILD_PARAMS="IGNORE_CC_MISMATCH=yes V=1 SYSSRC=${KV_DIR} \
 		SYSOUT=${KV_OUT_DIR} CC=$(tc-getBUILD_CC)"
-
 		# linux-mod_src_compile calls set_arch_to_kernel, which
 		# sets the ARCH to x86 but NVIDIA's wrapping Makefile
 		# expects x86_64 or i386 and then converts it to x86
@@ -137,18 +97,10 @@ pkg_setup() {
 	if use kernel_FreeBSD; then
 		use x86-fbsd   && S="${WORKDIR}/${X86_FBSD_NV_PACKAGE}"
 		use amd64-fbsd && S="${WORKDIR}/${AMD64_FBSD_NV_PACKAGE}"
-		NV_DOC="${S}/doc"
-		NV_OBJ="${S}/obj"
 		NV_SRC="${S}/src"
-		NV_MAN="${S}/x11/man"
-		NV_X11="${S}/obj"
 		NV_SOVER=1
 	elif use kernel_linux; then
-		NV_DOC="${S}"
-		NV_OBJ="${S}"
 		NV_SRC="${S}/kernel"
-		NV_MAN="${S}"
-		NV_X11="${S}"
 		NV_SOVER=${PV}
 	else
 		die "Could not determine proper NVIDIA package"
@@ -161,18 +113,17 @@ src_prepare() {
 	if use kernel_linux; then
 		if kernel_is lt 2 6 9 ; then
 			eerror "You must build this against 2.6.9 or higher kernels."
-		fi
+ 		fi
 
 		# If greater than 2.6.5 use M= instead of SUBDIR=
 #		convert_to_m "${NV_SRC}"/Makefile.kbuild
 	fi
-
 	if use pax_kernel; then
 		ewarn "Using PAX patches is not supported. You will be asked to"
 		ewarn "use a standard kernel should you have issues. Should you"
 		ewarn "need support with these patches, contact the PaX team."
-		epatch "${FILESDIR}"/${PN}-346.16-pax-usercopy.patch
-		epatch "${FILESDIR}"/${PN}-346.16-pax-constify.patch
+		epatch "${FILESDIR}"/${PN}-331.13-pax-usercopy.patch
+		epatch "${FILESDIR}"/${PN}-337.12-pax-constify.patch
 	fi
 
 	# Allow user patches so they can support RC kernels and whatever else
@@ -189,11 +140,10 @@ src_compile() {
 		MAKE="$(get_bmake)" CFLAGS="-Wno-sign-compare" emake CC="$(tc-getCC)" \
 			LD="$(tc-getLD)" LDFLAGS="$(raw-ldflags)" || die
 	elif use kernel_linux; then
-		MAKEOPTS=-j1
+		use uvm && MAKEOPTS=-j1
 		linux-mod_src_compile
 	fi
 }
-
 
 src_install() {
 	if use kernel_linux; then
@@ -234,4 +184,3 @@ pkg_postinst() {
 pkg_postrm() {
 	use kernel_linux && linux-mod_pkg_postrm
 }
-
