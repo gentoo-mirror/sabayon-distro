@@ -152,58 +152,58 @@ gnome-base/nautilus 3.12.2 3.14.2 3.14.2-r1: A file manager for the GNOME deskto
 gnome-extra/cinnamon 2.0.12: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
 gnome-extra/nautilus-file-roller 3.14.2 3.16.2 3.16.3: Provides context menu for Nautilus
-kde-apps/kde-l10n 15.08.0 15.08.2: KDE internationalization package meta includer
+kde-apps/kde-l10n 15.08.2: KDE internationalization package meta includer
 kde-apps/kde4-l10n 4.14.3: KDE internationalization package meta includer
-kde-base/kde-l10n-ar 15.08.0 15.08.2: KDE Arabic localization package
-kde-base/kde-l10n-bg 15.08.0 15.08.2: KDE Bulgarian localization package
-kde-base/kde-l10n-bs 15.08.0 15.08.2: KDE Bosnian localization package
-kde-base/kde-l10n-ca 15.08.0 15.08.2: KDE Catalan localization package
-kde-base/kde-l10n-cs 15.08.0 15.08.2: KDE Czech localization package
-kde-base/kde-l10n-da 15.08.0 15.08.2: KDE Danish localization package
-kde-base/kde-l10n-de 15.08.0 15.08.2: KDE German localization package
-kde-base/kde-l10n-el 15.08.0 15.08.2: KDE Greek localization package
-kde-base/kde-l10n-en_GB 15.08.0 15.08.2: KDE British English localization package
-kde-base/kde-l10n-es 15.08.0 15.08.2: KDE Spanish localization package
-kde-base/kde-l10n-et 15.08.0 15.08.2: KDE Estonian localization package
-kde-base/kde-l10n-eu 15.08.0 15.08.2: KDE Basque localization package
-kde-base/kde-l10n-fi 15.08.0 15.08.2: KDE Finnish localization package
-kde-base/kde-l10n-fr 15.08.0 15.08.2: KDE French localization package
-kde-base/kde-l10n-ga 15.08.0 15.08.2: KDE Irish localization package
-kde-base/kde-l10n-gl 15.08.0 15.08.2: KDE Galician localization package
-kde-base/kde-l10n-he 15.08.0 15.08.2: KDE Hebrew localization package
-kde-base/kde-l10n-hi 15.08.0 15.08.2: KDE Hindi localization package
-kde-base/kde-l10n-hr 15.08.0 15.08.2: KDE Croatian localization package
-kde-base/kde-l10n-hu 15.08.0 15.08.2: KDE Hungarian localization package
-kde-base/kde-l10n-ia 15.08.0 15.08.2: KDE Interlingua localization package
-kde-base/kde-l10n-is 15.08.0 15.08.2: KDE Icelandic localization package
-kde-base/kde-l10n-it 15.08.0 15.08.2: KDE Italian localization package
-kde-base/kde-l10n-ja 15.08.0 15.08.2: KDE Japanese localization package
-kde-base/kde-l10n-kk 15.08.0 15.08.2: KDE Kazakh localization package
-kde-base/kde-l10n-km 15.08.0 15.08.2: KDE Khmer (Cambodia) localization package
-kde-base/kde-l10n-ko 15.08.0 15.08.2: KDE Korean localization package
-kde-base/kde-l10n-lt 15.08.0 15.08.2: KDE Lithuanian localization package
-kde-base/kde-l10n-lv 15.08.0 15.08.2: KDE Latvian localization package
-kde-base/kde-l10n-mr 15.08.0 15.08.2: KDE Marathi localization package
-kde-base/kde-l10n-nb 15.08.0 15.08.2: KDE Norwegian localization package
-kde-base/kde-l10n-nds 15.08.0 15.08.2: KDE Low Saxon localization package
-kde-base/kde-l10n-nl 15.08.0 15.08.2: KDE Dutch localization package
-kde-base/kde-l10n-nn 15.08.0 15.08.2: KDE Norwegian localization package
-kde-base/kde-l10n-pa 15.08.0 15.08.2: KDE Punjabi localization package
-kde-base/kde-l10n-pl 15.08.0 15.08.2: KDE Poland localization package
-kde-base/kde-l10n-pt 15.08.0 15.08.2: KDE Portuguese localization package
-kde-base/kde-l10n-pt_BR 15.08.0 15.08.2: KDE Portuguese (Brazilian) localization package
-kde-base/kde-l10n-ro 15.08.0 15.08.2: KDE Romanian localization package
-kde-base/kde-l10n-ru 15.08.0 15.08.2: KDE Russian localization package
-kde-base/kde-l10n-sk 15.08.0 15.08.2: KDE Slovak localization package
-kde-base/kde-l10n-sl 15.08.0 15.08.2: KDE Slovenian localization package
-kde-base/kde-l10n-sr 15.08.0 15.08.2: KDE Serbian localization package
-kde-base/kde-l10n-sv 15.08.0 15.08.2: KDE Swedish localization package
-kde-base/kde-l10n-tr 15.08.0 15.08.2: KDE Turkish localization package
-kde-base/kde-l10n-ug 15.08.0 15.08.2: KDE Uyghur localization package
-kde-base/kde-l10n-uk 15.08.0 15.08.2: KDE Ukrainian localization package
-kde-base/kde-l10n-wa 15.08.0 15.08.2: KDE Walloon localization package
-kde-base/kde-l10n-zh_CN 15.08.0 15.08.2: KDE Chinese (Simplified) localization package
-kde-base/kde-l10n-zh_TW 15.08.0 15.08.2: KDE Chinese (traditional) localization package
+kde-base/kde-l10n-ar 15.08.2: KDE Arabic localization package
+kde-base/kde-l10n-bg 15.08.2: KDE Bulgarian localization package
+kde-base/kde-l10n-bs 15.08.2: KDE Bosnian localization package
+kde-base/kde-l10n-ca 15.08.2: KDE Catalan localization package
+kde-base/kde-l10n-cs 15.08.2: KDE Czech localization package
+kde-base/kde-l10n-da 15.08.2: KDE Danish localization package
+kde-base/kde-l10n-de 15.08.2: KDE German localization package
+kde-base/kde-l10n-el 15.08.2: KDE Greek localization package
+kde-base/kde-l10n-en_GB 15.08.2: KDE British English localization package
+kde-base/kde-l10n-es 15.08.2: KDE Spanish localization package
+kde-base/kde-l10n-et 15.08.2: KDE Estonian localization package
+kde-base/kde-l10n-eu 15.08.2: KDE Basque localization package
+kde-base/kde-l10n-fi 15.08.2: KDE Finnish localization package
+kde-base/kde-l10n-fr 15.08.2: KDE French localization package
+kde-base/kde-l10n-ga 15.08.2: KDE Irish localization package
+kde-base/kde-l10n-gl 15.08.2: KDE Galician localization package
+kde-base/kde-l10n-he 15.08.2: KDE Hebrew localization package
+kde-base/kde-l10n-hi 15.08.2: KDE Hindi localization package
+kde-base/kde-l10n-hr 15.08.2: KDE Croatian localization package
+kde-base/kde-l10n-hu 15.08.2: KDE Hungarian localization package
+kde-base/kde-l10n-ia 15.08.2: KDE Interlingua localization package
+kde-base/kde-l10n-is 15.08.2: KDE Icelandic localization package
+kde-base/kde-l10n-it 15.08.2: KDE Italian localization package
+kde-base/kde-l10n-ja 15.08.2: KDE Japanese localization package
+kde-base/kde-l10n-kk 15.08.2: KDE Kazakh localization package
+kde-base/kde-l10n-km 15.08.2: KDE Khmer (Cambodia) localization package
+kde-base/kde-l10n-ko 15.08.2: KDE Korean localization package
+kde-base/kde-l10n-lt 15.08.2: KDE Lithuanian localization package
+kde-base/kde-l10n-lv 15.08.2: KDE Latvian localization package
+kde-base/kde-l10n-mr 15.08.2: KDE Marathi localization package
+kde-base/kde-l10n-nb 15.08.2: KDE Norwegian localization package
+kde-base/kde-l10n-nds 15.08.2: KDE Low Saxon localization package
+kde-base/kde-l10n-nl 15.08.2: KDE Dutch localization package
+kde-base/kde-l10n-nn 15.08.2: KDE Norwegian localization package
+kde-base/kde-l10n-pa 15.08.2: KDE Punjabi localization package
+kde-base/kde-l10n-pl 15.08.2: KDE Poland localization package
+kde-base/kde-l10n-pt 15.08.2: KDE Portuguese localization package
+kde-base/kde-l10n-pt_BR 15.08.2: KDE Portuguese (Brazilian) localization package
+kde-base/kde-l10n-ro 15.08.2: KDE Romanian localization package
+kde-base/kde-l10n-ru 15.08.2: KDE Russian localization package
+kde-base/kde-l10n-sk 15.08.2: KDE Slovak localization package
+kde-base/kde-l10n-sl 15.08.2: KDE Slovenian localization package
+kde-base/kde-l10n-sr 15.08.2: KDE Serbian localization package
+kde-base/kde-l10n-sv 15.08.2: KDE Swedish localization package
+kde-base/kde-l10n-tr 15.08.2: KDE Turkish localization package
+kde-base/kde-l10n-ug 15.08.2: KDE Uyghur localization package
+kde-base/kde-l10n-uk 15.08.2: KDE Ukrainian localization package
+kde-base/kde-l10n-wa 15.08.2: KDE Walloon localization package
+kde-base/kde-l10n-zh_CN 15.08.2: KDE Chinese (Simplified) localization package
+kde-base/kde-l10n-zh_TW 15.08.2: KDE Chinese (traditional) localization package
 kde-base/kdm 4.11.19 4.11.20: KDE login manager, similar to xdm and gdm
 kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
 kde-misc/kcm-grub2 0.6.4-r1: KCModule for configuring the GRUB2 bootloader.
