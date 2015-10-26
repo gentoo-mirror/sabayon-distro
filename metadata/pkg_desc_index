@@ -365,7 +365,7 @@ x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
 x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4: Sabayon Linux Official GNOME artwork
 x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: Sabayon GRUB2 background images
 x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: Sabayon Isolinux Live Images Background
-x11-themes/sabayon-artwork-kde 11 12 13 14 14-r1 14-r2: Sabayon Linux Official KDE Artwork
+x11-themes/sabayon-artwork-kde 11 12 13 14-r2 15: Sabayon Linux Official KDE Artwork
 x11-themes/sabayon-artwork-loo 11 12 13 14: Sabayon LibreOffice Artwork
 x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
 x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
