@@ -113,9 +113,8 @@ src_prepare() {
 		if kernel_is lt 2 6 9 ; then
 			eerror "You must build this against 2.6.9 or higher kernels."
 		fi
-		if kernel_is ge 3 18; then
-			epatch "${FILESDIR}"/${PN}-4.0.patch
-		fi
+
+		kernel_is ge 4 3 && epatch "${FILESDIR}/${PN}-340-4.3.patch"
 
 		# If greater than 2.6.5 use M= instead of SUBDIR=
 		convert_to_m "${NV_SRC}"/Makefile.kbuild
@@ -130,12 +129,6 @@ src_prepare() {
 	cat <<- EOF > "${S}"/nvidia.icd
 		/usr/$(get_libdir)/libnvidia-opencl.so
 	EOF
-
-	if kernel_is ge 3 19 0; then
-		epatch "${FILESDIR}/${PN}-3.19.patch"
-	fi
-
-	kernel_is ge 4 3 && epatch "${FILESDIR}/${PN}-340-4.3.patch"
 
 	# Allow user patches so they can support RC kernels and whatever else
 	epatch_user
