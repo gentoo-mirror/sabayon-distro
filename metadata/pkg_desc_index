@@ -11,7 +11,7 @@ app-misc/calamares-sabayon 1.1-r1: Sabayon Official Installer
 app-misc/calamares-sabayon-base-modules 1.5-r3: Sabayon Official Calamares base modules
 app-misc/calamares-sabayon-branding 15.10: Sabayon Official Calamares branding
 app-misc/calamares-sabayon-server 1.0: Sabayon Official Installer
-app-misc/calamares-sabayon-server-base-modules 1.0-r6: Sabayon Official Calamares base modules
+app-misc/calamares-sabayon-server-base-modules 1.0-r7: Sabayon Official Calamares base modules
 app-misc/calamares-sabayon-server-branding 15.10: Sabayon Official Calamares server branding
 app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install this)
 app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
