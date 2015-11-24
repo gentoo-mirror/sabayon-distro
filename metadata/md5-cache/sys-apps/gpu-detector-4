@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=!>=app-misc/sabayon-live-11 <app-misc/sabayon-live-11
+DESCRIPTION=Configures your GPU when autodetection fails do to it
+EAPI=0
+HOMEPAGE=http://www.sabayon.org
+KEYWORDS=x86 amd64 ppc
+LICENSE=GPL-2
+RDEPEND=!>=app-misc/sabayon-live-11 <app-misc/sabayon-live-11
+SLOT=0
+_eclass_exported_funcs=src_unpack:- src_install:-
+_md5_=79a5d2ca63563965cbe519f4ffea8f7a

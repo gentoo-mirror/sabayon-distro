@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=>=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=LibreOffice.org Asturian localisation
+EAPI=4
+HOMEPAGE=http://www.libreoffice.org
+IUSE=offlinehelp linguas_ast
+KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
+LICENSE=|| ( LGPL-3 MPL-1.1 )
+RDEPEND=app-text/hunspell
+RESTRICT=strip
+SLOT=0
+SRC_URI=linguas_ast? ( http://download.documentfoundation.org/libreoffice-ast/stable/5.0.2/rpm/x86/LibreOffice_5.0.2_Linux_x86_rpm_langpack_ast.tar.gz )
+_eclass_exported_funcs=src_unpack:libreoffice-l10n-2 src_prepare:libreoffice-l10n-2 src_configure:libreoffice-l10n-2 src_compile:libreoffice-l10n-2 src_install:libreoffice-l10n-2
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	libreoffice-l10n-2	051d5d8c9ba0441f9a40c6678d610449	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=58fcfda589ebfe385b7b088de84fd1c9

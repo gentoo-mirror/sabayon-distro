@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
+DEPEND=python? ( =dev-lang/python-2* ) python? ( =dev-lang/python-2*[gdbm] ) !<sys-devel/gettext-0.18.1.1-r3 =sys-devel/automake-1.11* >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig >=dev-libs/libdaemon-0.14 dev-libs/expat dev-libs/glib:2 gdbm? ( sys-libs/gdbm ) dbus? ( >=sys-apps/dbus-0.30 python? ( dev-python/dbus-python ) ) howl-compat? ( >=sys-apps/dbus-0.30 ) introspection? ( >=dev-libs/gobject-introspection-0.9.5 ) mdnsresponder-compat? ( >=sys-apps/dbus-0.30 ) bookmarks? ( dev-python/twisted dev-python/twisted-web ) kernel_linux? ( sys-libs/libcap ) doc? ( app-doc/doxygen ) >=dev-util/intltool-0.40.5 >=dev-util/pkgconfig-0.9.0
+DESCRIPTION=avahi base module
+EAPI=3
+HOMEPAGE=http://avahi.org/
+IUSE=autoipd bookmarks dbus doc gdbm howl-compat +introspection ipv6 mdnsresponder-compat python test
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=LGPL-2.1
+RDEPEND=python? ( =dev-lang/python-2* ) python? ( =dev-lang/python-2*[gdbm] ) >=dev-libs/libdaemon-0.14 dev-libs/expat dev-libs/glib:2 gdbm? ( sys-libs/gdbm ) dbus? ( >=sys-apps/dbus-0.30 python? ( dev-python/dbus-python ) ) howl-compat? ( >=sys-apps/dbus-0.30 ) introspection? ( >=dev-libs/gobject-introspection-0.9.5 ) mdnsresponder-compat? ( >=sys-apps/dbus-0.30 ) bookmarks? ( dev-python/twisted dev-python/twisted-web ) kernel_linux? ( sys-libs/libcap ) howl-compat? ( !net-misc/howl ) mdnsresponder-compat? ( !net-misc/mDNSResponder )
+SLOT=0
+SRC_URI=http://avahi.org/download/avahi-0.6.31.tar.gz
+_eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	avahi	74ef475852fa880d596b623ec495d76f	eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	python	0c2c16ea4f9074d3248bd4365d03890c	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=8bbd589e56822259ca687e25987d6e03

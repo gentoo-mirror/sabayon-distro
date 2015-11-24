@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure install prepare setup unpack
+DEPEND=dev-libs/apr dev-libs/libpcre net-libs/libpcap[ipv6?] lua? ( >=dev-lang/lua-5.1.4-r1[deprecated] ) ndiff? ( || ( dev-lang/python:2.7[sqlite] dev-lang/python:2.6[sqlite] dev-lang/python:2.5[sqlite] dev-python/pysqlite:2 ) ) nmap-update? ( dev-libs/apr dev-vcs/subversion ) ssl? ( dev-libs/openssl ) =dev-lang/python-2*
+DESCRIPTION=A utility for network exploration or security auditing
+EAPI=4
+HOMEPAGE=http://nmap.org/
+IUSE=gtk ipv6 +lua ncat ndiff nls nmap-update nping ssl linguas_de linguas_es linguas_fr linguas_hr linguas_hu linguas_id linguas_it linguas_ja linguas_pl linguas_pt_BR linguas_pt_PT linguas_ro linguas_ru linguas_sk linguas_zh
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-2
+PDEPEND=gtk? ( ~net-analyzer/zenmap-6.25 )
+RDEPEND=dev-libs/apr dev-libs/libpcre net-libs/libpcap[ipv6?] lua? ( >=dev-lang/lua-5.1.4-r1[deprecated] ) ndiff? ( || ( dev-lang/python:2.7[sqlite] dev-lang/python:2.6[sqlite] dev-lang/python:2.5[sqlite] dev-python/pysqlite:2 ) ) nmap-update? ( dev-libs/apr dev-vcs/subversion ) ssl? ( dev-libs/openssl ) =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://nmap.org/dist/nmap-6.25.tar.bz2
+_eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_install:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	python	0c2c16ea4f9074d3248bd4365d03890c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=9f90b40e26772953a491bf8f3e85025b

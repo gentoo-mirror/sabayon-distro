@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Firmware for Libertas Wireless Chipsets a/b/g
+EAPI=0
+HOMEPAGE=http://wiki.laptop.org/go/Libertas
+KEYWORDS=amd64 ppc x86 ppc64
+LICENSE=as-is
+RDEPEND=|| ( >=sys-fs/udev-096 >=sys-apps/hotplug-20040923 )
+RESTRICT=nomirror
+SLOT=0
+SRC_URI=mirror://sabayon/net-wireless/libertas-firmware/libertas-firmware-5.220.10.p5-1.tar.gz
+_eclass_exported_funcs=src_unpack:- src_install:-
+_md5_=2c31347cccd1ed34683a9d8469bdac15

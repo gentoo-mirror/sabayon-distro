@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=sys-apps/sed
+DESCRIPTION=Sabayon LibreOffice Artwork
+EAPI=4
+HOMEPAGE=http://www.sabayon.org
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=CCPL-Attribution-ShareAlike-3.0
+SLOT=0
+SRC_URI=mirror://sabayon/x11-themes/sabayon-artwork-loo/sabayon-artwork-loo-14.tar.xz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=1e46c4e60a7ecca3c33293143c2ae8df

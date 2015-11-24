@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Sabayon system release virtual package
+EAPI=4
+HOMEPAGE=http://www.sabayon.org
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-2
+RDEPEND=!app-admin/eselect-init !<sys-apps/sysvinit-1000 !sys-apps/hal !sys-auth/consolekit app-eselect/eselect-python dev-lang/python:2.7 sys-apps/systemd sys-apps/systemd-sysv-utils sys-devel/base-gcc:4.8 sys-devel/gcc-config
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:- src_unpack:- src_install:-
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=7c5e6de552bbb26444a7ad8bfcd1f984

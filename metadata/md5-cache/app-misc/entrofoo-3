@@ -1,0 +1,13 @@
+DEFINED_PHASES=postinst postrm preinst prerm setup
+DEPEND=app-misc/entrofoo-fail
+DESCRIPTION=Sabayon Linux Entropy Test Package (fooooon't install this)
+EAPI=2
+HOMEPAGE=http://www.sabayon.org
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=app-misc/entrofoo-fail
+RESTRICT=nomirror
+SLOT=2
+_eclass_exported_funcs=pkg_prerm:- pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=887a676c7b0b5f153f80f5617c680d2f

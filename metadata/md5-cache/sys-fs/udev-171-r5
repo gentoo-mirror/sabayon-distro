@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
+DEPEND=selinux? ( sys-libs/libselinux ) extras? ( sys-apps/acl dev-libs/glib:2 dev-libs/gobject-introspection virtual/libusb:0 ) acl? ( sys-apps/acl dev-libs/glib:2 ) gudev? ( dev-libs/glib:2 ) introspection? ( dev-libs/gobject-introspection ) action_modeswitch? ( virtual/libusb:0 ) >=sys-apps/util-linux-2.16 !<sys-libs/glibc-2.10 keymap? ( dev-util/gperf ) extras? ( dev-util/gperf ) dev-util/pkgconfig virtual/os-headers !<sys-kernel/linux-headers-2.6.34 test? ( app-text/tree ) virtual/pkgconfig
+DESCRIPTION=Linux dynamic and persistent device naming support (aka userspace devfs)
+EAPI=4
+HOMEPAGE=http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html http://git.kernel.org/?p=linux/hotplug/udev.git;a=summary
+IUSE=build selinux test debug +rule_generator hwdb acl gudev introspection keymap floppy edd action_modeswitch extras
+KEYWORDS=~alpha amd64 arm hppa ~ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh ~sparc x86 ~x86-linux
+LICENSE=GPL-2
+RDEPEND=selinux? ( sys-libs/libselinux ) extras? ( sys-apps/acl dev-libs/glib:2 dev-libs/gobject-introspection virtual/libusb:0 ) acl? ( sys-apps/acl dev-libs/glib:2 ) gudev? ( dev-libs/glib:2 ) introspection? ( dev-libs/gobject-introspection ) action_modeswitch? ( virtual/libusb:0 ) >=sys-apps/util-linux-2.16 !<sys-libs/glibc-2.10 hwdb? ( >=sys-apps/usbutils-0.82 || ( ( sys-apps/hwids >=sys-apps/pciutils-3.1.9-r2 ) >=sys-apps/pciutils-3.1.9-r1[-compress-db] <sys-apps/pciutils-3.1.9-r1[-zlib] ) ) extras? ( >=sys-apps/usbutils-0.82 sys-apps/pciutils ) !sys-apps/coldplug !<sys-fs/lvm2-2.02.45 !sys-fs/device-mapper >=sys-apps/baselayout-2
+SLOT=0
+SRC_URI=mirror://kernel/linux/utils/kernel/hotplug/udev-171.tar.bz2 test? ( mirror://gentoo/udev-171-testsys.tar.bz2 ) mirror://gentoo/udev-171-gentoo-patchset-v1.tar.bz2 mirror://gentoo/udev-gentoo-scripts-7.tar.bz2
+_eclass_exported_funcs=pkg_preinst:- pkg_postinst:- pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	b75230758539a7da029e24afdb693960	linux-info	8f92e5ac1a1da684c5450b1b21a1f56a	multilib	3972ca401cf7dbb430df9995f5d8d580	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=74babd9ed5e8fef56995a2710e30b1b1

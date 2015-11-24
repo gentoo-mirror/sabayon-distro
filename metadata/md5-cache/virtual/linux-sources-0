@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Linux kernel sources
+EAPI=2
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc x86
+RDEPEND=|| ( sys-kernel/sabayon-sources sys-kernel/server-sources sys-kernel/rt-sources sys-kernel/xen-dom0-sources sys-kernel/xen-domU-sources sys-kernel/beagle-sources sys-kernel/beaglebone-sources sys-kernel/gentoo-sources sys-kernel/vanilla-sources sys-kernel/cell-sources sys-kernel/ck-sources sys-kernel/cluster-sources sys-kernel/git-sources sys-kernel/hardened-sources sys-kernel/mips-sources sys-kernel/mm-sources sys-kernel/openvz-sources sys-kernel/pf-sources sys-kernel/rsbac-sources sys-kernel/sparc-sources sys-kernel/tuxonice-sources sys-kernel/usermode-sources sys-kernel/vserver-sources sys-kernel/xbox-sources sys-kernel/xen-sources sys-kernel/zen-sources )
+SLOT=0
+_eclass_exported_funcs=-
+_md5_=93d9481f478a070d0faa0e32fb46d4d1

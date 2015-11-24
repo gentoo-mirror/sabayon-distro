@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst setup unpack
+DEPEND=sys-kernel/rtai-sources kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources ) =dev-lang/python-2* dev-vcs/cvs
+DESCRIPTION=Real Time Application Interface for Linux
+EAPI=3
+HOMEPAGE=https://www.rtai.org/
+IUSE=debug +fpu +testsuite doc compat +static-inline extern-inline +diag-tsc-sync +master-tsc-cpu +tune-tsc-sync sched-lock-isr +rtc-freq long-timed-lists +sched-8254-latency +sched-apic-latency +sched-lxrt-numslots +lxrt-use-linux-syscall align-priority +cal-freq-fact +bits +fifos +netrpc netrpc-rtnet +shm +sem rt-poll rt-poll-on-stack +msg +mbx +tbx +tasklets +mq +math math-c99 +malloc malloc-tlsf +malloc-vmalloc +malloc-heap-size +kstack-heap-size task-switch-signal trace +usi +watchdog leds comedi-lxrt comedi-lock cplusplus +rtdm +rtdm-fd-max +rtdm-shirq +rtdm-select +serial +16550a rtailab ktasks-sched-lxrt kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-kernel/rtai-sources kernel_linux? ( virtual/modutils ) =dev-lang/python-2*
+SLOT=0
+_eclass_exported_funcs=pkg_preinst:linux-mod pkg_postrm:linux-mod pkg_postinst:linux-mod pkg_setup:linux-mod src_unpack:- src_configure:- src_compile:linux-mod src_install:-
+_eclasses_=cvs	e94c89c58918dff87fa3db1e817c25be	eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	linux-info	8f92e5ac1a1da684c5450b1b21a1f56a	linux-mod	9e27971daa324852d78bc7d4d811afae	multilib	3972ca401cf7dbb430df9995f5d8d580	python	0c2c16ea4f9074d3248bd4365d03890c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=f2e562f02bc7209163e042905ab2a7ee
