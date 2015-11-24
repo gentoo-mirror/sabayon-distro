@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=>=app-admin/calamares-1.0
+DESCRIPTION=Sabayon Official Calamares branding
+EAPI=5
+HOMEPAGE=http://www.sabayon.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-SA-4.0
+RDEPEND=>=app-admin/calamares-1.0
+SLOT=0
+SRC_URI=mirror://sabayon/app-misc/calamares-sabayon-branding/calamares-sabayon-branding-15.10.tar.xz
+_eclass_exported_funcs=src_install:-
+_md5_=548bd64f5a43e4cd14d88a0306a9e16c

@@ -1,0 +1,13 @@
+DEFINED_PHASES=install unpack
+DEPEND=app-arch/unzip app-arch/rpm2targz sys-apps/findutils
+DESCRIPTION=CUPS filters and drivers for Xerox Phaser 6000B and 6010
+EAPI=5
+HOMEPAGE=http://www.support.xerox.com/support/phaser-6000
+KEYWORDS=amd64 x86
+LICENSE=as-is
+RDEPEND=amd64? ( app-emulation/emul-linux-x86-baselibs ) net-print/cups
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://download.support.xerox.com/pub/drivers/6000/drivers/linux/en_GB/6000_6010_rpm_1.01_20110222.zip
+_eclass_exported_funcs=src_unpack:- src_install:-
+_md5_=832f33736f079df23ce3c36287e463e2

@@ -1,29 +1,29 @@
-app-admin/anaconda 20.27.3-r2: 
+app-admin/anaconda 20.27.3-r2: Sabayon Redhat Anaconda Installer Port
 app-admin/conky 1.8.1-r6 1.9.0: An advanced, highly configurable system monitor for X
 app-admin/conky-full 1.9.0: An advanced, highly configurable system monitor for X
-app-arch/file-roller 3.14.2 3.16.2 3.16.3: 
-app-crypt/pinentry 0.9.1 0.9.5: 
-app-crypt/pinentry-base 0.9.1 0.9.5: 
-app-crypt/pinentry-gnome 0.9.5: 
-app-crypt/pinentry-gtk2 0.9.1 0.9.5: 
-app-crypt/pinentry-qt4 0.9.1 0.9.5: 
-app-misc/calamares-sabayon 1.1-r1: 
-app-misc/calamares-sabayon-base-modules 1.5-r3: 
-app-misc/calamares-sabayon-branding 15.10: 
-app-misc/calamares-sabayon-server 1.0: 
-app-misc/calamares-sabayon-server-base-modules 1.0-r7: 
-app-misc/calamares-sabayon-server-branding 15.10: 
+app-arch/file-roller 3.14.2 3.16.2 3.16.3: Archive manager for GNOME
+app-crypt/pinentry 0.9.1 0.9.5: Collection of simple PIN/passphrase entry dialogs which utilize the Assuan protocol (meta package)
+app-crypt/pinentry-base 0.9.1 0.9.5: Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+app-crypt/pinentry-gnome 0.9.5: GNOME 3 frontend for pinentry
+app-crypt/pinentry-gtk2 0.9.1 0.9.5: Gtk+2 frontend for pinentry
+app-crypt/pinentry-qt4 0.9.1 0.9.5: Qt4 frontend for pinentry
+app-misc/calamares-sabayon 1.1-r1: Sabayon Official Installer
+app-misc/calamares-sabayon-base-modules 1.5-r3: Sabayon Official Calamares base modules
+app-misc/calamares-sabayon-branding 15.10: Sabayon Official Calamares branding
+app-misc/calamares-sabayon-server 1.0: Sabayon Official Installer
+app-misc/calamares-sabayon-server-base-modules 1.0-r7: Sabayon Official Calamares base modules
+app-misc/calamares-sabayon-server-branding 15.10: Sabayon Official Calamares server branding
 app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install this)
 app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
 app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't install this)
-app-misc/passwordless-upgrade 1: 
-app-misc/sabayon-live 15-r6: 
-app-misc/sabayon-mce 1.1-r5: 
-app-misc/sabayon-skel 15-r2: 
-app-misc/sabayon-steambox 12 13: 
+app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
+app-misc/sabayon-live 15-r6: Sabayon live image scripts and tools
+app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
+app-misc/sabayon-skel 15-r2: Sabayon Linux skel tree
+app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
 app-misc/sabayon-version 14.01 14.02 14.03 14.03-r1 14.04-r3 14.05 14.05-r1 14.06 14.07 14.08 14.09 14.10 14.11 14.11-r1 14.12 15.01 15.02 15.03 15.04 15.05 15.06 15.07 15.08 15.09 15.10 15.11: Sabayon system release virtual package
 app-misc/screenfetch 3.6.5-r1 9999: A Bash Screenshot Information Tool
-app-office/libreoffice 4.2.6.3 4.4.1.2 5.0.1.2-r1 5.0.2.2: 
+app-office/libreoffice 4.2.6.3 4.4.1.2 5.0.1.2-r1 5.0.2.2: LibreOffice, a full office productivity suite
 app-office/libreoffice-l10n-af 5.0.2.2: LibreOffice.org Afrikaans localisation
 app-office/libreoffice-l10n-ar 5.0.2.2: LibreOffice.org Arabic localisation
 app-office/libreoffice-l10n-as 5.0.2.2: LibreOffice.org Assamese localisation
@@ -128,143 +128,143 @@ app-office/libreoffice-l10n-zh_CN 5.0.2.2: LibreOffice.org Chinese (simplified) 
 app-office/libreoffice-l10n-zh_TW 5.0.2.2: LibreOffice.org Chinese (traditional) localisation
 app-office/libreoffice-l10n-zu 5.0.2.2: LibreOffice.org Zulu localisation
 app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
-app-text/poppler 0.26.5 0.32.0 0.33.0-r1: 
-app-text/poppler-base 0.26.5 0.32.0 0.33.0-r1: 
-app-text/poppler-glib 0.26.5 0.32.0 0.33.0-r1: 
-app-text/poppler-qt4 0.26.5 0.32.0 0.33.0-r1: 
-app-text/poppler-qt5 0.33.0-r1: 
+app-text/poppler 0.26.5 0.32.0 0.33.0-r1: PDF rendering library based on the xpdf-3.0 code base (meta package)
+app-text/poppler-base 0.26.5 0.32.0 0.33.0-r1: PDF rendering library based on the xpdf-3.0 code base
+app-text/poppler-glib 0.26.5 0.32.0 0.33.0-r1: Glib bindings for poppler
+app-text/poppler-qt4 0.26.5 0.32.0 0.33.0-r1: Qt4 bindings for poppler
+app-text/poppler-qt5 0.33.0-r1: Qt5 bindings for poppler
 dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.
-dev-libs/libtimezonemap 0.4.1: 
-dev-python/pygobject 3.16.2: 
-dev-python/pygobject-base 3.16.2: 
-dev-python/pygobject-cairo 3.16.2: 
-dev-python/python-blivet 0.23.9-r3: 
+dev-libs/libtimezonemap 0.4.1: GTK+3 timezone map widget used by the Unity desktop
+dev-python/pygobject 3.16.2: GLib's GObject library bindings for Python, meta package
+dev-python/pygobject-base 3.16.2: GLib's GObject library bindings for Python
+dev-python/pygobject-cairo 3.16.2: GLib's GObject library bindings for Python, Cairo Libraries
+dev-python/python-blivet 0.23.9-r3: python module for examining and modifying storage configuration.
 dev-python/urlgrabber 3.9.1: Python module for downloading files
-dev-vcs/git 2.5.0 2.6.0-r1: 
-dev-vcs/git-cvs 2.5.0 2.6.0-r1: 
-dev-vcs/git-gui-tools 2.5.0 2.6.0-r1: 
-dev-vcs/git-subversion 2.5.0 2.6.0-r1: 
-dev-vcs/subversion 1.8.13 1.8.14-r1: 
-dev-vcs/subversion-java 1.8.13 1.8.14-r1: 
-gnome-base/gdm 3.14.1-r1 3.16.1.1 3.16.2 3.16.4: 
-gnome-base/libgnome 2.32.1-r1: 
-gnome-base/nautilus 3.12.2 3.14.2 3.14.2-r1: 
-gnome-extra/cinnamon 2.0.12: 
+dev-vcs/git 2.5.0 2.6.0-r1: GIT - the stupid content tracker, the revision control system heavily used by the Linux kernel team
+dev-vcs/git-cvs 2.5.0 2.6.0-r1: CVS module for GIT, the stupid content tracker
+dev-vcs/git-gui-tools 2.5.0 2.6.0-r1: GUI tools derived from git: gitk, git-gui and gitview
+dev-vcs/git-subversion 2.5.0 2.6.0-r1: Subversion module for GIT, the stupid content tracker
+dev-vcs/subversion 1.8.13 1.8.14-r1: Advanced version control system
+dev-vcs/subversion-java 1.8.13 1.8.14-r1: Java bindings for Subversion
+gnome-base/gdm 3.14.1-r1 3.16.1.1 3.16.2 3.16.4: GNOME Display Manager for managing graphical display servers and user logins
+gnome-base/libgnome 2.32.1-r1: Essential Gnome Libraries
+gnome-base/nautilus 3.12.2 3.14.2 3.14.2-r1: A file manager for the GNOME desktop
+gnome-extra/cinnamon 2.0.12: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
-gnome-extra/nautilus-file-roller 3.14.2 3.16.2 3.16.3: 
-kde-apps/kde-l10n 15.08.2: 
-kde-apps/kde4-l10n 4.14.3: 
-kde-base/kde-l10n-ar 15.08.2: 
-kde-base/kde-l10n-bg 15.08.2: 
-kde-base/kde-l10n-bs 15.08.2: 
-kde-base/kde-l10n-ca 15.08.2: 
-kde-base/kde-l10n-cs 15.08.2: 
-kde-base/kde-l10n-da 15.08.2: 
-kde-base/kde-l10n-de 15.08.2: 
-kde-base/kde-l10n-el 15.08.2: 
-kde-base/kde-l10n-en_GB 15.08.2: 
-kde-base/kde-l10n-es 15.08.2: 
-kde-base/kde-l10n-et 15.08.2: 
-kde-base/kde-l10n-eu 15.08.2: 
-kde-base/kde-l10n-fi 15.08.2: 
-kde-base/kde-l10n-fr 15.08.2: 
-kde-base/kde-l10n-ga 15.08.2: 
-kde-base/kde-l10n-gl 15.08.2: 
-kde-base/kde-l10n-he 15.08.2: 
-kde-base/kde-l10n-hi 15.08.2: 
-kde-base/kde-l10n-hr 15.08.2: 
-kde-base/kde-l10n-hu 15.08.2: 
-kde-base/kde-l10n-ia 15.08.2: 
-kde-base/kde-l10n-is 15.08.2: 
-kde-base/kde-l10n-it 15.08.2: 
-kde-base/kde-l10n-ja 15.08.2: 
-kde-base/kde-l10n-kk 15.08.2: 
-kde-base/kde-l10n-km 15.08.2: 
-kde-base/kde-l10n-ko 15.08.2: 
-kde-base/kde-l10n-lt 15.08.2: 
-kde-base/kde-l10n-lv 15.08.2: 
-kde-base/kde-l10n-mr 15.08.2: 
-kde-base/kde-l10n-nb 15.08.2: 
-kde-base/kde-l10n-nds 15.08.2: 
-kde-base/kde-l10n-nl 15.08.2: 
-kde-base/kde-l10n-nn 15.08.2: 
-kde-base/kde-l10n-pa 15.08.2: 
-kde-base/kde-l10n-pl 15.08.2: 
-kde-base/kde-l10n-pt 15.08.2: 
-kde-base/kde-l10n-pt_BR 15.08.2: 
-kde-base/kde-l10n-ro 15.08.2: 
-kde-base/kde-l10n-ru 15.08.2: 
-kde-base/kde-l10n-sk 15.08.2: 
-kde-base/kde-l10n-sl 15.08.2: 
-kde-base/kde-l10n-sr 15.08.2: 
-kde-base/kde-l10n-sv 15.08.2: 
-kde-base/kde-l10n-tr 15.08.2: 
-kde-base/kde-l10n-ug 15.08.2: 
-kde-base/kde-l10n-uk 15.08.2: 
-kde-base/kde-l10n-wa 15.08.2: 
-kde-base/kde-l10n-zh_CN 15.08.2: 
-kde-base/kde-l10n-zh_TW 15.08.2: 
-kde-base/kdm 4.11.19 4.11.20: 
-kde-misc/about-distro 1.1.0: 
-kde-misc/kcm-grub2 0.6.4-r1: 
+gnome-extra/nautilus-file-roller 3.14.2 3.16.2 3.16.3: Provides context menu for Nautilus
+kde-apps/kde-l10n 15.08.2: KDE internationalization package meta includer
+kde-apps/kde4-l10n 4.14.3: KDE internationalization package meta includer
+kde-base/kde-l10n-ar 15.08.2: KDE Arabic localization package
+kde-base/kde-l10n-bg 15.08.2: KDE Bulgarian localization package
+kde-base/kde-l10n-bs 15.08.2: KDE Bosnian localization package
+kde-base/kde-l10n-ca 15.08.2: KDE Catalan localization package
+kde-base/kde-l10n-cs 15.08.2: KDE Czech localization package
+kde-base/kde-l10n-da 15.08.2: KDE Danish localization package
+kde-base/kde-l10n-de 15.08.2: KDE German localization package
+kde-base/kde-l10n-el 15.08.2: KDE Greek localization package
+kde-base/kde-l10n-en_GB 15.08.2: KDE British English localization package
+kde-base/kde-l10n-es 15.08.2: KDE Spanish localization package
+kde-base/kde-l10n-et 15.08.2: KDE Estonian localization package
+kde-base/kde-l10n-eu 15.08.2: KDE Basque localization package
+kde-base/kde-l10n-fi 15.08.2: KDE Finnish localization package
+kde-base/kde-l10n-fr 15.08.2: KDE French localization package
+kde-base/kde-l10n-ga 15.08.2: KDE Irish localization package
+kde-base/kde-l10n-gl 15.08.2: KDE Galician localization package
+kde-base/kde-l10n-he 15.08.2: KDE Hebrew localization package
+kde-base/kde-l10n-hi 15.08.2: KDE Hindi localization package
+kde-base/kde-l10n-hr 15.08.2: KDE Croatian localization package
+kde-base/kde-l10n-hu 15.08.2: KDE Hungarian localization package
+kde-base/kde-l10n-ia 15.08.2: KDE Interlingua localization package
+kde-base/kde-l10n-is 15.08.2: KDE Icelandic localization package
+kde-base/kde-l10n-it 15.08.2: KDE Italian localization package
+kde-base/kde-l10n-ja 15.08.2: KDE Japanese localization package
+kde-base/kde-l10n-kk 15.08.2: KDE Kazakh localization package
+kde-base/kde-l10n-km 15.08.2: KDE Khmer (Cambodia) localization package
+kde-base/kde-l10n-ko 15.08.2: KDE Korean localization package
+kde-base/kde-l10n-lt 15.08.2: KDE Lithuanian localization package
+kde-base/kde-l10n-lv 15.08.2: KDE Latvian localization package
+kde-base/kde-l10n-mr 15.08.2: KDE Marathi localization package
+kde-base/kde-l10n-nb 15.08.2: KDE Norwegian localization package
+kde-base/kde-l10n-nds 15.08.2: KDE Low Saxon localization package
+kde-base/kde-l10n-nl 15.08.2: KDE Dutch localization package
+kde-base/kde-l10n-nn 15.08.2: KDE Norwegian localization package
+kde-base/kde-l10n-pa 15.08.2: KDE Punjabi localization package
+kde-base/kde-l10n-pl 15.08.2: KDE Poland localization package
+kde-base/kde-l10n-pt 15.08.2: KDE Portuguese localization package
+kde-base/kde-l10n-pt_BR 15.08.2: KDE Portuguese (Brazilian) localization package
+kde-base/kde-l10n-ro 15.08.2: KDE Romanian localization package
+kde-base/kde-l10n-ru 15.08.2: KDE Russian localization package
+kde-base/kde-l10n-sk 15.08.2: KDE Slovak localization package
+kde-base/kde-l10n-sl 15.08.2: KDE Slovenian localization package
+kde-base/kde-l10n-sr 15.08.2: KDE Serbian localization package
+kde-base/kde-l10n-sv 15.08.2: KDE Swedish localization package
+kde-base/kde-l10n-tr 15.08.2: KDE Turkish localization package
+kde-base/kde-l10n-ug 15.08.2: KDE Uyghur localization package
+kde-base/kde-l10n-uk 15.08.2: KDE Ukrainian localization package
+kde-base/kde-l10n-wa 15.08.2: KDE Walloon localization package
+kde-base/kde-l10n-zh_CN 15.08.2: KDE Chinese (Simplified) localization package
+kde-base/kde-l10n-zh_TW 15.08.2: KDE Chinese (traditional) localization package
+kde-base/kdm 4.11.19 4.11.20: KDE login manager, similar to xdm and gdm
+kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
+kde-misc/kcm-grub2 0.6.4-r1: KCModule for configuring the GRUB2 bootloader.
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 lxde-base/lxpanel 0.6.1 0.7.0-r1: Lightweight X11 desktop panel for LXDE
 media-gfx/splashutils 1.5.4.4-r1: Framebuffer splash utilities.
-media-gfx/xsane-gimp 0.998-r1 0.999: 
+media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
 media-libs/jackd-firewire 0.121.3 0.124.1: FFADO backend for JACK Audio Connection Kit
-media-tv/kodi 14.1 15.1 15.2: 
-media-tv/xbmc 12.2-r1 12.3 13.2: 
-media-video/amdcccle 13.12 14.4 14.12 15.1 15.7 15.9: 
+media-tv/kodi 14.1 15.1 15.2: Kodi is a free and open source media-player and entertainment hub
+media-tv/xbmc 12.2-r1 12.3 13.2: XBMC is a free and open source media-player and entertainment hub
+media-video/amdcccle 13.12 14.4 14.12 15.1 15.7 15.9: AMD Catalyst Control Center Linux Edition
 net-analyzer/namebench 1.3.1: DNS Benchmark Utility
 net-analyzer/nmap 6.01 6.25: A utility for network exploration or security auditing
 net-analyzer/zenmap 6.01 6.25: Graphical frontend for nmap
-net-dns/avahi 0.6.31-r5: 
-net-dns/avahi-base 0.6.31-r1 0.6.31-r5: 
-net-dns/avahi-gtk 0.6.31-r1 0.6.31-r5: 
-net-dns/avahi-gtk3 0.6.31-r1 0.6.31-r5: 
-net-dns/avahi-mono 0.6.31-r1 0.6.31-r5: 
-net-dns/avahi-qt 0.6.31-r1 0.6.31-r5: 
-net-irc/quassel 0.12.2 0.12.2-r1: 
-net-irc/quassel-client 0.12.2 0.12.2-r1: 
-net-irc/quassel-common 0.12.2 0.12.2-r1: 
-net-irc/quassel-core 0.12.2 0.12.2-r1: 
+net-dns/avahi 0.6.31-r5: System which facilitates service discovery on a local network (meta package)
+net-dns/avahi-base 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (base pkg)
+net-dns/avahi-gtk 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (gtk pkg)
+net-dns/avahi-gtk3 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (gtk3 pkg)
+net-dns/avahi-mono 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (mono pkg)
+net-dns/avahi-qt 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (qt4 pkg)
+net-irc/quassel 0.12.2 0.12.2-r1: Qt/KDE IRC client - monolithic client only (no remote daemon)
+net-irc/quassel-client 0.12.2 0.12.2-r1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
+net-irc/quassel-common 0.12.2 0.12.2-r1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (common files)
+net-irc/quassel-core 0.12.2 0.12.2-r1: Qt/KDE IRC client - the "core" (server) component
 net-mail/mailbase 1-r1: MTA layout package
 net-misc/hylafax 6.0.4: Enterprise client-server fax package for class 1 and 2 fax modems.
 net-p2p/bittornado 0.3.18-r2: TheShad0w's experimental BitTorrent client
-net-p2p/bittorrent 4.4.0-r5: 
-net-p2p/transmission 2.83 2.84: 
-net-p2p/transmission-base 2.83 2.84: 
-net-p2p/transmission-cli 2.83 2.84: 
-net-p2p/transmission-daemon 2.83 2.84: 
-net-p2p/transmission-gtk 2.83 2.84: 
-net-p2p/transmission-qt4 2.83 2.84: 
-net-print/brother-hl5340d-drivers 2.0.4-r1 2.0.4-r2: 
-net-print/xerox-phaser6000-drivers 20110222 20110222-r1: 
+net-p2p/bittorrent 4.4.0-r5: Tool for distributing files via a distributed network of nodes
+net-p2p/transmission 2.83 2.84: A BitTorrent client (meta package)
+net-p2p/transmission-base 2.83 2.84: A Fast, Easy and Free BitTorrent client - base files
+net-p2p/transmission-cli 2.83 2.84: A Fast, Easy and Free BitTorrent client - command line (CLI) version
+net-p2p/transmission-daemon 2.83 2.84: A Fast, Easy and Free BitTorrent client - daemon
+net-p2p/transmission-gtk 2.83 2.84: A Fast, Easy and Free BitTorrent client - Gtk+ UI
+net-p2p/transmission-qt4 2.83 2.84: A Fast, Easy and Free BitTorrent client - Qt4 UI
+net-print/brother-hl5340d-drivers 2.0.4-r1 2.0.4-r2: CUPS filters and drivers for Brother HL-5340D
+net-print/xerox-phaser6000-drivers 20110222 20110222-r1: CUPS filters and drivers for Xerox Phaser 6000B and 6010
 net-wireless/libertas-firmware 5.220.10: Firmware for Libertas Wireless Chipsets a/b/g
 sci-misc/rtai 9999: Real Time Application Interface for Linux
 sys-apps/baselayout 2.2-r1: Filesystem baselayout and init scripts
 sys-apps/cookbug 0.4: Sabayon Bug Report hardware information collector
 sys-apps/gpu-detector 4: Configures your GPU when autodetection fails do to it
 sys-apps/lsb-release 1.4: LSB version query program
-sys-apps/systemd 208-r3 215-r3 216-r3 222-r1 226-r2: 
-sys-boot/grub 0.97-r22 2.00-r6 2.00-r7: 
+sys-apps/systemd 208-r3 215-r3 216-r3 222-r1 226-r2: System and service manager for Linux
+sys-boot/grub 0.97-r22 2.00-r6 2.00-r7: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
-sys-boot/plymouth 0.8.8-r4 0.8.9_pre1-r3 0.9.0 0.9.2: 
-sys-boot/plymouth-extras 0.8.8-r1 0.8.9_pre1 0.9.0 0.9.2: 
+sys-boot/plymouth 0.8.8-r4 0.8.9_pre1-r3 0.9.0 0.9.2: Graphical boot animation (splash) and logger
+sys-boot/plymouth-extras 0.8.8-r1 0.8.9_pre1 0.9.0 0.9.2: X11 and Label plugins for Plymouth
 sys-devel/base-gcc 4.7.3 4.7.3-r1 4.7.4 4.8.3 4.8.4 4.9.2 4.9.3: The GNU Compiler Collection
 sys-devel/gcc 4.7.3 4.7.3-r1 4.7.4 4.8.3 4.8.4 4.9.2 4.9.3: The GNU Compiler Collection
-sys-devel/gcc-config 1.7.3 1.8 1.8-r1: 
+sys-devel/gcc-config 1.7.3 1.8 1.8-r1: utility to manage compilers
 sys-fs/udev 171-r5 189 197-r4 197-r8: Linux dynamic and persistent device naming support (aka userspace devfs)
-sys-kernel/beaglebone-sources 4.1: 
-sys-kernel/ec2-sources 3.9.11 3.10.76 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.40 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.12 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.6 3.19.8 4.0.1 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: 
-sys-kernel/linux-beaglebone 4.1: 
-sys-kernel/linux-ec2 3.9.11 3.10.76 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.40 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.12 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.6 3.19.8 4.0.1 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: 
-sys-kernel/linux-sabayon 3.9.11 3.10.75 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.39 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.13 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.8 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: 
-sys-kernel/sabayon-sources 3.9.11 3.10.75 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.39 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.13 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.8 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: 
+sys-kernel/beaglebone-sources 4.1: Official Sabayon Linux Standard kernel sources for beaglebone
+sys-kernel/ec2-sources 3.9.11 3.10.76 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.40 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.12 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.6 3.19.8 4.0.1 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: Official Sabayon Linux kernel sources for Amazon EC2
+sys-kernel/linux-beaglebone 4.1: Official Sabayon Linux Standard kernel image for beaglebone
+sys-kernel/linux-ec2 3.9.11 3.10.76 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.40 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.12 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.6 3.19.8 4.0.1 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: Official Sabayon Linux kernel image for Amazon EC2
+sys-kernel/linux-sabayon 3.9.11 3.10.75 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.39 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.13 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.8 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: Official Sabayon Linux Standard kernel image
+sys-kernel/sabayon-sources 3.9.11 3.10.75 3.10.79 3.10.80 3.10.81 3.10.82 3.10.83 3.10.84 3.10.85 3.10.86 3.10.87 3.10.88 3.10.89 3.10.90 3.10.91 3.10.92 3.10.93 3.11.10 3.12.39 3.12.40 3.12.41 3.12.42 3.12.43 3.12.44 3.12.45 3.12.46 3.12.47 3.12.48 3.12.49 3.12.50 3.13.11 3.14.39 3.14.43 3.14.44 3.14.45 3.14.46 3.14.47 3.14.48 3.14.49 3.14.50 3.14.51 3.14.52 3.14.53 3.14.54 3.14.55 3.14.56 3.14.56-r1 3.14.57 3.15.10 3.16.7 3.17.8 3.18.13 3.18.14 3.18.15 3.18.16 3.18.17 3.18.18 3.18.19 3.18.20 3.18.21 3.18.22 3.18.23 3.18.24 3.19.8 4.0.4 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1 4.1.1 4.1.2 4.1.3 4.1.4 4.1.5 4.1.6 4.1.7 4.1.8 4.1.9 4.1.10 4.1.11 4.1.12 4.1.13 4.2 4.2.1 4.2.2 4.2.3 4.2.4 4.2.5 4.2.6 4.3: Official Sabayon Linux Standard kernel sources
 virtual/fortran 0: Virtual for Fortran Compiler
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
-www-apache/mod_dav_svn 1.8.13 1.8.14-r1: 
-www-apps/gitweb 2.5.0 2.6.0-r1: 
+www-apache/mod_dav_svn 1.8.13 1.8.14-r1: Subversion WebDAV support
+www-apps/gitweb 2.5.0 2.6.0-r1: A web interface to git
 www-client/firefox-l10n-af 41.0-r1: Firefox language pack (af)
 www-client/firefox-l10n-ar 41.0-r1: Firefox language pack (ar)
 www-client/firefox-l10n-as 41.0-r1: Firefox language pack (as)
@@ -344,36 +344,36 @@ www-client/firefox-l10n-vi 41.0-r1: Firefox language pack (vi)
 www-client/firefox-l10n-xh 41.0-r1: Firefox language pack (xh)
 www-client/firefox-l10n-zh-CN 41.0-r1: Firefox language pack (zh-CN)
 www-client/firefox-l10n-zh-TW 41.0-r1: Firefox language pack (zh-TW)
-x11-drivers/ati-drivers 13.12 14.4 14.12-r4 15.1 15.7 15.9: 
-x11-drivers/ati-userspace 13.12 14.4 14.12-r3 15.1 15.7 15.9: 
-x11-drivers/nvidia-drivers 173.14.39 304.125 304.128 340.93-r1 355.11 358.09: 
-x11-drivers/nvidia-userspace 173.14.39 304.125 304.128 340.93-r1 355.11 358.09: 
+x11-drivers/ati-drivers 13.12 14.4 14.12-r4 15.1 15.7 15.9: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
+x11-drivers/ati-userspace 13.12 14.4 14.12-r3 15.1 15.7 15.9: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
+x11-drivers/nvidia-drivers 173.14.39 304.125 304.128 340.93-r1 355.11 358.09: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-userspace 173.14.39 304.125 304.128 340.93-r1 355.11 358.09: NVIDIA X11 userspace libraries and applications
 x11-drivers/pvr-omap4 1.7.10.0.1.9: PowerVR SGX540 libraries for OMAP4
-x11-drivers/xf86-video-ati 7.2.0: 
-x11-drivers/xf86-video-intel 2.21.14: 
-x11-misc/lightdm 1.14.1 1.14.2: 
-x11-misc/lightdm-base 1.14.1 1.14.2: 
+x11-drivers/xf86-video-ati 7.2.0: ATI video driver
+x11-drivers/xf86-video-intel 2.21.14: X.Org driver for Intel cards
+x11-misc/lightdm 1.14.1 1.14.2: LightDM meta package
+x11-misc/lightdm-base 1.14.1 1.14.2: A lightweight display manager, base libraries and programs
 x11-misc/lightdm-gtk-greeter 1.9.0 2.0.1: LightDM GTK+ Greeter
-x11-misc/lightdm-kde 0.3.2.1: 
-x11-misc/lightdm-qt4 1.14.1 1.14.2: 
-x11-misc/lightdm-qt5 1.14.2-r1: 
-x11-misc/sddm 0.11.0-r1 0.12.0-r2: 
+x11-misc/lightdm-kde 0.3.2.1: LightDM KDE greeter
+x11-misc/lightdm-qt4 1.14.1 1.14.2: Qt4 libraries for LightDM
+x11-misc/lightdm-qt5 1.14.2-r1: Qt5 libraries for LightDM
+x11-misc/sddm 0.11.0-r1 0.12.0-r2: Simple Desktop Display Manager
 x11-themes/gnome-colors-common 5.5.1-r12: Colorized icons shared between all gnome-colors iconsets
-x11-themes/sabayon-artwork-core 11-r4 12 13 13-r1 13-r2 14 14-r1 14-r2: 
-x11-themes/sabayon-artwork-cursor 14: 
+x11-themes/sabayon-artwork-core 11-r4 12 13 13-r1 13-r2 14 14-r1 14-r2: Official Sabayon Linux Core Artwork
+x11-themes/sabayon-artwork-cursor 14: Official Sabayon Linux Core Artwork
 x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
-x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4: 
-x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: 
-x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: 
-x11-themes/sabayon-artwork-kde 11 12 13 14-r2 15: 
+x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4: Sabayon Linux Official GNOME artwork
+x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: Sabayon GRUB2 background images
+x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: Sabayon Isolinux Live Images Background
+x11-themes/sabayon-artwork-kde 11 12 13 14-r2 15: Sabayon Linux Official KDE Artwork
 x11-themes/sabayon-artwork-loo 11 12 13 14: Sabayon LibreOffice Artwork
 x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
-x11-themes/sabayon-artwork-mate 14-r5: 
-x11-themes/sabayon-artwork-nostalgia 14: 
-x11-themes/sabayon-artwork-plymouth-base 14: 
-x11-themes/sabayon-artwork-plymouth-default 14: 
-x11-themes/sabayon-artwork-sddm-base 15: 
-x11-themes/sabayon-artwork-sddm-default 15-r2: 
-x11-themes/sabayon-artwork-wallpapers 14-r2: 
+x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
+x11-themes/sabayon-artwork-nostalgia 14: Official Sabayon Linux Nostalgia Wallpapers Artwork
+x11-themes/sabayon-artwork-plymouth-base 14: Official Sabayon Linux Plymouth base Artwork
+x11-themes/sabayon-artwork-plymouth-default 14: Official Sabayon Linux Plymouth Artwork
+x11-themes/sabayon-artwork-sddm-base 15: Official Sabayon Linux SDDM base Artwork
+x11-themes/sabayon-artwork-sddm-default 15-r2: Official Sabayon Linux SDDM Artwork
+x11-themes/sabayon-artwork-wallpapers 14-r2: Official Sabayon Linux Wallpapers Artwork
 x11-themes/tango-icon-theme 0.8.90: SVG and PNG icon theme from the Tango project
-x11-wm/awesome 3.5.6: 
+x11-wm/awesome 3.5.6: A dynamic floating and tiling window manager

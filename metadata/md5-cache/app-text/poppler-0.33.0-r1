@@ -1,0 +1,13 @@
+DEFINED_PHASES=-
+DEPEND=~app-text/poppler-base-0.33.0[cxx=] ~app-text/poppler-base-0.33.0[curl=] ~app-text/poppler-base-0.33.0[debug=] ~app-text/poppler-base-0.33.0[jpeg=] ~app-text/poppler-base-0.33.0[jpeg2k=] ~app-text/poppler-base-0.33.0[lcms=] ~app-text/poppler-base-0.33.0[png=] ~app-text/poppler-base-0.33.0[tiff=] ~app-text/poppler-base-0.33.0[utils=] virtual/pkgconfig
+DESCRIPTION=PDF rendering library based on the xpdf-3.0 code base (meta package)
+EAPI=5
+HOMEPAGE=http://poppler.freedesktop.org/
+IUSE=cairo cjk curl cxx debug doc +introspection +jpeg +jpeg2k +lcms png qt4 qt5 tiff +utils
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+PDEPEND=cairo? ( ~app-text/poppler-glib-0.33.0[cairo,introspection=,doc=] ) qt4? ( ~app-text/poppler-qt4-0.33.0 ) qt5? ( ~app-text/poppler-qt5-0.33.0 )
+RDEPEND=~app-text/poppler-base-0.33.0[cxx=] ~app-text/poppler-base-0.33.0[curl=] ~app-text/poppler-base-0.33.0[debug=] ~app-text/poppler-base-0.33.0[jpeg=] ~app-text/poppler-base-0.33.0[jpeg2k=] ~app-text/poppler-base-0.33.0[lcms=] ~app-text/poppler-base-0.33.0[png=] ~app-text/poppler-base-0.33.0[tiff=] ~app-text/poppler-base-0.33.0[utils=] cjk? ( >=app-text/poppler-data-0.4.4 )
+SLOT=0/52
+_eclass_exported_funcs=-
+_md5_=757009558455d3f80ddc1c17d6e395ff

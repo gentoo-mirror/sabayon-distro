@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
+DEPEND=xfs? ( sys-fs/xfsprogs ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-libs/libevent-2.0.10:= dev-libs/openssl:0= net-libs/libnatpmp:= >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.16.3:=[ssl] sys-libs/zlib:= >=dev-libs/glib-2.32 dev-util/intltool virtual/pkgconfig sys-devel/gettext virtual/os-headers
+DESCRIPTION=A Fast, Easy and Free BitTorrent client - base files
+EAPI=5
+HOMEPAGE=http://www.transmissionbt.com/
+IUSE=lightweight xfs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 MIT
+RDEPEND=>=dev-libs/libevent-2.0.10:= dev-libs/openssl:0= net-libs/libnatpmp:= >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.16.3:=[ssl] sys-libs/zlib:= !<net-p2p/transmission-gtk-2.83 !<net-p2p/transmission-qt4-2.83 !<net-p2p/transmission-daemon-2.83 !<net-p2p/transmission-cli-2.83
+SLOT=0
+SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.83.tar.xz
+_eclass_exported_funcs=pkg_preinst:transmission-2.83 pkg_postrm:transmission-2.83 pkg_postinst:transmission-2.83 pkg_setup:transmission-2.83 src_prepare:transmission-2.83 src_configure:transmission-2.83 src_compile:transmission-2.83 src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	f20548a2f7b0128068388cd2ec26708a	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	transmission-2.83	a0ecc0f1f9f889e6228944fb38b5cf83	user	906f3c8eb3a2350a4f1191a89baa3e46
+_md5_=f3e761ab8e51f1c83c8c60d24e647e65

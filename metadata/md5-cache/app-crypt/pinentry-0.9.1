@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DESCRIPTION=Collection of simple PIN/passphrase entry dialogs which utilize the Assuan protocol (meta package)
+EAPI=5
+HOMEPAGE=http://gnupg.org/aegypten2/index.html
+IUSE=gtk ncurses qt4 caps static
+KEYWORDS=~arm ~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=~app-crypt/pinentry-base-0.9.1 caps? ( ~app-crypt/pinentry-base-0.9.1[caps] ) gtk? ( ~app-crypt/pinentry-gtk2-0.9.1 ) qt4? ( ~app-crypt/pinentry-qt4-0.9.1 ) static? ( ~app-crypt/pinentry-base-0.9.1[static] )
+REQUIRED_USE=|| ( ncurses gtk qt4 ) gtk? ( !static ) qt4? ( !static ) static? ( ncurses )
+SLOT=0
+_eclass_exported_funcs=-
+_md5_=791993214eb0bf8136217b5ab87b67c7

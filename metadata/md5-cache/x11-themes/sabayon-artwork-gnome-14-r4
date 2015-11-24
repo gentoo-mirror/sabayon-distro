@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm preinst
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=Sabayon Linux Official GNOME artwork
+EAPI=5
+HOMEPAGE=http://www.sabayon.org/
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=CCPL-Attribution-ShareAlike-3.0
+RDEPEND=x11-themes/sabayon-artwork-core x11-themes/equinox-themes x11-themes/elementary-icon-theme[monochrome,branding] x11-themes/korora-shell-theme x11-themes/numix-icon-theme-circle x11-themes/numix-icon-theme >=gnome-extra/gnome-shell-extensions-3.12
+SLOT=0
+SRC_URI=mirror://sabayon/x11-themes/sabayon-artwork-gnome/sabayon-artwork-gnome-14-r4.tar.xz
+_eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- src_install:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	gnome2-utils	588052cacdf74572e68bdfeaece20534	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=a2397cb45314f5d24d3bdee36ee0a1d3

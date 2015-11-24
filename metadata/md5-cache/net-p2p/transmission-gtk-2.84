@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
+DEPEND=>=sys-apps/sed-4 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 ~net-p2p/transmission-base-2.84 >=dev-libs/libevent-2.0.10:= dev-libs/openssl:0= net-libs/libnatpmp:= >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.16.3:=[ssl] sys-libs/zlib:= >=dev-libs/glib-2.32 dev-util/intltool virtual/pkgconfig sys-devel/gettext virtual/os-headers
+DESCRIPTION=A Fast, Easy and Free BitTorrent client - Gtk+ UI
+EAPI=5
+HOMEPAGE=http://www.transmissionbt.com/
+IUSE=ayatana
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
+RDEPEND=>=dev-libs/dbus-glib-0.100:= >=dev-libs/glib-2.32:2= >=x11-libs/gtk+-3.4:3= ayatana? ( >=dev-libs/libappindicator-0.4.90:3= ) !net-p2p/transmission-gtk+ ~net-p2p/transmission-base-2.84 >=dev-libs/libevent-2.0.10:= dev-libs/openssl:0= net-libs/libnatpmp:= >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.16.3:=[ssl] sys-libs/zlib:=
+SLOT=0
+SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.84.tar.xz
+_eclass_exported_funcs=pkg_preinst:transmission-2.84 pkg_postrm:transmission-2.84 pkg_postinst:transmission-2.84 pkg_setup:transmission-2.84 src_prepare:transmission-2.84 src_configure:transmission-2.84 src_compile:transmission-2.84 src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	f20548a2f7b0128068388cd2ec26708a	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	gnome2-utils	588052cacdf74572e68bdfeaece20534	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	transmission-2.84	5e0cf7eae758d34e1dbd0eb2126b90db
+_md5_=c32c58b7de754811961bf95817744254
