@@ -17,7 +17,7 @@ app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install t
 app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
 app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't install this)
 app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
-app-misc/sabayon-live 15-r6: Sabayon live image scripts and tools
+app-misc/sabayon-live 15-r7: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-skel 15-r2: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
@@ -346,8 +346,8 @@ www-client/firefox-l10n-zh-CN 41.0-r1: Firefox language pack (zh-CN)
 www-client/firefox-l10n-zh-TW 41.0-r1: Firefox language pack (zh-TW)
 x11-drivers/ati-drivers 13.12 14.4 14.12-r4 15.1 15.7 15.9: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/ati-userspace 13.12 14.4 14.12-r3 15.1 15.7 15.9: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
-x11-drivers/nvidia-drivers 173.14.39 304.125 304.128 340.93-r1 355.11 358.09: NVIDIA Accelerated Graphics Driver
-x11-drivers/nvidia-userspace 173.14.39 304.125 304.128 340.93-r1 355.11 358.09: NVIDIA X11 userspace libraries and applications
+x11-drivers/nvidia-drivers 173.14.39 304.128 340.96 355.11 358.09: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-userspace 173.14.39 304.128 340.96 355.11 358.09: NVIDIA X11 userspace libraries and applications
 x11-drivers/pvr-omap4 1.7.10.0.1.9: PowerVR SGX540 libraries for OMAP4
 x11-drivers/xf86-video-ati 7.2.0: ATI video driver
 x11-drivers/xf86-video-intel 2.21.14: X.Org driver for Intel cards
