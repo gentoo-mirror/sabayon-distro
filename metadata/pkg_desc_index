@@ -1,7 +1,7 @@
 app-admin/anaconda 20.27.3-r2: Sabayon Redhat Anaconda Installer Port
 app-admin/conky 1.8.1-r6 1.9.0: An advanced, highly configurable system monitor for X
 app-admin/conky-full 1.9.0: An advanced, highly configurable system monitor for X
-app-arch/file-roller 3.14.2 3.16.2 3.16.3: Archive manager for GNOME
+app-arch/file-roller 3.14.2 3.16.2 3.16.3 3.16.4: Archive manager for GNOME
 app-crypt/pinentry 0.9.1 0.9.5: Collection of simple PIN/passphrase entry dialogs which utilize the Assuan protocol (meta package)
 app-crypt/pinentry-base 0.9.1 0.9.5: Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
 app-crypt/pinentry-gnome 0.9.5: GNOME 3 frontend for pinentry
@@ -136,9 +136,9 @@ app-text/poppler-qt4 0.26.5 0.32.0 0.33.0-r1: Qt4 bindings for poppler
 app-text/poppler-qt5 0.33.0-r1: Qt5 bindings for poppler
 dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.
 dev-libs/libtimezonemap 0.4.1: GTK+3 timezone map widget used by the Unity desktop
-dev-python/pygobject 3.16.2: GLib's GObject library bindings for Python, meta package
-dev-python/pygobject-base 3.16.2: GLib's GObject library bindings for Python
-dev-python/pygobject-cairo 3.16.2: GLib's GObject library bindings for Python, Cairo Libraries
+dev-python/pygobject 3.18.2: GLib's GObject library bindings for Python, meta package
+dev-python/pygobject-base 3.18.2: GLib's GObject library bindings for Python
+dev-python/pygobject-cairo 3.18.2: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 0.23.9-r3: python module for examining and modifying storage configuration.
 dev-python/urlgrabber 3.9.1: Python module for downloading files
 dev-vcs/git 2.5.0 2.6.0-r1: GIT - the stupid content tracker, the revision control system heavily used by the Linux kernel team
@@ -152,7 +152,7 @@ gnome-base/libgnome 2.32.1-r1: Essential Gnome Libraries
 gnome-base/nautilus 3.12.2 3.14.2 3.14.2-r1: A file manager for the GNOME desktop
 gnome-extra/cinnamon 2.0.12: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
-gnome-extra/nautilus-file-roller 3.14.2 3.16.2 3.16.3: Provides context menu for Nautilus
+gnome-extra/nautilus-file-roller 3.14.2 3.16.2 3.16.3 3.16.4: Provides context menu for Nautilus
 kde-apps/kde-l10n 15.08.3: KDE internationalization package meta includer
 kde-apps/kde4-l10n 4.14.3: KDE internationalization package meta includer
 kde-base/kde-l10n-ar 15.08.3: KDE Arabic localization package
