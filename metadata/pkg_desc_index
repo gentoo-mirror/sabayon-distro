@@ -236,7 +236,7 @@ net-misc/hylafax 6.0.4: Enterprise client-server fax package for class 1 and 2 f
 net-p2p/bittornado 0.3.18-r2: TheShad0w's experimental BitTorrent client
 net-p2p/bittorrent 4.4.0-r5: Tool for distributing files via a distributed network of nodes
 net-p2p/transmission 2.83 2.84: A BitTorrent client (meta package)
-net-p2p/transmission-base 2.83 2.84: A Fast, Easy and Free BitTorrent client - base files
+net-p2p/transmission-base 2.84-r4: A Fast, Easy and Free BitTorrent client - base files
 net-p2p/transmission-cli 2.83 2.84: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/transmission-daemon 2.83 2.84: A Fast, Easy and Free BitTorrent client - daemon
 net-p2p/transmission-gtk 2.83 2.84: A Fast, Easy and Free BitTorrent client - Gtk+ UI
