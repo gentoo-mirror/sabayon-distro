@@ -5,7 +5,7 @@ EAPI=5
 HOMEPAGE=http://www.sabayon.org/
 KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-SA-4.0
-RDEPEND=>=app-admin/calamares-1.1.4.1[networkmanager,upower,fat,jfs,reiserfs,xfs,ntfs] !!app-misc/calamares-sabayon-base-modules
+RDEPEND=>=app-admin/calamares-1.1.4.1[networkmanager,upower,fat,jfs,reiserfs,xfs,ntfs]
 SLOT=0
 _eclass_exported_funcs=src_install:-
-_md5_=347a97e219a7c3e307c23eab1d56a7aa
+_md5_=b1a41ebcae711792971e5f11ec0a9c7f
