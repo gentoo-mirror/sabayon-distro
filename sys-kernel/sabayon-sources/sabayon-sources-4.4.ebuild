@@ -3,14 +3,20 @@
 
 EAPI=5
 
+K_SABKERNEL_NAME="sabayon"
 K_SABKERNEL_SELF_TARBALL_NAME="sabayon"
-K_KERNEL_SOURCES_PKG="sys-kernel/ec2-sources-${PVR}"
-K_REQUIRED_LINUX_FIRMWARE_VER="20151207"
+K_ONLY_SOURCES="1"
 K_SABKERNEL_FORCE_SUBLEVEL="0"
 K_KERNEL_NEW_VERSIONING="1"
 K_SABKERNEL_PATCH_UPSTREAM_TARBALL="1"
 
 inherit sabayon-kernel
+
 KEYWORDS="~amd64"
-DESCRIPTION="Official Sabayon Linux kernel image for Amazon EC2"
+DESCRIPTION="Official Sabayon Linux Standard kernel sources"
 RESTRICT="mirror"
+IUSE="sources_standalone"
+
+DEPEND="${DEPEND}
+	sources_standalone? ( !=sys-kernel/linux-sabayon-${PVR} )
+	!sources_standalone? ( =sys-kernel/linux-sabayon-${PVR} )"
