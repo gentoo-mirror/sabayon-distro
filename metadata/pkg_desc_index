@@ -7,10 +7,10 @@ app-crypt/pinentry-base 0.9.1 0.9.5: Collection of simple PIN or passphrase entr
 app-crypt/pinentry-gnome 0.9.5: GNOME 3 frontend for pinentry
 app-crypt/pinentry-gtk2 0.9.1 0.9.5: Gtk+2 frontend for pinentry
 app-crypt/pinentry-qt4 0.9.1 0.9.5: Qt4 frontend for pinentry
-app-misc/calamares-sabayon 1.1-r3: Sabayon Official Installer
+app-misc/calamares-sabayon 1.1-r4: Sabayon Official Installer
 app-misc/calamares-sabayon-base-modules 1.5-r4: Sabayon Official Calamares base modules
 app-misc/calamares-sabayon-branding 15.10: Sabayon Official Calamares branding
-app-misc/calamares-sabayon-server 1.0-r1: Sabayon Official Installer
+app-misc/calamares-sabayon-server 1.0-r3: Sabayon Official Installer
 app-misc/calamares-sabayon-server-base-modules 1.0-r8: Sabayon Official Calamares base modules
 app-misc/calamares-sabayon-server-branding 15.10: Sabayon Official Calamares server branding
 app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install this)
