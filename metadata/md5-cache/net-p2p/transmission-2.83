@@ -9,5 +9,5 @@ LICENSE=GPL-2 MIT
 RDEPEND=~net-p2p/transmission-base-2.83[lightweight=,xfs=] gtk? ( ~net-p2p/transmission-gtk-2.83[ayatana=] ) !gtk? ( ~net-p2p/transmission-cli-2.83 ) ~net-p2p/transmission-base-2.83
 SLOT=0
 _eclass_exported_funcs=pkg_preinst:transmission-2.83 pkg_postrm:transmission-2.83 pkg_postinst:transmission-2.83 pkg_setup:transmission-2.83 src_prepare:transmission-2.83 src_configure:transmission-2.83 src_compile:transmission-2.83
-_eclasses_=eutils	7332d4dd366dcd51c0014dde21f21897	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	transmission-2.83	a0ecc0f1f9f889e6228944fb38b5cf83
+_eclasses_=eutils	8982475656ba7ade9b3201397efbd612	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	transmission-2.83	a0ecc0f1f9f889e6228944fb38b5cf83
 _md5_=0b4f64e172327d058c5d04bde42843e8
