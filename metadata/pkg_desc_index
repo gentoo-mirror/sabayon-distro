@@ -227,10 +227,10 @@ net-dns/avahi-gtk 0.6.31-r1 0.6.31-r5: System which facilitates service discover
 net-dns/avahi-gtk3 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (gtk3 pkg)
 net-dns/avahi-mono 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (mono pkg)
 net-dns/avahi-qt 0.6.31-r1 0.6.31-r5: System which facilitates service discovery on a local network (qt4 pkg)
-net-irc/quassel 0.12.2 0.12.2-r1: Qt/KDE IRC client - monolithic client only (no remote daemon)
-net-irc/quassel-client 0.12.2 0.12.2-r1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
-net-irc/quassel-common 0.12.2 0.12.2-r1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (common files)
-net-irc/quassel-core 0.12.2 0.12.2-r1: Qt/KDE IRC client - the "core" (server) component
+net-irc/quassel 0.12.2-r1 0.12.2-r3: Qt/KDE IRC client - monolithic client only (no remote daemon)
+net-irc/quassel-client 0.12.2-r1 0.12.2-r3: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
+net-irc/quassel-common 0.12.2-r1 0.12.2-r3: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (common files)
+net-irc/quassel-core 0.12.2-r1 0.12.2-r3: Qt/KDE IRC client - the "core" (server) component
 net-mail/mailbase 1-r1: MTA layout package
 net-misc/hylafax 6.0.4: Enterprise client-server fax package for class 1 and 2 fax modems.
 net-p2p/bittornado 0.3.18-r2: TheShad0w's experimental BitTorrent client
