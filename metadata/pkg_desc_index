@@ -132,7 +132,7 @@ app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinu
 app-text/poppler 0.26.5 0.32.0 0.33.0-r1: PDF rendering library based on the xpdf-3.0 code base (meta package)
 app-text/poppler-base 0.26.5 0.32.0 0.33.0-r1: PDF rendering library based on the xpdf-3.0 code base
 app-text/poppler-glib 0.26.5 0.32.0 0.33.0-r1: Glib bindings for poppler
-app-text/poppler-qt4 0.26.5 0.32.0 0.33.0-r1: Qt4 bindings for poppler
+app-text/poppler-qt4 0.33.0-r1: Qt4 bindings for poppler
 app-text/poppler-qt5 0.33.0-r1: Qt5 bindings for poppler
 dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.
 dev-libs/libtimezonemap 0.4.1: GTK+3 timezone map widget used by the Unity desktop
