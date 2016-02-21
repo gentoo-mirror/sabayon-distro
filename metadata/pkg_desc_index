@@ -17,7 +17,7 @@ app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install t
 app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
 app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't install this)
 app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
-app-misc/sabayon-devkit 0.5.3: Sabayon Development Kit
+app-misc/sabayon-devkit 0.5.4: Sabayon Development Kit
 app-misc/sabayon-dockerscripts 15.12-r2: Sabayon live image scripts and tools
 app-misc/sabayon-live 15-r7: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
@@ -366,7 +366,6 @@ x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
 x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4: Sabayon Linux Official GNOME artwork
 x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: Sabayon GRUB2 background images
 x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: Sabayon Isolinux Live Images Background
-x11-themes/sabayon-artwork-kde 11 12 13 14-r2 15: Sabayon Linux Official KDE Artwork
 x11-themes/sabayon-artwork-loo 11 12 13 14: Sabayon LibreOffice Artwork
 x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
 x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
