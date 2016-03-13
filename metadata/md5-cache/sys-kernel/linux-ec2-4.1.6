@@ -6,10 +6,10 @@ HOMEPAGE=https://github.com/Sabayon/kernel
 IUSE=symlink build btrfs dmraid dracut iscsi luks lvm mdadm plymouth splash
 KEYWORDS=~amd64
 LICENSE=GPL-2 freedist
-RDEPEND=!build? ( >=sys-libs/ncurses-5.2 sys-devel/make dev-lang/perl sys-devel/bc ) sys-apps/sed sys-kernel/linux-firmware || ( >=sys-kernel/genkernel-next-5[dmraid(+)?,mdadm(+)?] >=sys-kernel/genkernel-3.4.45-r2 ) >=sys-kernel/linux-firmware-20150320
+RDEPEND=!build? ( >=sys-libs/ncurses-5.2 sys-devel/make dev-lang/perl sys-devel/bc ) sys-apps/sed sys-kernel/linux-firmware dracut? ( sys-apps/v86d sys-kernel/dracut ) >=sys-kernel/linux-firmware-20150320
 RESTRICT=mirror
 SLOT=4.1
 SRC_URI=mirror://kernel/linux/kernel/v4.x/linux-4.1.tar.xz mirror://sabayon/sys-kernel/4.1-sabayon-4.1.6.patch.xz
 _eclass_exported_funcs=pkg_pretend:mount-boot pkg_prerm:sabayon-kernel pkg_preinst:sabayon-kernel pkg_postrm:sabayon-kernel pkg_postinst:sabayon-kernel pkg_setup:sabayon-kernel src_unpack:sabayon-kernel src_prepare:sabayon-kernel src_compile:sabayon-kernel src_test:kernel-2 src_install:sabayon-kernel
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	kernel-2	f745fe70cd0e35af07412905687b9a7f	linux-info	fd1e29abbb02cbc49f1a14299846e9c4	mount-boot	41ed556fa5641393d5323e421c8e5bcf	multilib	3972ca401cf7dbb430df9995f5d8d580	python-any-r1	8eb13cdf35f6e43c48107b911900b2cc	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	sabayon-artwork	8079209f155dc7dd4f9e5d3e42ed0c76	sabayon-kernel	65d4ce4ae23e865369c2bc0985fa764a	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	kernel-2	f745fe70cd0e35af07412905687b9a7f	linux-info	fd1e29abbb02cbc49f1a14299846e9c4	mount-boot	41ed556fa5641393d5323e421c8e5bcf	multilib	3972ca401cf7dbb430df9995f5d8d580	python-any-r1	8eb13cdf35f6e43c48107b911900b2cc	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	sabayon-artwork	8079209f155dc7dd4f9e5d3e42ed0c76	sabayon-kernel	58f3d3200a574ad02ebd360adf1868da	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=d2b587fd813616f80bf40aaec307ddf2
