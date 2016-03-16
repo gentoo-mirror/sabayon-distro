@@ -87,9 +87,11 @@ net-irc/quassel:crypt - Support core->network per-channel and per-query blowfish
 net-irc/quassel:monolithic - Build Standalone client with integrated core, no external quasselcore needed. Only useful if you don't want to use quassels client/server model. The server and X flags are not needed in this case but it is possible to enable them too.
 net-irc/quassel:phonon - Build client with phonon backend support. This enables sound playback in client.
 net-irc/quassel:server - Build the server binary. If this USE flag is disabled, the 'core' server binary for quassel is not built, and cannot be used. You need this enabled on the server, but you might want to disable it on the client.
+net-irc/quassel:snorenotify - Support for snore notification framework.
 net-irc/quassel:webkit - Use qt-webkit rendering engine for showing URL thumbnails and for other things that need web browser integration.
 net-irc/quassel-client:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca:2.
 net-irc/quassel-client:phonon - Build client with phonon backend support. This enables sound playback in client.
+net-irc/quassel-client:snorenotify - Support for snore notification framework.
 net-irc/quassel-client:webkit - Use qt-webkit rendering engine for showing URL thumbnails and for other things that need web browser integration.
 net-misc/hylafax:html - Adds HTML documentation
 net-misc/hylafax:mgetty - Adds support for mgetty and vgetty
