@@ -2,7 +2,7 @@ app-admin/anaconda 20.27.3-r2: Sabayon Redhat Anaconda Installer Port
 app-admin/conky 1.8.1-r6 1.9.0: An advanced, highly configurable system monitor for X
 app-admin/conky-full 1.9.0: An advanced, highly configurable system monitor for X
 app-admin/enman 0.6: a layman equivalent for entropy repositories
-app-arch/file-roller 3.14.2 3.16.2 3.16.3 3.16.4: Archive manager for GNOME
+app-arch/file-roller 3.16.2 3.16.3 3.16.4 3.16.4-r1: Archive manager for GNOME
 app-crypt/pinentry 0.9.1 0.9.5: Collection of simple PIN/passphrase entry dialogs which utilize the Assuan protocol (meta package)
 app-crypt/pinentry-base 0.9.1 0.9.5: Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
 app-crypt/pinentry-gnome 0.9.5: GNOME 3 frontend for pinentry
@@ -18,7 +18,7 @@ app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install t
 app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
 app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't install this)
 app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
-app-misc/sabayon-devkit 0.7.1: Sabayon Development Kit
+app-misc/sabayon-devkit 0.7.2: Sabayon Development Kit
 app-misc/sabayon-dockerscripts 15.12-r2: Sabayon live image scripts and tools
 app-misc/sabayon-live 15-r7: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
@@ -154,7 +154,7 @@ gnome-base/libgnome 2.32.1-r1: Essential Gnome Libraries
 gnome-base/nautilus 3.12.2 3.14.2 3.14.2-r1: A file manager for the GNOME desktop
 gnome-extra/cinnamon 2.0.12: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
-gnome-extra/nautilus-file-roller 3.14.2 3.16.2 3.16.3 3.16.4: Provides context menu for Nautilus
+gnome-extra/nautilus-file-roller 3.16.2 3.16.3 3.16.4: Provides context menu for Nautilus
 kde-apps/kde-l10n 15.08.3: KDE internationalization package meta includer
 kde-apps/kde4-l10n 4.14.3: KDE internationalization package meta includer
 kde-base/kde-l10n-ar 15.08.3: KDE Arabic localization package
