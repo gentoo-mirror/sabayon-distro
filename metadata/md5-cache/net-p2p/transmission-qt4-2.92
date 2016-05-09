@@ -10,5 +10,5 @@ RDEPEND=dev-qt/qtcore:4 dev-qt/qtgui:4 dev-qt/qtdbus:4 !net-p2p/transmission-qt5
 SLOT=0
 SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.92.tar.xz
 _eclass_exported_funcs=pkg_preinst:transmission-2.92 pkg_postrm:transmission-2.92 pkg_postinst:transmission-2.92 src_prepare:transmission-2.92 src_configure:transmission-2.92 src_compile:transmission-2.92 src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	flag-o-matic	d270fa247153df66074f795fa42dba3e	libtool	4890219c51da247200223277f993e054	multilib	23ae8c186171e6476af098d2a50d0ee0	qmake-utils	0a242e7177789b0028b4045f336dd4db	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	transmission-2.92	9a2dd67c567201808502f48c68ca9c14
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	flag-o-matic	d270fa247153df66074f795fa42dba3e	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	qmake-utils	0a242e7177789b0028b4045f336dd4db	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	transmission-2.92	9a2dd67c567201808502f48c68ca9c14
 _md5_=6eb734223c64d960975be1aea08888a0
