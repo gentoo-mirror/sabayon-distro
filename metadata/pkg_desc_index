@@ -18,6 +18,7 @@ app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install t
 app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
 app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't install this)
 app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
+app-misc/sabayon-auto-updater 0.1: Sabayon Automatic Updater systemd service. Do not use in production or @home!
 app-misc/sabayon-devkit 1.0.3: Sabayon Development Kit
 app-misc/sabayon-dockerscripts 15.12-r2 16.01: Sabayon live image scripts and tools
 app-misc/sabayon-live 16: Sabayon live image scripts and tools
