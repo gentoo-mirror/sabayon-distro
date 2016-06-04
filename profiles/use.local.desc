@@ -36,7 +36,13 @@ app-text/poppler:utils - Install command-line PDF converters and various utiliti
 app-text/poppler-base:nss - Enable signatures handling with dev-libs/nss
 app-text/poppler-base:utils - Install command-line PDF converters and various utilities.
 app-text/poppler-glib:introspection - Enable GObject introspection.
+app-text/poppler-glib:nss - Enable signatures handling with dev-libs/nss
+app-text/poppler-glib:utils - Install command-line PDF converters and various utilities.
 app-text/poppler-qt4:cairo-qt - Enable experimental Cairo font rasterizer for Qt4 backend.
+app-text/poppler-qt4:nss - Enable signatures handling with dev-libs/nss
+app-text/poppler-qt4:utils - Install command-line PDF converters and various utilities.
+app-text/poppler-qt5:nss - Enable signatures handling with dev-libs/nss
+app-text/poppler-qt5:utils - Install command-line PDF converters and various utilities.
 dev-vcs/git:blksha1 - Use the new optimized SHA1 implementation
 dev-vcs/git:cgi - Install gitweb too
 dev-vcs/git:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
