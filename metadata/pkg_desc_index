@@ -143,7 +143,7 @@ dev-libs/libtimezonemap 0.4.1: GTK+3 timezone map widget used by the Unity deskt
 dev-python/pygobject 3.18.2: GLib's GObject library bindings for Python, meta package
 dev-python/pygobject-base 3.18.2: GLib's GObject library bindings for Python
 dev-python/pygobject-cairo 3.18.2: GLib's GObject library bindings for Python, Cairo Libraries
-dev-python/python-blivet 0.23.9-r3: python module for examining and modifying storage configuration.
+dev-python/python-blivet 0.23.9-r3 1.0.10: A python module for system storage configuration
 dev-python/urlgrabber 3.9.1: Python module for downloading files
 dev-vcs/git 2.6.0-r1 2.7.4: GIT - the stupid content tracker, the revision control system heavily used by the Linux kernel team
 dev-vcs/git-cvs 2.6.0-r1 2.7.4: CVS module for GIT, the stupid content tracker
