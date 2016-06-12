@@ -352,8 +352,8 @@ www-client/firefox-l10n-zh-CN 46.0: Firefox language pack (zh-CN)
 www-client/firefox-l10n-zh-TW 46.0: Firefox language pack (zh-TW)
 x11-drivers/ati-drivers 13.12 14.4 14.12-r4 15.1 15.7 15.12-r1: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/ati-userspace 13.12 14.4 14.12-r3 15.1 15.7 15.12-r1: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
-x11-drivers/nvidia-drivers 173.14.39 304.128 304.131 340.96 355.11 358.09 361.45.11: NVIDIA X11 userspace libraries and applications
-x11-drivers/nvidia-userspace 173.14.39 304.128 304.131 340.96 355.11 358.09 361.45.11: NVIDIA X11 userspace libraries and applications
+x11-drivers/nvidia-drivers 173.14.39 304.131 340.96 361.45.11: NVIDIA X11 userspace libraries and applications
+x11-drivers/nvidia-userspace 173.14.39 304.131 340.96 361.45.11: NVIDIA X11 userspace libraries and applications
 x11-drivers/pvr-omap4 1.7.10.0.1.9: PowerVR SGX540 libraries for OMAP4
 x11-drivers/xf86-video-ati 7.2.0: ATI video driver
 x11-drivers/xf86-video-intel 2.21.14: X.Org driver for Intel cards
