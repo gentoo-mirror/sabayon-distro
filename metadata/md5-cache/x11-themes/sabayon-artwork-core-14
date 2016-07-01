@@ -7,5 +7,5 @@ LICENSE=CCPL-Attribution-ShareAlike-3.0
 RDEPEND=sys-apps/findutils x11-themes/sabayon-artwork-cursor x11-themes/sabayon-artwork-grub x11-themes/sabayon-artwork-plymouth-default x11-themes/sabayon-artwork-wallpapers
 SLOT=0
 _eclass_exported_funcs=pkg_pretend:mount-boot pkg_prerm:mount-boot pkg_preinst:mount-boot pkg_postrm:mount-boot pkg_postinst:-
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	mount-boot	41ed556fa5641393d5323e421c8e5bcf	multilib	d062ae4ba2fc40a19c11de2ad89b6616	sabayon-artwork	8079209f155dc7dd4f9e5d3e42ed0c76	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	mount-boot	41ed556fa5641393d5323e421c8e5bcf	multilib	d062ae4ba2fc40a19c11de2ad89b6616	sabayon-artwork	8079209f155dc7dd4f9e5d3e42ed0c76	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
 _md5_=72d716906d372386a8146544ee99e84c
