@@ -23,7 +23,7 @@ app-misc/sabayon-devkit 1.3: Sabayon Development Kit
 app-misc/sabayon-dockerscripts 15.12-r2 16.01: Sabayon live image scripts and tools
 app-misc/sabayon-live 17: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
-app-misc/sabayon-sark 0.3: Sabayon Automated Repository Kit
+app-misc/sabayon-sark 0.4: Sabayon Automated Repository Kit
 app-misc/sabayon-skel 16-r2: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
 app-misc/sabayon-version 16.07 16.08: Sabayon system release virtual package
