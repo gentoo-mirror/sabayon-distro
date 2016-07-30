@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=kde? ( kde-frameworks/oxygen-icons ) !<net-irc/quassel-0.12.2 !<net-irc/quassel-client-0.12.2 sys-devel/make >=dev-util/cmake-2.8.12
-DESCRIPTION=Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (common files)
-EAPI=5
+DEPEND=kde? ( kde-frameworks/oxygen-icons:* ) !<net-irc/quassel-0.12.4 !<net-irc/quassel-client-0.12.4 sys-devel/make >=dev-util/cmake-2.8.12
+DESCRIPTION=Qt/KDE IRC client supporting a remote daemon (common files)
+EAPI=6
 HOMEPAGE=http://quassel-irc.org/
 IUSE=kde
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=kde? ( kde-frameworks/oxygen-icons )
+RDEPEND=kde? ( kde-frameworks/oxygen-icons:* )
 SLOT=0
-SRC_URI=http://quassel-irc.org/pub/quassel-0.12.2.tar.bz2
+SRC_URI=http://quassel-irc.org/pub/quassel-0.12.4.tar.bz2
 _eclass_exported_funcs=src_prepare:cmake-utils src_configure:- src_compile:- src_test:cmake-utils src_install:-
 _eclasses_=cmake-utils	ac5bd012586c6cf0d9826400d9de2830	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=f47753b4028aecce101adc3266753e30
+_md5_=abdc5e839cf4825d6c83e62fb0a1e3c4
