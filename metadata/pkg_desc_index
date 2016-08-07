@@ -375,7 +375,7 @@ x11-themes/gnome-colors-common 5.5.1-r12: Colorized icons shared between all gno
 x11-themes/sabayon-artwork-core 11-r4 12 13 13-r1 13-r2 14 14-r1 14-r2: Official Sabayon Linux Core Artwork
 x11-themes/sabayon-artwork-cursor 14: Official Sabayon Linux Core Artwork
 x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
-x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4: Sabayon Linux Official GNOME artwork
+x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4 15: Sabayon Linux Official GNOME artwork
 x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: Sabayon GRUB2 background images
 x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: Sabayon Isolinux Live Images Background
 x11-themes/sabayon-artwork-loo 11 12 13 14: Sabayon LibreOffice Artwork
