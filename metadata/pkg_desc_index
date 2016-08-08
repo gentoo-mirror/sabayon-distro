@@ -21,6 +21,7 @@ app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system 
 app-misc/sabayon-auto-updater 0.1: Sabayon Automatic Updater systemd service. Do not use in production or @home!
 app-misc/sabayon-devkit 1.4: Sabayon Development Kit
 app-misc/sabayon-dockerscripts 15.12-r2 16.01: Sabayon live image scripts and tools
+app-misc/sabayon-greeter 0.4: Sabayon Welcome screen
 app-misc/sabayon-live 18: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-sark 0.6: Sabayon Automated Repository Kit
