@@ -27,7 +27,7 @@ app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-sark 0.8: Sabayon Automated Repository Kit
 app-misc/sabayon-skel 16-r2: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
-app-misc/sabayon-version 16.07 16.08 16.09: Sabayon system release virtual package
+app-misc/sabayon-version 16.07 16.08 16.09 16.10: Sabayon system release virtual package
 app-misc/screenfetch 3.6.5-r1 9999: A Bash Screenshot Information Tool
 app-office/libreoffice 5.0.3.2: A full office productivity suite
 app-office/libreoffice-l10n-af 5.1.4.2: LibreOffice.org Afrikaans localisation
