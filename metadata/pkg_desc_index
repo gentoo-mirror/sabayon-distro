@@ -1,4 +1,4 @@
-app-admin/anaconda 20.27.3-r2 20.27.10 22.8 22.8-r1 9999: Sabayon Redhat Anaconda Installer Port
+app-admin/anaconda 20.27.3-r2 20.27.10 22.8 22.8-r2 9999: Sabayon Redhat Anaconda Installer Port
 app-admin/conky 1.8.1-r6 1.9.0: An advanced, highly configurable system monitor for X
 app-admin/conky-full 1.9.0: An advanced, highly configurable system monitor for X
 app-admin/enman 0.7: a layman equivalent for entropy repositories
@@ -258,6 +258,7 @@ sys-apps/cookbug 0.4: Sabayon Bug Report hardware information collector
 sys-apps/gpu-detector 4: Configures your GPU when autodetection fails do to it
 sys-apps/lsb-release 1.4: LSB version query program
 sys-apps/systemd 226-r2 228-r1 230-r2 231: System and service manager for Linux
+sys-boot/efibootmgr 0.12: User-space application to modify the EFI boot manager
 sys-boot/grub 0.97-r22 2.00-r6 2.00-r8 2.02_beta2-r9 2.02_beta3-r1: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
 sys-boot/plymouth 0.8.8-r4 0.8.9_pre1-r3 0.9.0 0.9.2: Graphical boot animation (splash) and logger
@@ -270,6 +271,7 @@ sys-kernel/beaglebone-sources 4.1: Official Sabayon Linux Standard kernel source
 sys-kernel/linux-beaglebone 4.1: Official Sabayon Linux Standard kernel image for beaglebone
 sys-kernel/linux-sabayon 3.9.11 3.10.102 3.10.103 3.11.10 3.12.61 3.12.63 3.13.11 3.14.73 3.14.77 3.14.78 3.14.79 3.15.10 3.16.7 3.16.36 3.16.37 3.17.8 3.18.37 3.18.40 3.18.41 3.19.8 4.0.9 4.1.28 4.1.31 4.1.32 4.2.8 4.3.3 4.4.15 4.4.19 4.4.20 4.4.21 4.5.7 4.6.4 4.7.2 4.7.3 4.7.4: Official Sabayon Linux Standard kernel image
 sys-kernel/sabayon-sources 3.9.11 3.10.102 3.10.103 3.11.10 3.12.61 3.12.63 3.13.11 3.14.73 3.14.77 3.14.78 3.14.79 3.15.10 3.16.7 3.16.36 3.16.37 3.17.8 3.18.37 3.18.40 3.18.41 3.19.8 4.0.9 4.1.28 4.1.31 4.1.32 4.2.8 4.3.3 4.4.15 4.4.19 4.4.20 4.4.21 4.5.7 4.6.4 4.7.2 4.7.3 4.7.4: Official Sabayon Linux Standard kernel sources
+sys-libs/efivar 0.23: Tools and library to manipulate EFI variables
 virtual/fortran 0: Virtual for Fortran Compiler
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
 www-apache/mod_dav_svn 1.8.14-r1 1.9.4: Subversion WebDAV support
