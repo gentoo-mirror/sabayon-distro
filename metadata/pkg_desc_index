@@ -147,10 +147,10 @@ dev-python/pygobject-base 3.18.2 3.20.1: GLib's GObject library bindings for Pyt
 dev-python/pygobject-cairo 3.18.2 3.20.1: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 0.23.9-r3 1.0.10: A python module for system storage configuration
 dev-python/urlgrabber 3.9.1: Python module for downloading files
-dev-vcs/git 2.7.4 2.9.2: stupid content tracker: distributed VCS designed for speed and efficiency
-dev-vcs/git-cvs 2.7.4 2.9.2: CVS module for git
-dev-vcs/git-gui-tools 2.7.4 2.9.2: GUI tools derived from git: gitk, git-gui and gitview
-dev-vcs/git-subversion 2.7.4 2.9.2: Subversion module for git
+dev-vcs/git 2.9.2 2.10.0: stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git-cvs 2.9.2 2.10.0: CVS module for git
+dev-vcs/git-gui-tools 2.9.2 2.10.0: GUI tools derived from git: gitk, git-gui and gitview
+dev-vcs/git-subversion 2.9.2 2.10.0: Subversion module for git
 dev-vcs/subversion 1.8.14-r1 1.9.4: Advanced version control system
 dev-vcs/subversion-java 1.8.14-r1 1.9.4: Java bindings for Subversion
 gnome-base/gdm 3.16.4 3.18.2 3.20.1: GNOME Display Manager for managing graphical display servers and user logins
@@ -273,7 +273,7 @@ sys-kernel/sabayon-sources 3.9.11 3.10.102 3.10.103 3.11.10 3.12.61 3.12.63 3.13
 virtual/fortran 0: Virtual for Fortran Compiler
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
 www-apache/mod_dav_svn 1.8.14-r1 1.9.4: Subversion WebDAV support
-www-apps/gitweb 2.7.4 2.9.2: A web interface to git
+www-apps/gitweb 2.9.2 2.10.0: A web interface to git
 www-client/firefox-l10n-ach 48.0: Firefox language pack (ach)
 www-client/firefox-l10n-af 48.0: Firefox language pack (af)
 www-client/firefox-l10n-an 48.0: Firefox language pack (an)
