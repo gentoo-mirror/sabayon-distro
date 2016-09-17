@@ -215,7 +215,7 @@ kde-base/kdm 4.11.19 4.11.20: KDE login manager, similar to xdm and gdm
 kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
 kde-misc/kcm-grub2 0.6.4-r1: KCModule for configuring the GRUB2 bootloader.
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
-lxde-base/lxpanel 0.6.1 0.7.0-r1: Lightweight X11 desktop panel for LXDE
+lxde-base/lxpanel 0.7.0-r1 0.8.2: Lightweight X11 desktop panel for LXDE
 media-gfx/splashutils 1.5.4.4-r1: Framebuffer splash utilities.
 media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
 media-libs/jackd-firewire 0.121.3 0.124.1: FFADO backend for JACK Audio Connection Kit
