@@ -387,7 +387,7 @@ x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
 x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
 x11-themes/sabayon-artwork-nostalgia 14: Official Sabayon Linux Nostalgia Wallpapers Artwork
 x11-themes/sabayon-artwork-plymouth-base 14: Official Sabayon Linux Plymouth base Artwork
-x11-themes/sabayon-artwork-plymouth-default 14: Official Sabayon Linux Plymouth Artwork
+x11-themes/sabayon-artwork-plymouth-default 14 16: Official Sabayon Linux Plymouth Artwork
 x11-themes/sabayon-artwork-sddm-base 15: Official Sabayon Linux SDDM base Artwork
 x11-themes/sabayon-artwork-sddm-default 15-r2: Official Sabayon Linux SDDM Artwork
 x11-themes/sabayon-artwork-wallpapers 16.03: Official Sabayon Linux Wallpapers Artwork
