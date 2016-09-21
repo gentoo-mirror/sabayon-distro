@@ -214,7 +214,7 @@ kde-base/kde-l10n-zh_TW 15.08.3 16.04.1: KDE Chinese (traditional) localization 
 kde-base/kdm 4.11.19 4.11.20: KDE login manager, similar to xdm and gdm
 kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
 kde-misc/kcm-grub2 0.6.4-r1: KCModule for configuring the GRUB2 bootloader.
-lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
+lxde-base/lxdm 0.4.1-r9 0.5.3: LXDE Display Manager
 lxde-base/lxpanel 0.7.0-r1 0.8.2: Lightweight X11 desktop panel for LXDE
 media-gfx/splashutils 1.5.4.4-r1: Framebuffer splash utilities.
 media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
