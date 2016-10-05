@@ -1,7 +1,7 @@
 app-admin/anaconda 20.27.3-r2 20.27.10 22.8 22.8-r2 9999: Sabayon Redhat Anaconda Installer Port
 app-admin/conky 1.8.1-r6 1.9.0: An advanced, highly configurable system monitor for X
 app-admin/conky-full 1.9.0: An advanced, highly configurable system monitor for X
-app-admin/enman 0.9: a layman equivalent for entropy repositories
+app-admin/enman 1.0: a layman equivalent for entropy repositories
 app-arch/file-roller 3.16.4 3.16.4-r1 3.20.2: Archive manager for GNOME
 app-crypt/pinentry 0.9.1 0.9.5: Collection of simple PIN/passphrase entry dialogs which utilize the Assuan protocol (meta package)
 app-crypt/pinentry-base 0.9.1 0.9.5: Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
