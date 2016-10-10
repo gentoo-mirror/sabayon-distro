@@ -156,7 +156,6 @@ dev-vcs/subversion-java 1.8.14-r1 1.9.4: Java bindings for Subversion
 gnome-base/gdm 3.16.4 3.18.2 3.20.1: GNOME Display Manager for managing graphical display servers and user logins
 gnome-base/libgnome 2.32.1-r1: Essential Gnome Libraries
 gnome-base/nautilus 3.12.2 3.14.2 3.14.2-r1: A file manager for the GNOME desktop
-gnome-extra/cinnamon 2.0.12: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
 gnome-extra/nautilus-file-roller 3.16.4 3.20.2: Provides context menu for Nautilus
 kde-apps/kde-l10n 16.04.1: KDE internationalization package meta includer
