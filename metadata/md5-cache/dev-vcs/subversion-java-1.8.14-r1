@@ -10,5 +10,5 @@ RDEPEND=~dev-vcs/subversion-1.8.14 >=dev-libs/apr-1.3:1 >=dev-libs/apr-util-1.3:
 SLOT=0
 SRC_URI=mirror://apache/subversion-java/subversion-1.8.14.tar.bz2 mirror://sabayon/dev-vcs/subversion-1.8.9-Gentoo-patches.tar.gz
 _eclass_exported_funcs=pkg_preinst:java-pkg-2 pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	java-pkg-2	eb1f0d7d874162c70088f5ae32c31ee7	java-utils-2	a50950a73b5d5db46f42638e2996a087	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	sab-patches	7e9a8af55c2d0e97c7cbe9096ae72ef5	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	java-pkg-2	eb1f0d7d874162c70088f5ae32c31ee7	java-utils-2	a50950a73b5d5db46f42638e2996a087	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	sab-patches	7e9a8af55c2d0e97c7cbe9096ae72ef5	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=794988af1bf2e5958d5071468572e5a7
