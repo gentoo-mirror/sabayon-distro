@@ -8,5 +8,5 @@ LICENSE=CCPL-Attribution-ShareAlike-3.0
 SLOT=0
 SRC_URI=mirror://sabayon/x11-themes/sabayon-artwork-loo/sabayon-artwork-loo-14.tar.xz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
 _md5_=1e46c4e60a7ecca3c33293143c2ae8df
