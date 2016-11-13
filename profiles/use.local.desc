@@ -19,8 +19,6 @@ app-admin/conky:thinkpad - enable support for IBM/Lenovo notebooks
 app-admin/conky:weather-metar - enable support for metar weather service
 app-admin/conky:weather-xoap - enable support for metar and xoap weather service
 app-admin/conky:xmms2 - enable monitoring of music played by media-sound/xmms2
-app-arch/file-roller:nautilus - Enable file-roller to integrate with gnome-base/nautilus by providing entries in its context menu
-app-arch/file-roller:packagekit - Enable support for the distro-neutral package manager GUI app-admin/packagekit
 app-misc/screenfetch:X - Use the media-gfx/scrot package to take screenshots
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
 app-office/libreoffice:collada - Enable Collada for rendering 3D models stored in *.dae and *.kmz format
