@@ -246,7 +246,6 @@ net-p2p/transmission-qt5 2.92: A Fast, Easy and Free BitTorrent client - Qt5 UI
 net-print/brother-hl5340d-drivers 2.0.4-r1 2.0.4-r2: CUPS filters and drivers for Brother HL-5340D
 net-print/xerox-phaser6000-drivers 20110222 20110222-r1: CUPS filters and drivers for Xerox Phaser 6000B and 6010
 net-wireless/libertas-firmware 5.220.10: Firmware for Libertas Wireless Chipsets a/b/g
-sci-mathematics/singular 4.0.2: Computer algebra system for polynomial computations
 sci-misc/rtai 9999: Real Time Application Interface for Linux
 sys-apps/baselayout 2.2-r1: Filesystem baselayout and init scripts
 sys-apps/cookbug 0.4: Sabayon Bug Report hardware information collector
