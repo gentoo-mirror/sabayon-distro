@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst
+DEPEND=virtual/pkgconfig
+DESCRIPTION=RaspberryPi MCE package
+EAPI=6
+HOMEPAGE=https://github.com/Sabayon
+KEYWORDS=~arm
+LICENSE=GPL-2
+RDEPEND=media-video/raspberrypi-omxplayer media-tv/kodi-raspberrypi app-misc/sabayon-auto-updater !media-video/omxplayer
+RESTRICT=test mirror
+SLOT=0
+SRC_URI=mirror://sabayon/app-misc/sabayon-mce-rpi/sabayon-mce-rpi-0.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	systemd	5b6ca8b2fc1307ca593223f327342c96	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=02b4ec09e5d6b17e6cff7da0dcdc1bf9
