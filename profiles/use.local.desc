@@ -178,6 +178,7 @@ sys-devel/gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
 sys-devel/gcc:objc - Build support for the Objective C code language
 sys-devel/gcc:objc++ - Build support for the Objective C++ language
 sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
+www-apache/mod_dav_svn:dso - Enable runtime module search
 www-apps/gitweb:highlight - GitWeb support for app-text/highlight.
 x11-drivers/ati-userspace:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
 x11-drivers/ati-userspace:modules - Build the kernel modules
