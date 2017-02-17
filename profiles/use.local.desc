@@ -84,13 +84,21 @@ net-analyzer/nmap:ndiff - Install the ndiff utility
 net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
 net-analyzer/nmap:nping - Install the nping utility
 net-dns/avahi:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
-net-dns/avahi:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted)
+net-dns/avahi:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
+net-dns/avahi:gtk3 - Build the avahi-ui-gtk3 library, and use gtk3 for the avahi utilities under USE=utils
 net-dns/avahi:howl-compat - Enable compat libraries for howl
 net-dns/avahi:mdnsresponder-compat - Enable compat libraries for mDNSResponder
+net-dns/avahi:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
 net-dns/avahi-base:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
-net-dns/avahi-base:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted)
+net-dns/avahi-base:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
+net-dns/avahi-base:gtk3 - Build the avahi-ui-gtk3 library, and use gtk3 for the avahi utilities under USE=utils
 net-dns/avahi-base:howl-compat - Enable compat libraries for howl
 net-dns/avahi-base:mdnsresponder-compat - Enable compat libraries for mDNSResponder
+net-dns/avahi-gtk:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
+net-dns/avahi-gtk3:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
+net-dns/avahi-gtk3:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
+net-dns/avahi-mono:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
+net-dns/avahi-qt:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
 net-irc/quassel:X - Build the Qt 4 GUI client for quassel. If this USE flag is disabled, the GUI is not built, and cannot be used. You might want to disable this on the server, but you need it enabled on the client.
 net-irc/quassel:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca:2.
 net-irc/quassel:monolithic - Build Standalone client with integrated core, no external quasselcore needed. Only useful if you don't want to use quassels client/server model. The server and X flags are not needed in this case but it is possible to enable them too.

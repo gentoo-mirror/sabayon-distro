@@ -10,4 +10,4 @@ RDEPEND==net-dns/avahi-base-0.6.31-r5[autoipd=,bookmarks=,dbus=,doc=,gdbm=,howl-
 SLOT=0
 _eclass_exported_funcs=-
 _eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	165fc17c38d1b11dac2008280dab6e80	multilib-build	8fe2e81aeb36cdf8a6cc5f50443879cc	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=b71b856d47e36d02a2668161a028aa08
+_md5_=d19ffee408ec1ab57a53e65fe45f4623
