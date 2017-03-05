@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=http://nmap.org/dist/nmap-6.25.tar.bz2 http://dev.gentoo.org/~jer/nmap-logo-64.png
 _eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	flag-o-matic	979af9133d4de419fa98992355b07ca4	multilib	0236be304ee52e7f179ed2f337075515	python	bc5dc5d43bf20a6e1f59f99b5f49df4f	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=af2d7e24f52cd79b4ecc704691c52447
+_md5_=fe0ab9b868ad204741378493962f3c85

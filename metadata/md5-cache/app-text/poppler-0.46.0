@@ -11,4 +11,4 @@ RDEPEND=~app-text/poppler-base-0.46.0[cxx=] ~app-text/poppler-base-0.46.0[curl=]
 REQUIRED_USE=cairo-qt? ( qt4 )
 SLOT=0/63
 _eclass_exported_funcs=-
-_md5_=ea2f5231cd90901a46c5b9e21a1e9421
+_md5_=2b7eb27cae407ab8d18888ae092608e5

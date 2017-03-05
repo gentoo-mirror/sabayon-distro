@@ -9,4 +9,4 @@ RDEPEND=>=app-admin/calamares-1.0 !!app-misc/calamares-sabayon-branding
 SLOT=0
 SRC_URI=mirror://sabayon/app-misc/calamares-sabayon-server-branding/calamares-sabayon-server-branding-15.10.tar.xz
 _eclass_exported_funcs=src_install:-
-_md5_=936e9b1057e3ca073922185e919abf7c
+_md5_=4034992058bc48b86b1b3c11add1f783

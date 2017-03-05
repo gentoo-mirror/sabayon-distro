@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=https://github.com/Sabayon/blivet/archive/blivet-0.23.9-1.tar.gz
 _eclass_exported_funcs=pkg_postrm:distutils pkg_postinst:distutils pkg_setup:python src_prepare:- src_compile:distutils src_install:distutils
 _eclasses_=distutils	211b731505cd31ff9638734ae186b82d	eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	python	bc5dc5d43bf20a6e1f59f99b5f49df4f	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=61dc71aa322df65579aac8cf9efd4651
+_md5_=3d0643ca4a4d6dc1cce024661d6ae038

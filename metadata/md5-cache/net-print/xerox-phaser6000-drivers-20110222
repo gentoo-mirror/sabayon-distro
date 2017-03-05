@@ -10,4 +10,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=http://download.support.xerox.com/pub/drivers/6000/drivers/linux/en_GB/6000_6010_rpm_1.01_20110222.zip
 _eclass_exported_funcs=src_unpack:- src_install:-
-_md5_=832f33736f079df23ce3c36287e463e2
+_md5_=a93667aacc47c8b676da5fb391ac05eb

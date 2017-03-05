@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://kernel/software/scm/git/git-2.11.0.tar.xz mirror://sabayon/dev-vcs/git/git-2.10.0-Gentoo-patches.tar.gz
 _eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	4346485bdd137b2d301e993dad734668	python-utils-r1	316c531873247e48befb99900e5aa2ed	sab-patches	7e9a8af55c2d0e97c7cbe9096ae72ef5	toolchain-funcs	53b75b4a49cf3e61530a523804045432
-_md5_=94dff5daa767a20753c4e263dbcebc50
+_md5_=5a27a841aeb7bd55eeb8d0198a39bfe7
