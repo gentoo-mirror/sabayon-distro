@@ -147,7 +147,7 @@ dev-python/pygobject-base 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings 
 dev-python/pygobject-cairo 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 0.23.9-r3 1.0.10: A python module for system storage configuration
 dev-python/urlgrabber 3.9.1: Python module for downloading files
-dev-util/systemtap 2.9: A linux trace/probe tool
+dev-util/systemtap 3.1: A linux trace/probe tool
 dev-vcs/git 2.10.2 2.11.0: stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-cvs 2.10.2 2.11.0: CVS module for git
 dev-vcs/git-gui-tools 2.10.2 2.11.0: GUI tools derived from git: gitk, git-gui and gitview
