@@ -10,5 +10,5 @@ RDEPEND=>=dev-libs/dbus-glib-0.100 >=dev-libs/glib-2.32:2 >=x11-libs/gtk+-3.4:3 
 SLOT=0
 SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.92.tar.xz
 _eclass_exported_funcs=pkg_preinst:transmission-2.92-r2 pkg_postrm:transmission-2.92-r2 pkg_postinst:transmission-2.92-r2 src_prepare:transmission-2.92-r2 src_configure:transmission-2.92-r2 src_compile:transmission-2.92-r2 src_install:-
-_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	eutils	3c847a0129fed780bd709b98e426f89c	fdo-mime	21ef5adf81836863efa968f2a25cff64	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	gnome2-utils	fe8e9099c6fc74a40946623c593c7236	libtool	48b1b9f6194d2842456514d1184ca72e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	transmission-2.92-r2	6584964e09ba626358c045196eb39029	xdg-utils	178a84136f416b8ea1a857717eacd21c
+_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	eutils	3c847a0129fed780bd709b98e426f89c	fdo-mime	21ef5adf81836863efa968f2a25cff64	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	gnome2-utils	fe8e9099c6fc74a40946623c593c7236	libtool	48b1b9f6194d2842456514d1184ca72e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	transmission-2.92-r2	3926e033065198b0df0758872e2f6514	xdg-utils	178a84136f416b8ea1a857717eacd21c
 _md5_=b6f462236ac91683fa05032bc44051a2
