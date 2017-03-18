@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=sys-libs/zlib qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5[ssl?] ) !qt5? ( dev-qt/qtcore:4[ssl?] ) qt5? ( dev-qt/qtscript:5 crypt? ( app-crypt/qca:2[ssl,qt5] ) postgres? ( dev-qt/qtsql:5[postgres] ) !postgres? ( dev-qt/qtsql:5[sqlite] dev-db/sqlite:3[threadsafe(+),-secure-delete] ) ) !qt5? ( dev-qt/qtscript:4 crypt? ( app-crypt/qca:2[ssl,qt4(+)] ) postgres? ( dev-qt/qtsql:4[postgres] ) !postgres? ( dev-qt/qtsql:4[sqlite] dev-db/sqlite:3[threadsafe(+),-secure-delete] ) ) syslog? ( virtual/logger ) !net-irc/quassel-core-bin qt5? ( kde-frameworks/extra-cmake-modules ) sys-devel/make >=dev-util/cmake-3.6.3 virtual/pkgconfig
+DEPEND=sys-libs/zlib qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5[ssl?] ) !qt5? ( dev-qt/qtcore:4[ssl?] ) qt5? ( dev-qt/qtscript:5 crypt? ( app-crypt/qca:2[ssl,qt5] ) postgres? ( dev-qt/qtsql:5[postgres] ) !postgres? ( dev-qt/qtsql:5[sqlite] dev-db/sqlite:3[threadsafe(+),-secure-delete] ) ) !qt5? ( dev-qt/qtscript:4 crypt? ( app-crypt/qca:2[ssl,qt4(+)] ) postgres? ( dev-qt/qtsql:4[postgres] ) !postgres? ( dev-qt/qtsql:4[sqlite] dev-db/sqlite:3[threadsafe(+),-secure-delete] ) ) syslog? ( virtual/logger ) !net-irc/quassel-core-bin qt5? ( kde-frameworks/extra-cmake-modules ) sys-devel/make >=dev-util/cmake-3.7.2 virtual/pkgconfig
 DESCRIPTION=Qt/KDE IRC client - the "core" (server) component
 EAPI=6
 HOMEPAGE=http://quassel-irc.org/
@@ -10,5 +10,5 @@ RDEPEND=sys-libs/zlib qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5[ssl?] ) !qt5? ( 
 SLOT=0
 SRC_URI=http://quassel-irc.org/pub/quassel-0.12.4.tar.bz2
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_prepare:cmake-utils src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
-_eclasses_=cmake-utils	dd1d263f83f0791bd433b134f40db39b	eutils	3c847a0129fed780bd709b98e426f89c	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	multilib	0236be304ee52e7f179ed2f337075515	multiprocessing	284a473719153462f3e974d86c8cb81c	pax-utils	4f95120230a315c8caaabeb2307b7eee	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	user	e4b567c44272a719fabf53f0f885d3f7	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclasses_=cmake-utils	a69f3a404abc4ade0a99e523f51b989d	eutils	3c847a0129fed780bd709b98e426f89c	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	multilib	0236be304ee52e7f179ed2f337075515	multiprocessing	284a473719153462f3e974d86c8cb81c	pax-utils	4f95120230a315c8caaabeb2307b7eee	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	user	e4b567c44272a719fabf53f0f885d3f7	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=423655a1ebe6b014203c737ac48e7916
