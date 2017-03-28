@@ -133,6 +133,7 @@ app-office/libreoffice-l10n-xh 5.2.3.3 5.2.4.2: LibreOffice.org Xhosa localisati
 app-office/libreoffice-l10n-zh_CN 5.2.3.3 5.2.4.2: LibreOffice.org Chinese (simplified) localisation
 app-office/libreoffice-l10n-zh_TW 5.2.3.3 5.2.4.2: LibreOffice.org Chinese (traditional) localisation
 app-office/libreoffice-l10n-zu 5.2.3.3 5.2.4.2: LibreOffice.org Zulu localisation
+app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
 app-text/poppler 0.46.0: PDF rendering library based on the xpdf-3.0 code base (meta package)
 app-text/poppler-base 0.46.0: PDF rendering library based on the xpdf-3.0 code base
 app-text/poppler-glib 0.46.0: Glib bindings for poppler
@@ -146,13 +147,13 @@ dev-python/pygobject-base 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings 
 dev-python/pygobject-cairo 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 1.0.10: A python module for system storage configuration
 dev-util/systemtap 3.1: A linux trace/probe tool
-dev-vcs/git 2.11.0 2.12.0: stupid content tracker: distributed VCS designed for speed and efficiency
-dev-vcs/git-cvs 2.11.0 2.12.0: CVS module for git
-dev-vcs/git-gui-tools 2.11.0 2.12.0: GUI tools derived from git: gitk, git-gui and gitview
-dev-vcs/git-subversion 2.11.0 2.12.0: Subversion module for git
+dev-vcs/git 2.12.0 2.12.2: stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git-cvs 2.12.0 2.12.2: CVS module for git
+dev-vcs/git-gui-tools 2.12.0 2.12.2: GUI tools derived from git: gitk, git-gui and gitview
+dev-vcs/git-subversion 2.12.0 2.12.2: Subversion module for git
 dev-vcs/subversion 1.9.4 1.9.5: Advanced version control system
 dev-vcs/subversion-java 1.9.4 1.9.5: Java bindings for Subversion
-gnome-base/gdm 3.20.1 3.22.1-r1: GNOME Display Manager for managing graphical display servers and user logins
+gnome-base/gdm 3.20.1 3.22.1-r1 3.22.3: GNOME Display Manager for managing graphical display servers and user logins
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
 kde-apps/kde-l10n 16.08.3 16.12.3: KDE internationalization package meta includer
 kde-apps/kde-l10n-ar 16.08.3 16.12.3: KDE Arabic localization package
@@ -220,8 +221,8 @@ media-libs/libvpx 1.5.0-r1: WebM VP8 Codec SDK
 media-tv/kodi 14.1 15.1 15.2 16.0 16.1 17.0: Kodi is a free and open source media-player and entertainment hub
 media-tv/kodi-raspberrypi 15.2 16.0 16.1 17.0: Kodi is a free and open source media-player and entertainment hub
 media-tv/xbmc 12.2-r1 12.3 13.2: XBMC is a free and open source media-player and entertainment hub
-net-analyzer/nmap 7.12: A utility for network discovery and security auditing
-net-analyzer/zenmap 7.12: Graphical frontend for nmap
+net-analyzer/nmap 7.12 7.40-r1: A utility for network discovery and security auditing
+net-analyzer/zenmap 7.12 7.40-r1: Graphical frontend for nmap
 net-dns/avahi 0.6.31-r5 0.6.32: System which facilitates service discovery on a local network (meta package)
 net-dns/avahi-base 0.6.31-r5 0.6.32: System which facilitates service discovery on a local network (base pkg)
 net-dns/avahi-gtk 0.6.31-r5 0.6.32: System which facilitates service discovery on a local network (gtk pkg)
@@ -262,105 +263,106 @@ sys-devel/base-gcc 4.7.3 4.7.3-r1 4.7.4 4.8.3 4.8.4 4.9.2 4.9.3 5.3.0: The GNU C
 sys-devel/gcc 4.7.3 4.7.3-r1 4.7.4 4.8.3 4.8.4 4.9.2 4.9.3 5.3.0: The GNU Compiler Collection
 sys-devel/gcc-config 1.7.3 1.8 1.8-r1: utility to manage compilers
 sys-fs/udev 171-r5 189 197-r4 197-r8: Linux dynamic and persistent device naming support (aka userspace devfs)
-sys-kernel/beaglebone-sources 4.1: Official Sabayon Linux Standard kernel sources for beaglebone
+sys-kernel/beaglebone-sources 4.1: Graphical frontend for nmap
 sys-kernel/linux-beaglebone 4.1: Official Sabayon Linux Standard kernel image for beaglebone
-sys-kernel/linux-sabayon 3.10.105 3.12.70 3.12.71 3.12.72 3.16.40 3.16.41 3.16.42 3.18.48 4.1.28 4.1.31 4.1.32 4.1.33 4.1.34 4.1.35 4.1.36 4.1.37 4.1.38 4.1.39 4.4.40 4.4.41 4.4.42 4.4.43 4.4.44 4.4.45 4.4.46 4.4.47 4.4.48 4.4.49 4.4.50 4.4.51 4.4.52 4.4.53 4.4.54 4.4.55 4.6.4 4.7.10 4.8.17 4.9 4.9.1 4.9.2 4.9.3 4.9.4 4.9.5 4.9.6 4.9.7 4.9.8 4.9.9 4.9.10 4.9.11 4.9.12 4.9.13 4.9.14 4.9.15 4.9.16 4.10 4.10.1 4.10.2 4.10.3 4.10.4: Official Sabayon Linux Standard kernel image
-sys-kernel/sabayon-sources 3.10.105 3.12.70 3.12.71 3.12.72 3.16.40 3.16.41 3.16.42 3.18.48 4.1.28 4.1.31 4.1.32 4.1.33 4.1.34 4.1.35 4.1.36 4.1.37 4.1.38 4.1.39 4.4.40 4.4.41 4.4.42 4.4.43 4.4.44 4.4.45 4.4.46 4.4.47 4.4.48 4.4.49 4.4.50 4.4.51 4.4.52 4.4.53 4.4.54 4.4.55 4.6.4 4.7.10 4.8.17 4.9 4.9.1 4.9.2 4.9.3 4.9.4 4.9.5 4.9.6 4.9.7 4.9.8 4.9.9 4.9.10 4.9.11 4.9.12 4.9.13 4.9.14 4.9.15 4.9.16 4.10 4.10.1 4.10.2 4.10.3 4.10.4: Official Sabayon Linux Standard kernel sources
+sys-kernel/linux-sabayon 3.10.105 3.12.70 3.12.71 3.12.72 3.16.40 3.16.41 3.16.42 3.18.48 4.1.28 4.1.31 4.1.32 4.1.33 4.1.34 4.1.35 4.1.36 4.1.37 4.1.38 4.1.39 4.4.40 4.4.41 4.4.42 4.4.43 4.4.44 4.4.45 4.4.46 4.4.47 4.4.48 4.4.49 4.4.50 4.4.51 4.4.52 4.4.53 4.4.54 4.4.55 4.4.56 4.4.57 4.6.4 4.7.10 4.8.17 4.9 4.9.1 4.9.2 4.9.3 4.9.4 4.9.5 4.9.6 4.9.7 4.9.8 4.9.9 4.9.10 4.9.11 4.9.12 4.9.13 4.9.14 4.9.15 4.9.16 4.9.17 4.9.18 4.10 4.10.1 4.10.2 4.10.3 4.10.4 4.10.5 4.10.6: Official Sabayon Linux Standard kernel image
+sys-kernel/sabayon-sources 3.10.105 3.12.70 3.12.71 3.12.72 3.16.40 3.16.41 3.16.42 3.18.48 4.1.28 4.1.31 4.1.32 4.1.33 4.1.34 4.1.35 4.1.36 4.1.37 4.1.38 4.1.39 4.4.40 4.4.41 4.4.42 4.4.43 4.4.44 4.4.45 4.4.46 4.4.47 4.4.48 4.4.49 4.4.50 4.4.51 4.4.52 4.4.53 4.4.54 4.4.55 4.4.56 4.4.57 4.6.4 4.7.10 4.8.17 4.9 4.9.1 4.9.2 4.9.3 4.9.4 4.9.5 4.9.6 4.9.7 4.9.8 4.9.9 4.9.10 4.9.11 4.9.12 4.9.13 4.9.14 4.9.15 4.9.16 4.9.17 4.9.18 4.10 4.10.1 4.10.2 4.10.3 4.10.4 4.10.5 4.10.6: Official Sabayon Linux Standard kernel sources
 sys-libs/efivar 0.21: Tools and library to manipulate EFI variables
 virtual/fortran 0: Virtual for Fortran Compiler
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
 www-apache/mod_dav_svn 1.9.4 1.9.5: Subversion WebDAV support
-www-apps/gitweb 2.11.0 2.12.0: A web interface to git
-www-client/firefox-l10n-ach 51.0: Firefox language pack (ach)
-www-client/firefox-l10n-af 51.0: Firefox language pack (af)
-www-client/firefox-l10n-an 51.0: Firefox language pack (an)
-www-client/firefox-l10n-ar 51.0: Firefox language pack (ar)
-www-client/firefox-l10n-as 51.0: Firefox language pack (as)
-www-client/firefox-l10n-ast 51.0: Firefox language pack (ast)
-www-client/firefox-l10n-az 51.0: Firefox language pack (az)
-www-client/firefox-l10n-bg 51.0: Firefox language pack (bg)
-www-client/firefox-l10n-bn-BD 51.0: Firefox language pack (bn-BD)
-www-client/firefox-l10n-bn-IN 51.0: Firefox language pack (bn-IN)
-www-client/firefox-l10n-br 51.0: Firefox language pack (br)
-www-client/firefox-l10n-bs 51.0: Firefox language pack (bs)
-www-client/firefox-l10n-ca 51.0: Firefox language pack (ca)
-www-client/firefox-l10n-cak 51.0: Firefox language pack (cak)
-www-client/firefox-l10n-cs 51.0: Firefox language pack (cs)
-www-client/firefox-l10n-cy 51.0: Firefox language pack (cy)
-www-client/firefox-l10n-da 51.0: Firefox language pack (da)
-www-client/firefox-l10n-de 51.0: Firefox language pack (de)
-www-client/firefox-l10n-dsb 51.0: Firefox language pack (dsb)
-www-client/firefox-l10n-el 51.0: Firefox language pack (el)
-www-client/firefox-l10n-en-GB 51.0: Firefox language pack (en-GB)
-www-client/firefox-l10n-en-ZA 51.0: Firefox language pack (en-ZA)
-www-client/firefox-l10n-eo 51.0: Firefox language pack (eo)
-www-client/firefox-l10n-es-AR 51.0: Firefox language pack (es-AR)
-www-client/firefox-l10n-es-CL 51.0: Firefox language pack (es-CL)
-www-client/firefox-l10n-es-ES 51.0: Firefox language pack (es-ES)
-www-client/firefox-l10n-es-MX 51.0: Firefox language pack (es-MX)
-www-client/firefox-l10n-et 51.0: Firefox language pack (et)
-www-client/firefox-l10n-eu 51.0: Firefox language pack (eu)
-www-client/firefox-l10n-fa 51.0: Firefox language pack (fa)
-www-client/firefox-l10n-ff 51.0: Firefox language pack (ff)
-www-client/firefox-l10n-fi 51.0: Firefox language pack (fi)
-www-client/firefox-l10n-fr 51.0: Firefox language pack (fr)
-www-client/firefox-l10n-fy-NL 51.0: Firefox language pack (fy-NL)
-www-client/firefox-l10n-ga-IE 51.0: Firefox language pack (ga-IE)
-www-client/firefox-l10n-gd 51.0: Firefox language pack (gd)
-www-client/firefox-l10n-gl 51.0: Firefox language pack (gl)
-www-client/firefox-l10n-gn 51.0: Firefox language pack (gn)
-www-client/firefox-l10n-gu-IN 51.0: Firefox language pack (gu-IN)
-www-client/firefox-l10n-he 51.0: Firefox language pack (he)
-www-client/firefox-l10n-hi-IN 51.0: Firefox language pack (hi-IN)
-www-client/firefox-l10n-hr 51.0: Firefox language pack (hr)
-www-client/firefox-l10n-hsb 51.0: Firefox language pack (hsb)
-www-client/firefox-l10n-hu 51.0: Firefox language pack (hu)
-www-client/firefox-l10n-hy-AM 51.0: Firefox language pack (hy-AM)
-www-client/firefox-l10n-id 51.0: Firefox language pack (id)
-www-client/firefox-l10n-is 51.0: Firefox language pack (is)
-www-client/firefox-l10n-it 51.0: Firefox language pack (it)
-www-client/firefox-l10n-ja 51.0: Firefox language pack (ja)
-www-client/firefox-l10n-ka 51.0: Firefox language pack (ka)
-www-client/firefox-l10n-kk 51.0: Firefox language pack (kk)
-www-client/firefox-l10n-km 51.0: Firefox language pack (km)
-www-client/firefox-l10n-kn 51.0: Firefox language pack (kn)
-www-client/firefox-l10n-ko 51.0: Firefox language pack (ko)
-www-client/firefox-l10n-lij 51.0: Firefox language pack (lij)
-www-client/firefox-l10n-lt 51.0: Firefox language pack (lt)
-www-client/firefox-l10n-lv 51.0: Firefox language pack (lv)
-www-client/firefox-l10n-mai 51.0: Firefox language pack (mai)
-www-client/firefox-l10n-mk 51.0: Firefox language pack (mk)
-www-client/firefox-l10n-ml 51.0: Firefox language pack (ml)
-www-client/firefox-l10n-mr 51.0: Firefox language pack (mr)
-www-client/firefox-l10n-ms 51.0: Firefox language pack (ms)
-www-client/firefox-l10n-nb-NO 51.0: Firefox language pack (nb-NO)
-www-client/firefox-l10n-nl 51.0: Firefox language pack (nl)
-www-client/firefox-l10n-nn-NO 51.0: Firefox language pack (nn-NO)
-www-client/firefox-l10n-or 51.0: Firefox language pack (or)
-www-client/firefox-l10n-pa-IN 51.0: Firefox language pack (pa-IN)
-www-client/firefox-l10n-pl 51.0: Firefox language pack (pl)
-www-client/firefox-l10n-pt-BR 51.0: Firefox language pack (pt-BR)
-www-client/firefox-l10n-pt-PT 51.0: Firefox language pack (pt-PT)
-www-client/firefox-l10n-rm 51.0: Firefox language pack (rm)
-www-client/firefox-l10n-ro 51.0: Firefox language pack (ro)
-www-client/firefox-l10n-ru 51.0: Firefox language pack (ru)
-www-client/firefox-l10n-si 51.0: Firefox language pack (si)
-www-client/firefox-l10n-sk 51.0: Firefox language pack (sk)
-www-client/firefox-l10n-sl 51.0: Firefox language pack (sl)
-www-client/firefox-l10n-son 51.0: Firefox language pack (son)
-www-client/firefox-l10n-sq 51.0: Firefox language pack (sq)
-www-client/firefox-l10n-sr 51.0: Firefox language pack (sr)
-www-client/firefox-l10n-sv-SE 51.0: Firefox language pack (sv-SE)
-www-client/firefox-l10n-ta 51.0: Firefox language pack (ta)
-www-client/firefox-l10n-te 51.0: Firefox language pack (te)
-www-client/firefox-l10n-th 51.0: Firefox language pack (th)
-www-client/firefox-l10n-tr 51.0: Firefox language pack (tr)
-www-client/firefox-l10n-uk 51.0: Firefox language pack (uk)
-www-client/firefox-l10n-uz 51.0: Firefox language pack (uz)
-www-client/firefox-l10n-vi 51.0: Firefox language pack (vi)
-www-client/firefox-l10n-xh 51.0: Firefox language pack (xh)
-www-client/firefox-l10n-zh-CN 51.0: Firefox language pack (zh-CN)
-www-client/firefox-l10n-zh-TW 51.0: Firefox language pack (zh-TW)
+www-apps/gitweb 2.12.0 2.12.2: A web interface to git
+www-client/firefox-l10n-ach 52.0.1-r1: Firefox language pack (ach)
+www-client/firefox-l10n-af 52.0.1-r1: Firefox language pack (af)
+www-client/firefox-l10n-an 52.0.1-r1: Firefox language pack (an)
+www-client/firefox-l10n-ar 52.0.1-r1: Firefox language pack (ar)
+www-client/firefox-l10n-as 52.0.1-r1: Firefox language pack (as)
+www-client/firefox-l10n-ast 52.0.1-r1: Firefox language pack (ast)
+www-client/firefox-l10n-az 52.0.1-r1: Firefox language pack (az)
+www-client/firefox-l10n-bg 52.0.1-r1: Firefox language pack (bg)
+www-client/firefox-l10n-bn-BD 52.0.1-r1: Firefox language pack (bn-BD)
+www-client/firefox-l10n-bn-IN 52.0.1-r1: Firefox language pack (bn-IN)
+www-client/firefox-l10n-br 52.0.1-r1: Firefox language pack (br)
+www-client/firefox-l10n-bs 52.0.1-r1: Firefox language pack (bs)
+www-client/firefox-l10n-ca 52.0.1-r1: Firefox language pack (ca)
+www-client/firefox-l10n-cak 52.0.1-r1: Firefox language pack (cak)
+www-client/firefox-l10n-cs 52.0.1-r1: Firefox language pack (cs)
+www-client/firefox-l10n-cy 52.0.1-r1: Firefox language pack (cy)
+www-client/firefox-l10n-da 52.0.1-r1: Firefox language pack (da)
+www-client/firefox-l10n-de 52.0.1-r1: Firefox language pack (de)
+www-client/firefox-l10n-dsb 52.0.1-r1: Firefox language pack (dsb)
+www-client/firefox-l10n-el 52.0.1-r1: Firefox language pack (el)
+www-client/firefox-l10n-en-GB 52.0.1-r1: Firefox language pack (en-GB)
+www-client/firefox-l10n-en-ZA 52.0.1-r1: Firefox language pack (en-ZA)
+www-client/firefox-l10n-eo 52.0.1-r1: Firefox language pack (eo)
+www-client/firefox-l10n-es-AR 52.0.1-r1: Firefox language pack (es-AR)
+www-client/firefox-l10n-es-CL 52.0.1-r1: Firefox language pack (es-CL)
+www-client/firefox-l10n-es-ES 52.0.1-r1: Firefox language pack (es-ES)
+www-client/firefox-l10n-es-MX 52.0.1-r1: Firefox language pack (es-MX)
+www-client/firefox-l10n-et 52.0.1-r1: Firefox language pack (et)
+www-client/firefox-l10n-eu 52.0.1-r1: Firefox language pack (eu)
+www-client/firefox-l10n-fa 52.0.1-r1: Firefox language pack (fa)
+www-client/firefox-l10n-ff 52.0.1-r1: Firefox language pack (ff)
+www-client/firefox-l10n-fi 52.0.1-r1: Firefox language pack (fi)
+www-client/firefox-l10n-fr 52.0.1-r1: Firefox language pack (fr)
+www-client/firefox-l10n-fy-NL 52.0.1-r1: Firefox language pack (fy-NL)
+www-client/firefox-l10n-ga-IE 52.0.1-r1: Firefox language pack (ga-IE)
+www-client/firefox-l10n-gd 52.0.1-r1: Firefox language pack (gd)
+www-client/firefox-l10n-gl 52.0.1-r1: Firefox language pack (gl)
+www-client/firefox-l10n-gn 52.0.1-r1: Firefox language pack (gn)
+www-client/firefox-l10n-gu-IN 52.0.1-r1: Firefox language pack (gu-IN)
+www-client/firefox-l10n-he 52.0.1-r1: Firefox language pack (he)
+www-client/firefox-l10n-hi-IN 52.0.1-r1: Firefox language pack (hi-IN)
+www-client/firefox-l10n-hr 52.0.1-r1: Firefox language pack (hr)
+www-client/firefox-l10n-hsb 52.0.1-r1: Firefox language pack (hsb)
+www-client/firefox-l10n-hu 52.0.1-r1: Firefox language pack (hu)
+www-client/firefox-l10n-hy-AM 52.0.1-r1: Firefox language pack (hy-AM)
+www-client/firefox-l10n-id 52.0.1-r1: Firefox language pack (id)
+www-client/firefox-l10n-is 52.0.1-r1: Firefox language pack (is)
+www-client/firefox-l10n-it 52.0.1-r1: Firefox language pack (it)
+www-client/firefox-l10n-ja 52.0.1-r1: Firefox language pack (ja)
+www-client/firefox-l10n-ka 52.0.1-r1: Firefox language pack (ka)
+www-client/firefox-l10n-kab 52.0.1-r1: Firefox language pack (kab)
+www-client/firefox-l10n-kk 52.0.1-r1: Firefox language pack (kk)
+www-client/firefox-l10n-km 52.0.1-r1: Firefox language pack (km)
+www-client/firefox-l10n-kn 52.0.1-r1: Firefox language pack (kn)
+www-client/firefox-l10n-ko 52.0.1-r1: Firefox language pack (ko)
+www-client/firefox-l10n-lij 52.0.1-r1: Firefox language pack (lij)
+www-client/firefox-l10n-lt 52.0.1-r1: Firefox language pack (lt)
+www-client/firefox-l10n-lv 52.0.1-r1: Firefox language pack (lv)
+www-client/firefox-l10n-mai 52.0.1-r1: Firefox language pack (mai)
+www-client/firefox-l10n-mk 52.0.1-r1: Firefox language pack (mk)
+www-client/firefox-l10n-ml 52.0.1-r1: Firefox language pack (ml)
+www-client/firefox-l10n-mr 52.0.1-r1: Firefox language pack (mr)
+www-client/firefox-l10n-ms 52.0.1-r1: Firefox language pack (ms)
+www-client/firefox-l10n-nb-NO 52.0.1-r1: Firefox language pack (nb-NO)
+www-client/firefox-l10n-nl 52.0.1-r1: Firefox language pack (nl)
+www-client/firefox-l10n-nn-NO 52.0.1-r1: Firefox language pack (nn-NO)
+www-client/firefox-l10n-or 52.0.1-r1: Firefox language pack (or)
+www-client/firefox-l10n-pa-IN 52.0.1-r1: Firefox language pack (pa-IN)
+www-client/firefox-l10n-pl 52.0.1-r1: Firefox language pack (pl)
+www-client/firefox-l10n-pt-BR 52.0.1-r1: Firefox language pack (pt-BR)
+www-client/firefox-l10n-pt-PT 52.0.1-r1: Firefox language pack (pt-PT)
+www-client/firefox-l10n-rm 52.0.1-r1: Firefox language pack (rm)
+www-client/firefox-l10n-ro 52.0.1-r1: Firefox language pack (ro)
+www-client/firefox-l10n-ru 52.0.1-r1: Firefox language pack (ru)
+www-client/firefox-l10n-si 52.0.1-r1: Firefox language pack (si)
+www-client/firefox-l10n-sk 52.0.1-r1: Firefox language pack (sk)
+www-client/firefox-l10n-sl 52.0.1-r1: Firefox language pack (sl)
+www-client/firefox-l10n-son 52.0.1-r1: Firefox language pack (son)
+www-client/firefox-l10n-sq 52.0.1-r1: Firefox language pack (sq)
+www-client/firefox-l10n-sr 52.0.1-r1: Firefox language pack (sr)
+www-client/firefox-l10n-sv-SE 52.0.1-r1: Firefox language pack (sv-SE)
+www-client/firefox-l10n-ta 52.0.1-r1: Firefox language pack (ta)
+www-client/firefox-l10n-te 52.0.1-r1: Firefox language pack (te)
+www-client/firefox-l10n-th 52.0.1-r1: Firefox language pack (th)
+www-client/firefox-l10n-tr 52.0.1-r1: Firefox language pack (tr)
+www-client/firefox-l10n-uk 52.0.1-r1: Firefox language pack (uk)
+www-client/firefox-l10n-uz 52.0.1-r1: Firefox language pack (uz)
+www-client/firefox-l10n-vi 52.0.1-r1: Firefox language pack (vi)
+www-client/firefox-l10n-xh 52.0.1-r1: Firefox language pack (xh)
+www-client/firefox-l10n-zh-CN 52.0.1-r1: Firefox language pack (zh-CN)
+www-client/firefox-l10n-zh-TW 52.0.1-r1: Firefox language pack (zh-TW)
 x11-drivers/ati-drivers 13.12 14.4 14.12-r4 15.1 15.7 15.12-r1: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/ati-userspace 13.12 14.4 14.12-r3 15.1 15.7 15.12-r1: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/nvidia-drivers 304.132 304.134 340.98 340.101 367.27 370.28 375.26-r1: NVIDIA X11 userspace libraries and applications
@@ -371,7 +373,7 @@ x11-drivers/xf86-video-intel 2.21.14: X.Org driver for Intel cards
 x11-misc/lightdm 1.17.5: LightDM meta package
 x11-misc/lightdm-base 1.17.5: A lightweight display manager, base libraries and programs
 x11-misc/lightdm-gtk-greeter 2.0.1 2.0.1-r1: LightDM GTK+ Greeter
-x11-misc/lightdm-kde 0.3.2.1-r1: LightDM KDE greeter
+x11-misc/lightdm-kde 0.3.2.1-r1 0.3.2.1-r2: LightDM KDE greeter
 x11-misc/lightdm-qt4 1.17.5: Qt4 libraries for LightDM
 x11-misc/lightdm-qt5 1.17.5: Qt5 libraries for LightDM
 x11-misc/sddm 0.14.0-r1: Simple Desktop Display Manager

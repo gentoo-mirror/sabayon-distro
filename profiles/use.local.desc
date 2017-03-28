@@ -45,7 +45,6 @@ dev-vcs/git:blksha1 - Use the new optimized SHA1 implementation
 dev-vcs/git:cgi - Install gitweb too
 dev-vcs/git:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
 dev-vcs/git:gpg - Pull in gnupg for signing -- without gnupg, attempts at signing will fail at runtime!
-dev-vcs/git:gtk - Include the gitview contrib tool
 dev-vcs/git:highlight - GitWeb support for app-text/highlight
 dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
 dev-vcs/git:mediawiki-experimental - Add experimental patches for improved MediaWiki support
@@ -79,11 +78,13 @@ media-tv/xbmc:sftp - Support browsing files over SFTP
 media-tv/xbmc:vaapi - Enables VAAPI (Video Acceleration API) for hardware decoding
 media-tv/xbmc:webserver - Enable internal webserver
 media-tv/xbmc:xrandr - Support X randr extension
-net-analyzer/nmap:lua - Include support for the Nmap Scripting Engine (NSE) through dev-lang/lua
 net-analyzer/nmap:ncat - Install the ncat utility
 net-analyzer/nmap:ndiff - Install the ndiff utility
 net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
 net-analyzer/nmap:nping - Install the nping utility
+net-analyzer/nmap:nse - Include support for the Nmap Scripting Engine (NSE)
+net-analyzer/nmap:system-lua - Use dev-lang/lua instead of the bundled liblua
+net-analyzer/nmap:zenmap - Install the GTK+ based nmap GUI, zenmap
 net-dns/avahi:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
 net-dns/avahi:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
 net-dns/avahi:gtk3 - Build the avahi-ui-gtk3 library, and use gtk3 for the avahi utilities under USE=utils
