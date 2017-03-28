@@ -48,6 +48,7 @@ COMMON_DEPEND="
 	x11-libs/libXdmcp
 	x11-libs/libXext
 	x11-libs/libXft
+	x11-libs/libxcb
 	>=x11-misc/xdg-utils-1.0.2-r3
 
 	virtual/pam
@@ -151,6 +152,7 @@ src_configure() {
 
 	gnome2_src_configure \
 		--enable-gdm-xsession \
+		--enable-user-display-server \
 		--with-run-dir=/run/gdm \
 		--localstatedir="${EPREFIX}"/var \
 		--disable-static \
