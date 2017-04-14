@@ -1,14 +1,15 @@
-DEFINED_PHASES=compile configure install prepare setup unpack
-DEPEND=dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite,xml] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] ~net-analyzer/nmap-7.12
-DESCRIPTION=Graphical frontend for nmap
+DEFINED_PHASES=compile install postinst postrm preinst prepare prerm pretend setup test unpack
+DEPEND=sources_standalone? ( !=sys-kernel/linux-beaglebone-4.1 ) !sources_standalone? ( =sys-kernel/linux-beaglebone-4.1 ) !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) sys-apps/sed
+DESCRIPTION=Official Sabayon Linux Standard kernel sources for beaglebone
 EAPI=5
-HOMEPAGE=http://nmap.org/
-IUSE=nls linguas_de linguas_fr linguas_hi linguas_hr linguas_it linguas_ja linguas_pl linguas_pt_BR linguas_ru linguas_zh python_targets_python2_7
-KEYWORDS=~amd64 ~arm ~x86
-LICENSE=GPL-2
-RDEPEND=dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite,xml] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)]
-SLOT=0
-SRC_URI=http://nmap.org/dist/nmap-7.12.tar.bz2 https://dev.gentoo.org/~jer/nmap-logo-64.png
-_eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
-_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	epunt-cxx	f8073339d152f56626493f43d8ba4691	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	e7491451996e8b54c3caeb713285b0fb	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	c3e54dd0dc1e70c6252f2551a55bf053	python-utils-r1	a166d0f5815d7f1e67bb60a196f1bf7e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+HOMEPAGE=https://github.com/Sabayon/kernel
+IUSE=sources_standalone symlink build
+KEYWORDS=~arm
+LICENSE=GPL-2 freedist
+RDEPEND=!build? ( >=sys-libs/ncurses-5.2 sys-devel/make dev-lang/perl sys-devel/bc )
+RESTRICT=mirror
+SLOT=4.1
+SRC_URI=mirror://kernel/linux/kernel/v4.x/linux-4.1.tar.xz mirror://sabayon/sys-kernel/4.1-sabayon-4.1.patch.xz
+_eclass_exported_funcs=pkg_pretend:mount-boot pkg_prerm:sabayon-kernel pkg_preinst:sabayon-kernel pkg_postrm:sabayon-kernel pkg_postinst:sabayon-kernel pkg_setup:sabayon-kernel src_unpack:sabayon-kernel src_prepare:- src_compile:sabayon-kernel src_test:kernel-2 src_install:sabayon-kernel
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	epunt-cxx	f8073339d152f56626493f43d8ba4691	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	e7491451996e8b54c3caeb713285b0fb	kernel-2	7cc211cb9f869927ca267873f54d8fd5	linux-info	ca370deef9d44125d829f2eb6ebc83e0	ltprune	2770eed66a9b8ef944714cd0e968182e	mount-boot	1e82d96b7a7dcb483b412497a90bb646	multilib	0236be304ee52e7f179ed2f337075515	python-any-r1	be89e882151ba4b847089b860d79729c	python-utils-r1	a166d0f5815d7f1e67bb60a196f1bf7e	sabayon-artwork	0c7988bbdfdcc7440a68ed9df5fdff73	sabayon-kernel	fc1122967078ec7bc84d831b98a68c21	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=2522540360a4f6f1f2e19ae5a125fae4
