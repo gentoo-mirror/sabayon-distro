@@ -2,23 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-admin/conky:apcupsd - enable support for sys-power/apcupsd
-app-admin/conky:audacious - enable monitoring of music played by media-sound/audacious
-app-admin/conky:eve - enable support for the eve-online skill monitor
-app-admin/conky:iostats - enable support for per-task I/O statistics
-app-admin/conky:lua - enable if you want Lua scripting support
-app-admin/conky:lua-cairo - enable if you want Lua Cairo bindings for Conky (also enables lua support)
-app-admin/conky:lua-imlib - enable if you want Lua Imlib2 bindings for Conky (also enables lua and imlib support)
-app-admin/conky:math - enable support for glibc's libm math library
-app-admin/conky:moc - enable monitoring of music played by media-sound/moc
-app-admin/conky:mpd - enable monitoring of music controlled by media-sound/mpd
-app-admin/conky:nano-syntax - enable syntax highlighting for app-editors/nano
-app-admin/conky:nvidia - enable reading of nvidia card temperature sensors via media-video/nvidia-settings
-app-admin/conky:portmon - enable support for tcp (ip4) port monitoring
-app-admin/conky:thinkpad - enable support for IBM/Lenovo notebooks
-app-admin/conky:weather-metar - enable support for metar weather service
-app-admin/conky:weather-xoap - enable support for metar and xoap weather service
-app-admin/conky:xmms2 - enable monitoring of music played by media-sound/xmms2
 app-misc/screenfetch:X - Use the media-gfx/scrot package to take screenshots
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
 app-office/libreoffice:collada - Enable Collada for rendering 3D models stored in *.dae and *.kmz format
@@ -59,9 +42,6 @@ dev-vcs/subversion:http - Enable http support using net-libs/serf
 dev-vcs/subversion:kwallet - Enable encrypted storage of passwords with kde-apps/kwalletd
 gnome-base/gdm:fprint - Enables experimental fingerprint authentication using sys-auth/fprintd
 gnome-base/gdm:plymouth - Enable support for smooth transition from sys-boot/plymouth
-kde-misc/kcm-grub2:hwinfo - Used to work out supported framebuffer resolutions
-kde-misc/kcm-grub2:imagemagick - Create splash images compatible with GRUB2
-kde-misc/kcm-grub2:packagekit - Add support for packagekit integration
 lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
 lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
 media-tv/xbmc:airplay - enable AirPlay support
