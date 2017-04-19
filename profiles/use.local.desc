@@ -11,7 +11,6 @@ app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
-app-text/poppler:cairo-qt - Enable experimental Cairo font rasterizer for Qt4 backend.
 app-text/poppler:nss - Enable signatures handling with dev-libs/nss
 app-text/poppler:utils - Install command-line PDF converters and various utilities.
 app-text/poppler-base:nss - Enable signatures handling with dev-libs/nss
@@ -19,7 +18,6 @@ app-text/poppler-base:utils - Install command-line PDF converters and various ut
 app-text/poppler-glib:introspection - Enable GObject introspection.
 app-text/poppler-glib:nss - Enable signatures handling with dev-libs/nss
 app-text/poppler-glib:utils - Install command-line PDF converters and various utilities.
-app-text/poppler-qt4:cairo-qt - Enable experimental Cairo font rasterizer for Qt4 backend.
 app-text/poppler-qt4:nss - Enable signatures handling with dev-libs/nss
 app-text/poppler-qt4:utils - Install command-line PDF converters and various utilities.
 app-text/poppler-qt5:nss - Enable signatures handling with dev-libs/nss
