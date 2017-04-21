@@ -3,14 +3,6 @@
 # * generated automatically using pmaint *
 
 app-misc/screenfetch:X - Use the media-gfx/scrot package to take screenshots
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:collada - Enable Collada for rendering 3D models stored in *.dae and *.kmz format
-app-office/libreoffice:gltf - Use media-libs/libgltf for inserting 3D models in the glTF format into presentations
-app-office/libreoffice:gtk3 - Enable highly experimental gtk3 frontend
-app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
-app-office/libreoffice:vlc - Use media-video/vlc for video embedding
 app-text/poppler:nss - Enable signatures handling with dev-libs/nss
 app-text/poppler:utils - Install command-line PDF converters and various utilities.
 app-text/poppler-base:nss - Enable signatures handling with dev-libs/nss
