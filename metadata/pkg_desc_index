@@ -159,57 +159,57 @@ dev-vcs/subversion 1.9.4 1.9.5: Advanced version control system
 dev-vcs/subversion-java 1.9.4 1.9.5: Java bindings for Subversion
 gnome-base/gdm 3.20.1 3.22.1-r1 3.22.3: GNOME Display Manager for managing graphical display servers and user logins
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
-kde-apps/kde-l10n 16.08.3 16.12.3: KDE internationalization package meta includer
-kde-apps/kde-l10n-ar 16.08.3 16.12.3: KDE Arabic localization package
-kde-apps/kde-l10n-bg 16.08.3 16.12.3: KDE Bulgarian localization package
-kde-apps/kde-l10n-bs 16.08.3 16.12.3: KDE Bosnian localization package
-kde-apps/kde-l10n-ca 16.08.3 16.12.3: KDE Catalan localization package
-kde-apps/kde-l10n-cs 16.08.3 16.12.3: KDE Czech localization package
-kde-apps/kde-l10n-da 16.08.3 16.12.3: KDE Danish localization package
-kde-apps/kde-l10n-de 16.08.3 16.12.3: KDE German localization package
-kde-apps/kde-l10n-el 16.08.3 16.12.3: KDE Greek localization package
-kde-apps/kde-l10n-en_GB 16.08.3 16.12.3: KDE British English localization package
-kde-apps/kde-l10n-es 16.08.3 16.12.3: KDE Spanish localization package
-kde-apps/kde-l10n-et 16.08.3 16.12.3: KDE Estonian localization package
-kde-apps/kde-l10n-eu 16.08.3 16.12.3: KDE Basque localization package
-kde-apps/kde-l10n-fi 16.08.3 16.12.3: KDE Finnish localization package
-kde-apps/kde-l10n-fr 16.08.3 16.12.3: KDE French localization package
-kde-apps/kde-l10n-ga 16.08.3 16.12.3: KDE Irish localization package
-kde-apps/kde-l10n-gl 16.08.3 16.12.3: KDE Galician localization package
-kde-apps/kde-l10n-he 16.08.3 16.12.3: KDE Hebrew localization package
-kde-apps/kde-l10n-hi 16.08.3 16.12.3: KDE Hindi localization package
-kde-apps/kde-l10n-hr 16.08.3 16.12.3: KDE Croatian localization package
-kde-apps/kde-l10n-hu 16.08.3 16.12.3: KDE Hungarian localization package
-kde-apps/kde-l10n-ia 16.08.3 16.12.3: KDE Interlingua localization package
-kde-apps/kde-l10n-is 16.08.3 16.12.3: KDE Icelandic localization package
-kde-apps/kde-l10n-it 16.08.3 16.12.3: KDE Italian localization package
-kde-apps/kde-l10n-ja 16.08.3 16.12.3: KDE Japanese localization package
-kde-apps/kde-l10n-kk 16.08.3 16.12.3: KDE Kazakh localization package
-kde-apps/kde-l10n-km 16.08.3 16.12.3: KDE Khmer (Cambodia) localization package
-kde-apps/kde-l10n-ko 16.08.3 16.12.3: KDE Korean localization package
-kde-apps/kde-l10n-lt 16.08.3 16.12.3: KDE Lithuanian localization package
-kde-apps/kde-l10n-lv 16.08.3 16.12.3: KDE Latvian localization package
-kde-apps/kde-l10n-mr 16.08.3 16.12.3: KDE Marathi localization package
-kde-apps/kde-l10n-nb 16.08.3 16.12.3: KDE Norwegian localization package
-kde-apps/kde-l10n-nds 16.08.3 16.12.3: KDE Low Saxon localization package
-kde-apps/kde-l10n-nl 16.08.3 16.12.3: KDE Dutch localization package
-kde-apps/kde-l10n-nn 16.08.3 16.12.3: KDE Norwegian localization package
-kde-apps/kde-l10n-pa 16.08.3 16.12.3: KDE Punjabi localization package
-kde-apps/kde-l10n-pl 16.08.3 16.12.3: KDE Poland localization package
-kde-apps/kde-l10n-pt 16.08.3 16.12.3: KDE Portuguese localization package
-kde-apps/kde-l10n-pt_BR 16.08.3 16.12.3: KDE Portuguese (Brazilian) localization package
-kde-apps/kde-l10n-ro 16.08.3 16.12.3: KDE Romanian localization package
-kde-apps/kde-l10n-ru 16.08.3 16.12.3: KDE Russian localization package
-kde-apps/kde-l10n-sk 16.08.3 16.12.3: KDE Slovak localization package
-kde-apps/kde-l10n-sl 16.08.3 16.12.3: KDE Slovenian localization package
-kde-apps/kde-l10n-sr 16.08.3 16.12.3: KDE Serbian localization package
-kde-apps/kde-l10n-sv 16.08.3 16.12.3: KDE Swedish localization package
-kde-apps/kde-l10n-tr 16.08.3 16.12.3: KDE Turkish localization package
-kde-apps/kde-l10n-ug 16.08.3 16.12.3: KDE Uyghur localization package
-kde-apps/kde-l10n-uk 16.08.3 16.12.3: KDE Ukrainian localization package
-kde-apps/kde-l10n-wa 16.08.3 16.12.3: KDE Walloon localization package
-kde-apps/kde-l10n-zh_CN 16.08.3 16.12.3: KDE Chinese (Simplified) localization package
-kde-apps/kde-l10n-zh_TW 16.08.3 16.12.3: KDE Chinese (traditional) localization package
+kde-apps/kde-l10n 16.08.3 16.12.3 17.04.0: KDE internationalization package meta includer
+kde-apps/kde-l10n-ar 16.08.3 16.12.3 17.04.0: KDE Arabic localization package
+kde-apps/kde-l10n-bg 16.08.3 16.12.3 17.04.0: KDE Bulgarian localization package
+kde-apps/kde-l10n-bs 16.08.3 16.12.3 17.04.0: KDE Bosnian localization package
+kde-apps/kde-l10n-ca 16.08.3 16.12.3 17.04.0: KDE Catalan localization package
+kde-apps/kde-l10n-cs 16.08.3 16.12.3 17.04.0: KDE Czech localization package
+kde-apps/kde-l10n-da 16.08.3 16.12.3 17.04.0: KDE Danish localization package
+kde-apps/kde-l10n-de 16.08.3 16.12.3 17.04.0: KDE German localization package
+kde-apps/kde-l10n-el 16.08.3 16.12.3 17.04.0: KDE Greek localization package
+kde-apps/kde-l10n-en_GB 16.08.3 16.12.3 17.04.0: KDE British English localization package
+kde-apps/kde-l10n-es 16.08.3 16.12.3 17.04.0: KDE Spanish localization package
+kde-apps/kde-l10n-et 16.08.3 16.12.3 17.04.0: KDE Estonian localization package
+kde-apps/kde-l10n-eu 16.08.3 16.12.3 17.04.0: KDE Basque localization package
+kde-apps/kde-l10n-fi 16.08.3 16.12.3 17.04.0: KDE Finnish localization package
+kde-apps/kde-l10n-fr 16.08.3 16.12.3 17.04.0: KDE French localization package
+kde-apps/kde-l10n-ga 16.08.3 16.12.3 17.04.0: KDE Irish localization package
+kde-apps/kde-l10n-gl 16.08.3 16.12.3 17.04.0: KDE Galician localization package
+kde-apps/kde-l10n-he 16.08.3 16.12.3 17.04.0: KDE Hebrew localization package
+kde-apps/kde-l10n-hi 16.08.3 16.12.3 17.04.0: KDE Hindi localization package
+kde-apps/kde-l10n-hr 16.08.3 16.12.3 17.04.0: KDE Croatian localization package
+kde-apps/kde-l10n-hu 16.08.3 16.12.3 17.04.0: KDE Hungarian localization package
+kde-apps/kde-l10n-ia 16.08.3 16.12.3 17.04.0: KDE Interlingua localization package
+kde-apps/kde-l10n-is 16.08.3 16.12.3 17.04.0: KDE Icelandic localization package
+kde-apps/kde-l10n-it 16.08.3 16.12.3 17.04.0: KDE Italian localization package
+kde-apps/kde-l10n-ja 16.08.3 16.12.3 17.04.0: KDE Japanese localization package
+kde-apps/kde-l10n-kk 16.08.3 16.12.3 17.04.0: KDE Kazakh localization package
+kde-apps/kde-l10n-km 16.08.3 16.12.3 17.04.0: KDE Khmer (Cambodia) localization package
+kde-apps/kde-l10n-ko 16.08.3 16.12.3 17.04.0: KDE Korean localization package
+kde-apps/kde-l10n-lt 16.08.3 16.12.3 17.04.0: KDE Lithuanian localization package
+kde-apps/kde-l10n-lv 16.08.3 16.12.3 17.04.0: KDE Latvian localization package
+kde-apps/kde-l10n-mr 16.08.3 16.12.3 17.04.0: KDE Marathi localization package
+kde-apps/kde-l10n-nb 16.08.3 16.12.3 17.04.0: KDE Norwegian localization package
+kde-apps/kde-l10n-nds 16.08.3 16.12.3 17.04.0: KDE Low Saxon localization package
+kde-apps/kde-l10n-nl 16.08.3 16.12.3 17.04.0: KDE Dutch localization package
+kde-apps/kde-l10n-nn 16.08.3 16.12.3 17.04.0: KDE Norwegian localization package
+kde-apps/kde-l10n-pa 16.08.3 16.12.3 17.04.0: KDE Punjabi localization package
+kde-apps/kde-l10n-pl 16.08.3 16.12.3 17.04.0: KDE Poland localization package
+kde-apps/kde-l10n-pt 16.08.3 16.12.3 17.04.0: KDE Portuguese localization package
+kde-apps/kde-l10n-pt_BR 16.08.3 16.12.3 17.04.0: KDE Portuguese (Brazilian) localization package
+kde-apps/kde-l10n-ro 16.08.3 16.12.3 17.04.0: KDE Romanian localization package
+kde-apps/kde-l10n-ru 16.08.3 16.12.3 17.04.0: KDE Russian localization package
+kde-apps/kde-l10n-sk 16.08.3 16.12.3 17.04.0: KDE Slovak localization package
+kde-apps/kde-l10n-sl 16.08.3 16.12.3 17.04.0: KDE Slovenian localization package
+kde-apps/kde-l10n-sr 16.08.3 16.12.3 17.04.0: KDE Serbian localization package
+kde-apps/kde-l10n-sv 16.08.3 16.12.3 17.04.0: KDE Swedish localization package
+kde-apps/kde-l10n-tr 16.08.3 16.12.3 17.04.0: KDE Turkish localization package
+kde-apps/kde-l10n-ug 16.08.3 16.12.3 17.04.0: KDE Uyghur localization package
+kde-apps/kde-l10n-uk 16.08.3 16.12.3 17.04.0: KDE Ukrainian localization package
+kde-apps/kde-l10n-wa 16.08.3 16.12.3 17.04.0: KDE Walloon localization package
+kde-apps/kde-l10n-zh_CN 16.08.3 16.12.3 17.04.0: KDE Chinese (Simplified) localization package
+kde-apps/kde-l10n-zh_TW 16.08.3 16.12.3 17.04.0: KDE Chinese (traditional) localization package
 kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
 lxde-base/lxdm 0.4.1-r9 0.5.3: LXDE Display Manager
 lxde-base/lxpanel 0.7.0-r1 0.8.2: Lightweight X11 desktop panel for LXDE
