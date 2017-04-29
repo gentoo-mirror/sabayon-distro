@@ -172,3 +172,4 @@ x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
 x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
 x11-misc/lightdm-base:introspection - Use dev-libs/gobject-introspection for introspection
+x11-wm/awesome:luajit - Use dev-lang/luajit instead of dev-lang/lua
