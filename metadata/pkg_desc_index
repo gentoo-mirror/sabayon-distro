@@ -210,6 +210,7 @@ kde-apps/kde-l10n-uk 16.08.3 16.12.3: KDE Ukrainian localization package
 kde-apps/kde-l10n-wa 16.08.3 16.12.3: KDE Walloon localization package
 kde-apps/kde-l10n-zh_CN 16.08.3 16.12.3: KDE Chinese (Simplified) localization package
 kde-apps/kde-l10n-zh_TW 16.08.3 16.12.3: KDE Chinese (traditional) localization package
+kde-apps/pykde4 4.14.3-r1 4.14.3-r2 4.14.3-r3: Python bindings for kdelibs-4
 kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
 lxde-base/lxdm 0.4.1-r9 0.5.3: LXDE Display Manager
 lxde-base/lxpanel 0.7.0-r1 0.8.2: Lightweight X11 desktop panel for LXDE
