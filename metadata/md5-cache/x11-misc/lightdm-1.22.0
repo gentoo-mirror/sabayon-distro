@@ -1,0 +1,13 @@
+DEFINED_PHASES=-
+DEPEND=~x11-misc/lightdm-base-1.22.0[introspection=] qt4? ( ~x11-misc/lightdm-qt4-1.22.0 ) qt5? ( ~x11-misc/lightdm-qt5-1.22.0 )
+DESCRIPTION=LightDM meta package
+EAPI=6
+HOMEPAGE=https://www.freedesktop.org/wiki/Software/LightDM
+IUSE=audit +gtk +introspection kde qt4 qt5 +gnome
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-3 LGPL-3
+PDEPEND=gtk? ( x11-misc/lightdm-gtk-greeter ) kde? ( x11-misc/lightdm-kde )
+RDEPEND=~x11-misc/lightdm-base-1.22.0[introspection=] qt4? ( ~x11-misc/lightdm-qt4-1.22.0 ) qt5? ( ~x11-misc/lightdm-qt5-1.22.0 )
+SLOT=0
+_eclass_exported_funcs=-
+_md5_=b46e2c9659acdc835768d570b937b8f1

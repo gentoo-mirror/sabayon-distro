@@ -369,12 +369,12 @@ x11-drivers/nvidia-drivers 304.132 304.134 340.98 340.101 367.27 370.28 375.26-r
 x11-drivers/nvidia-userspace 304.132 304.134 340.98 340.101 367.27 370.28 375.26: NVIDIA X11 userspace libraries and applications
 x11-drivers/pvr-omap4 1.7.10.0.1.9: PowerVR SGX540 libraries for OMAP4
 x11-drivers/xf86-video-intel 2.21.14: X.Org driver for Intel cards
-x11-misc/lightdm 1.17.5: LightDM meta package
-x11-misc/lightdm-base 1.17.5: A lightweight display manager, base libraries and programs
+x11-misc/lightdm 1.22.0: LightDM meta package
+x11-misc/lightdm-base 1.22.0: A lightweight display manager, base libraries and programs
 x11-misc/lightdm-gtk-greeter 2.0.1 2.0.1-r1: LightDM GTK+ Greeter
 x11-misc/lightdm-kde 0.3.2.1-r1 0.3.2.1-r2: LightDM KDE greeter
-x11-misc/lightdm-qt4 1.17.5: Qt4 libraries for LightDM
-x11-misc/lightdm-qt5 1.17.5: Qt5 libraries for LightDM
+x11-misc/lightdm-qt4 1.22.0: Qt4 libraries for LightDM
+x11-misc/lightdm-qt5 1.22.0: Qt5 libraries for LightDM
 x11-misc/sddm 0.14.0-r1: Simple Desktop Display Manager
 x11-themes/gnome-colors-common 5.5.1-r12: Colorized icons shared between all gnome-colors iconsets
 x11-themes/sabayon-artwork-core 11-r4 12 13 13-r1 13-r2 14 14-r1 14-r2: Official Sabayon Linux Core Artwork
