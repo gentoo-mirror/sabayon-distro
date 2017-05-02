@@ -371,7 +371,7 @@ x11-drivers/pvr-omap4 1.7.10.0.1.9: PowerVR SGX540 libraries for OMAP4
 x11-drivers/xf86-video-intel 2.21.14: X.Org driver for Intel cards
 x11-misc/lightdm 1.22.0: LightDM meta package
 x11-misc/lightdm-base 1.22.0: A lightweight display manager, base libraries and programs
-x11-misc/lightdm-gtk-greeter 2.0.1 2.0.1-r1: LightDM GTK+ Greeter
+x11-misc/lightdm-gtk-greeter 2.0.1-r1 2.0.2: LightDM GTK+ Greeter
 x11-misc/lightdm-kde 0.3.2.1-r1 0.3.2.1-r2: LightDM KDE greeter
 x11-misc/lightdm-qt4 1.22.0: Qt4 libraries for LightDM
 x11-misc/lightdm-qt5 1.22.0: Qt5 libraries for LightDM
