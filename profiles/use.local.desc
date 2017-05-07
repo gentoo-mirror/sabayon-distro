@@ -155,13 +155,13 @@ x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC 
 x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
 x11-drivers/nvidia-drivers:driver - Install the kernel driver module
 x11-drivers/nvidia-drivers:gtk3 - Install nvidia-settings with support for GTK+ 3
+x11-drivers/nvidia-drivers:kms - Enable KMS support.
 x11-drivers/nvidia-drivers:pax_kernel - PaX patches from the PaX project
 x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings
 x11-drivers/nvidia-drivers:uvm - Install the Unified Memory kernel module (nvidia-uvm) for sharing memory between CPU and GPU in CUDA programs
 x11-drivers/nvidia-drivers:x-multilib - Old multilib flag for x
 x11-drivers/nvidia-userspace:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
 x11-drivers/nvidia-userspace:compat - Install non-GLVND libGL for backwards compatibility
-x11-drivers/nvidia-userspace:driver - Install the kernel driver module
 x11-drivers/nvidia-userspace:gtk3 - Install nvidia-settings with support for GTK+ 3
 x11-drivers/nvidia-userspace:pax_kernel - PaX patches from the PaX project
 x11-drivers/nvidia-userspace:tools - Install additional tools such as nvidia-settings
