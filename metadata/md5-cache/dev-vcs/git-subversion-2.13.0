@@ -6,10 +6,10 @@ HOMEPAGE=http://www.git-scm.com/
 IUSE=doc iconv nls +threads python_targets_python2_7
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=~dev-vcs/git-2.12.0[-subversion,perl] dev-perl/Error dev-perl/Net-SMTP-SSL dev-perl/Authen-SASL dev-vcs/subversion[-dso,perl] dev-perl/libwww-perl dev-perl/TermReadKey python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)]
+RDEPEND=~dev-vcs/git-2.13.0[-subversion,perl] dev-perl/Error dev-perl/Net-SMTP-SSL dev-perl/Authen-SASL dev-vcs/subversion[-dso,perl] dev-perl/libwww-perl dev-perl/TermReadKey python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)]
 REQUIRED_USE=python_targets_python2_7
 SLOT=0
-SRC_URI=mirror://kernel/software/scm/git/git-2.12.0.tar.xz mirror://kernel/software/scm/git/git-manpages-2.12.0.tar.xz doc? ( mirror://kernel/software/scm/git/git-htmldocs-2.12.0.tar.xz ) mirror://sabayon/dev-vcs/git/git-2.12.0-Gentoo-patches.tar.gz
+SRC_URI=mirror://kernel/software/scm/git/git-2.13.0.tar.xz mirror://kernel/software/scm/git/git-manpages-2.13.0.tar.xz doc? ( mirror://kernel/software/scm/git/git-htmldocs-2.13.0.tar.xz ) mirror://sabayon/dev-vcs/git/git-2.12.0-Gentoo-patches.tar.gz
 _eclass_exported_funcs=pkg_setup:python-single-r1 src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	c3e54dd0dc1e70c6252f2551a55bf053	python-utils-r1	c11fc374357e6ad9ddfe2e9f931e4d29	sab-patches	e8855698f62c2b112c8ea7465174ccd9	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=1c55dbcf81122a6e0796289ff936a298
+_md5_=37620f5dc40a14395403705b80bf2301
