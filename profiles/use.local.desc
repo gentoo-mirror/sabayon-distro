@@ -82,8 +82,6 @@ net-irc/quassel-client:crypt - Support core->network per-channel and per-query b
 net-irc/quassel-client:phonon - Build client with phonon backend support. This enables sound playback in client.
 net-irc/quassel-client:snorenotify - Support for snore notification framework.
 net-irc/quassel-client:webkit - Use qt-webkit rendering engine for showing URL thumbnails and for other things that need web browser integration.
-net-misc/hylafax:html - Adds HTML documentation
-net-misc/hylafax:mgetty - Adds support for mgetty and vgetty
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
 net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 net-p2p/transmission-base:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
