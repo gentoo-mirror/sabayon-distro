@@ -362,7 +362,6 @@ www-client/firefox-l10n-zh-CN 53.0: Firefox language pack (zh-CN)
 www-client/firefox-l10n-zh-TW 53.0: Firefox language pack (zh-TW)
 x11-drivers/nvidia-drivers 304.134 304.135 340.101 340.102 375.26-r1 381.09: NVIDIA X11 userspace libraries and applications
 x11-drivers/nvidia-userspace 304.134 304.135 340.101 340.102 375.26 381.09: NVIDIA X11 userspace libraries and applications
-x11-drivers/pvr-omap4 1.7.10.0.1.9: PowerVR SGX540 libraries for OMAP4
 x11-drivers/xf86-video-intel 2.21.14: X.Org driver for Intel cards
 x11-misc/lightdm 1.22.0: LightDM meta package
 x11-misc/lightdm-base 1.22.0: A lightweight display manager, base libraries and programs
