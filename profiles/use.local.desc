@@ -34,20 +34,6 @@ gnome-base/gdm:fprint - Enables experimental fingerprint authentication using sy
 gnome-base/gdm:plymouth - Enable support for smooth transition from sys-boot/plymouth
 lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
 lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
-media-tv/xbmc:airplay - enable AirPlay support
-media-tv/xbmc:bluray - Enable playback of Blu-ray filesystems
-media-tv/xbmc:cec - Enable support for HDMI-CEC devices via libcec
-media-tv/xbmc:goom - Enable GOOM visualization plugin
-media-tv/xbmc:midi - Support MIDI files
-media-tv/xbmc:nfs - Enable NFS client support
-media-tv/xbmc:projectm - Enable projectM visualization plugin
-media-tv/xbmc:pvr - Enable MythTV support
-media-tv/xbmc:rsxs - Enable really slick X screensavers
-media-tv/xbmc:rtmp - Enable Real Time Messaging Protocol using librtmp
-media-tv/xbmc:sftp - Support browsing files over SFTP
-media-tv/xbmc:vaapi - Enables VAAPI (Video Acceleration API) for hardware decoding
-media-tv/xbmc:webserver - Enable internal webserver
-media-tv/xbmc:xrandr - Support X randr extension
 net-analyzer/nmap:ncat - Install the ncat utility
 net-analyzer/nmap:ndiff - Install the ndiff utility
 net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
@@ -162,9 +148,5 @@ x11-drivers/nvidia-userspace:pax_kernel - PaX patches from the PaX project
 x11-drivers/nvidia-userspace:tools - Install additional tools such as nvidia-settings
 x11-drivers/nvidia-userspace:uvm - Install the Unified Memory kernel module (nvidia-uvm) for sharing memory between CPU and GPU in CUDA programs
 x11-drivers/nvidia-userspace:x-multilib - Old multilib flag for x
-x11-drivers/xf86-video-intel:glamor - Enable Glamor OpenGL 2D acceleration
-x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
-x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
-x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
 x11-misc/lightdm-base:introspection - Use dev-libs/gobject-introspection for introspection
 x11-wm/awesome:luajit - Use dev-lang/luajit instead of dev-lang/lua
