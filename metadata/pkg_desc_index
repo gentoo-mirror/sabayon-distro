@@ -247,7 +247,7 @@ net-print/xerox-phaser6000-drivers 20110222 20110222-r1: CUPS filters and driver
 sys-apps/baselayout 2.2-r1: Filesystem baselayout and init scripts
 sys-apps/cookbug 0.4: Sabayon Bug Report hardware information collector
 sys-apps/lsb-release 1.4: LSB version query program
-sys-apps/systemd 226-r2 228-r1 230-r2 231: System and service manager for Linux
+sys-apps/systemd 226-r2 228-r1 230-r2 231 233-r1: System and service manager for Linux
 sys-boot/efibootmgr 0.12: User-space application to modify the EFI boot manager
 sys-boot/grub 0.97-r22 2.00-r6 2.00-r8 2.02_beta2-r9 2.02_beta3-r1: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
