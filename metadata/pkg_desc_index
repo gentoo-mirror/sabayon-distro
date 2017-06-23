@@ -137,11 +137,11 @@ app-office/libreoffice-l10n-zh_CN 5.2.6.2 5.2.7.2: LibreOffice.org Chinese (simp
 app-office/libreoffice-l10n-zh_TW 5.2.6.2 5.2.7.2: LibreOffice.org Chinese (traditional) localisation
 app-office/libreoffice-l10n-zu 5.2.6.2 5.2.7.2: LibreOffice.org Zulu localisation
 app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
-app-text/poppler 0.55.0-r1: PDF rendering library based on the xpdf-3.0 code base (meta package)
-app-text/poppler-base 0.55.0-r1: PDF rendering library based on the xpdf-3.0 code base
-app-text/poppler-glib 0.55.0-r1: Glib bindings for poppler
-app-text/poppler-qt4 0.55.0-r1: Qt4 bindings for poppler
-app-text/poppler-qt5 0.55.0-r1: Qt5 bindings for poppler
+app-text/poppler 0.56.0: PDF rendering library based on the xpdf-3.0 code base (meta package)
+app-text/poppler-base 0.56.0: PDF rendering library based on the xpdf-3.0 code base
+app-text/poppler-glib 0.56.0: Glib bindings for poppler
+app-text/poppler-qt4 0.56.0: Qt4 bindings for poppler
+app-text/poppler-qt5 0.56.0: Qt5 bindings for poppler
 dev-libs/libcec-raspberrypi 3.1.0 4.0.0_p3: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.
 dev-libs/libtimezonemap 0.4.1: GTK+3 timezone map widget used by the Unity desktop
