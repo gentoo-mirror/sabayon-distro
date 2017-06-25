@@ -208,14 +208,12 @@ kde-apps/kde-l10n-uk 16.08.3 16.12.3: KDE Ukrainian localization package
 kde-apps/kde-l10n-wa 16.08.3 16.12.3: KDE Walloon localization package
 kde-apps/kde-l10n-zh_CN 16.08.3 16.12.3: KDE Chinese (Simplified) localization package
 kde-apps/kde-l10n-zh_TW 16.08.3 16.12.3: KDE Chinese (traditional) localization package
-kde-misc/about-distro 1.1.0: KCM displaying distribution and system information
 lxde-base/lxdm 0.4.1-r9 0.5.3: LXDE Display Manager
 lxde-base/lxpanel 0.7.0-r1 0.8.2: Lightweight X11 desktop panel for LXDE
 media-fonts/animal-tracks 1.0: Animal Tracks by Andrew D. Taylor
 media-fonts/asenine 1.0: Asenine Fonts by Graham Meade of Apostrophic Labs
 media-fonts/cicle 1.0: Cicle Fonts by Joan Alegret (Tipomatika)
 media-fonts/sabayon-fonts 1.0: Meta Package to install the Sabayon Artwork fonts
-media-gfx/splashutils 1.5.4.4-r1: Framebuffer splash utilities.
 media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
 media-libs/jackd-firewire 0.124.1 0.125.0: FFADO backend for JACK Audio Connection Kit
 media-libs/libvpx 1.5.0-r1: WebM VP8 Codec SDK
@@ -362,7 +360,6 @@ x11-drivers/nvidia-userspace 304.134 304.135 340.101 340.102 375.26 381.09: NVID
 x11-misc/lightdm 1.22.0: LightDM meta package
 x11-misc/lightdm-base 1.22.0: A lightweight display manager, base libraries and programs
 x11-misc/lightdm-gtk-greeter 2.0.1-r1 2.0.2: LightDM GTK+ Greeter
-x11-misc/lightdm-kde 0.3.2.1-r1 0.3.2.1-r2: LightDM KDE greeter
 x11-misc/lightdm-qt4 1.22.0: Qt4 libraries for LightDM
 x11-misc/lightdm-qt5 1.22.0: Qt5 libraries for LightDM
 x11-misc/sddm 0.14.0-r1: Simple Desktop Display Manager
@@ -373,7 +370,6 @@ x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
 x11-themes/sabayon-artwork-gnome 11-r2 12 13 14 14-r4 15 15-r1: Sabayon Linux Official GNOME artwork
 x11-themes/sabayon-artwork-grub 11 12-r1 13 14 14-r1: Sabayon GRUB2 background images
 x11-themes/sabayon-artwork-isolinux 11 12-r1 13 14 14-r1: Sabayon Isolinux Live Images Background
-x11-themes/sabayon-artwork-loo 11 12 13 14: Sabayon LibreOffice Artwork
 x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
 x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
 x11-themes/sabayon-artwork-nostalgia 14: Official Sabayon Linux Nostalgia Wallpapers Artwork
