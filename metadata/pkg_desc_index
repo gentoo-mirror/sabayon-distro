@@ -209,7 +209,7 @@ kde-apps/kde-l10n-wa 16.08.3 16.12.3: KDE Walloon localization package
 kde-apps/kde-l10n-zh_CN 16.08.3 16.12.3: KDE Chinese (Simplified) localization package
 kde-apps/kde-l10n-zh_TW 16.08.3 16.12.3: KDE Chinese (traditional) localization package
 lxde-base/lxdm 0.4.1-r9 0.5.3: LXDE Display Manager
-lxde-base/lxpanel 0.7.0-r1 0.8.2: Lightweight X11 desktop panel for LXDE
+lxde-base/lxpanel 0.8.2 0.9.3: Lightweight X11 desktop panel for LXDE
 media-fonts/animal-tracks 1.0: Animal Tracks by Andrew D. Taylor
 media-fonts/asenine 1.0: Asenine Fonts by Graham Meade of Apostrophic Labs
 media-fonts/cicle 1.0: Cicle Fonts by Joan Alegret (Tipomatika)
