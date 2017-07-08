@@ -23,7 +23,7 @@ app-misc/sabayon-greeter 0.9: Sabayon Welcome screen
 app-misc/sabayon-live 20: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-mce-rpi 0.1: RaspberryPi MCE package
-app-misc/sabayon-sark 0.9.7: Sabayon Automated Repository Kit
+app-misc/sabayon-sark 0.9.8: Sabayon Automated Repository Kit
 app-misc/sabayon-skel 16-r5: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
 app-misc/sabayon-version 16.01 16.02 16.07 16.08 16.09 16.10 16.11 16.12 17.03 17.04 17.04-r1 17.05 17.06 17.06-r1 17.07 17.08: Sabayon system release virtual package
@@ -149,6 +149,7 @@ dev-python/pygobject 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for P
 dev-python/pygobject-base 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python
 dev-python/pygobject-cairo 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 1.0.10: A python module for system storage configuration
+dev-python/shyaml 0.5.0: YAML for command line
 dev-vcs/git 2.13.1 2.13.2: stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-cvs 2.13.1 2.13.2: CVS module for git
 dev-vcs/git-gui-tools 2.13.1 2.13.2: GUI tools derived from git: gitk, git-gui and gitview
