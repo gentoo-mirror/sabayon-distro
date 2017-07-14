@@ -150,10 +150,10 @@ dev-python/pygobject-base 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings 
 dev-python/pygobject-cairo 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 1.0.10: A python module for system storage configuration
 dev-python/shyaml 0.5.0: YAML for command line
-dev-vcs/git 2.13.1 2.13.2: stupid content tracker: distributed VCS designed for speed and efficiency
-dev-vcs/git-cvs 2.13.1 2.13.2: CVS module for git
-dev-vcs/git-gui-tools 2.13.1 2.13.2: GUI tools derived from git: gitk, git-gui and gitview
-dev-vcs/git-subversion 2.13.1 2.13.2: Subversion module for git
+dev-vcs/git 2.13.2 2.13.3: stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git-cvs 2.13.2 2.13.3: CVS module for git
+dev-vcs/git-gui-tools 2.13.2 2.13.3: GUI tools derived from git: gitk, git-gui and gitview
+dev-vcs/git-subversion 2.13.2 2.13.3: Subversion module for git
 dev-vcs/subversion 1.9.4 1.9.5: Advanced version control system
 dev-vcs/subversion-java 1.9.4 1.9.5: Java bindings for Subversion
 gnome-base/gdm 3.22.1-r1 3.22.3 3.22.3-r1: GNOME Display Manager for managing graphical display servers and user logins
@@ -264,7 +264,7 @@ sys-libs/libsepol 2.3: SELinux binary policy representation library
 virtual/fortran 0: Virtual for Fortran Compiler
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
 www-apache/mod_dav_svn 1.9.4 1.9.5: Subversion WebDAV support
-www-apps/gitweb 2.13.1 2.13.2: A web interface to git
+www-apps/gitweb 2.13.2 2.13.3: A web interface to git
 www-client/firefox-l10n-ach 54.0.1: Firefox language pack (ach)
 www-client/firefox-l10n-af 54.0.1: Firefox language pack (af)
 www-client/firefox-l10n-an 54.0.1: Firefox language pack (an)
