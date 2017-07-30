@@ -1,4 +1,4 @@
-app-admin/anaconda 22.8 22.8-r6 22.9 22.9-r1 9999: Sabayon Redhat Anaconda Installer Port
+app-admin/anaconda 22.8 22.8-r6 22.9 22.9-r2 9999: Sabayon Redhat Anaconda Installer Port
 app-admin/enman 1.3.6: a layman equivalent for entropy repositories
 app-crypt/pinentry 0.9.5 0.9.7-r1: Simple passphrase entry dialogs which utilize the Assuan protocol (meta package)
 app-crypt/pinentry-base 0.9.5 0.9.7-r1: Simple passphrase entry dialogs which utilize the Assuan protocol
