@@ -26,7 +26,7 @@ app-misc/sabayon-mce-rpi 0.1: RaspberryPi MCE package
 app-misc/sabayon-sark 0.9.9: Sabayon Automated Repository Kit
 app-misc/sabayon-skel 16-r5: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
-app-misc/sabayon-version 16.01 16.02 16.07 16.08 16.09 16.10 16.11 16.12 17.03 17.04 17.04-r1 17.05 17.06 17.06-r1 17.07 17.08: Sabayon system release virtual package
+app-misc/sabayon-version 16.01 16.02 16.07 16.08 16.09 16.10 16.11 16.12 17.03 17.04 17.04-r1 17.05 17.06 17.06-r1 17.07 17.08 17.09: Sabayon system release virtual package
 app-misc/screenfetch 3.8.0: Bash Screenshot Information Tool
 app-office/libreoffice-l10n-af 5.2.6.2 5.2.7.2: LibreOffice.org Afrikaans localisation
 app-office/libreoffice-l10n-am 5.2.6.2 5.2.7.2: LibreOffice.org Amharic localisation
