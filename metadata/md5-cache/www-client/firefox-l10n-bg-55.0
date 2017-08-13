@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Firefox language pack (bg)
+EAPI=4
+HOMEPAGE=http://www.mozilla.com/firefox
+IUSE=l10n_bg
+KEYWORDS=~amd64 ~x86
+LICENSE=MPL-2.0 GPL-2 LGPL-2.1
+RDEPEND=!<www-client/firefox-55.0
+SLOT=0
+SRC_URI=l10n_bg? ( ftp://ftp.mozilla.org/pub/firefox/releases//55.0/linux-i686/xpi/bg.xpi -> firefox-55.0-bg.xpi )
+_eclass_exported_funcs=src_unpack:mozlinguas-v2 src_compile:mozlinguas-v2 src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	firefox-l10n	9e0198789c42dfccb75848cbef1e214c	ltprune	2770eed66a9b8ef944714cd0e968182e	mozextension	e5d920147bfccf4930062e462e2a417d	mozlinguas-v2	e3c0b93bb284269205def793bf37bef5	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=46f747befcd5a0ac14793c7222a65853
