@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DEPEND=qt4? ( =dev-python/qscintilla-python-qt4-2.10 ) qt5? ( =dev-python/qscintilla-python-qt5-2.10 )
+DESCRIPTION=Meta package for qscintilla-python (install qscintilla-python-qt4 or qscintilla-python-qt5 instead)
+EAPI=6
+HOMEPAGE=https://www.riverbankcomputing.com/software/qscintilla/intro
+IUSE=debug +qt4 qt5
+KEYWORDS=~amd64 ~x86
+LICENSE=metapackage
+RDEPEND=qt4? ( =dev-python/qscintilla-python-qt4-2.10 ) !qt4? ( =dev-python/qscintilla-python-qt5-2.10 )
+SLOT=0
+_eclass_exported_funcs=-
+_md5_=ff178c95196dd2f5b675126c17381721
