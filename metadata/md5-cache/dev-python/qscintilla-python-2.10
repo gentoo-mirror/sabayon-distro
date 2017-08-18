@@ -3,10 +3,11 @@ DEPEND=qt4? ( =dev-python/qscintilla-python-qt4-2.10 ) qt5? ( =dev-python/qscint
 DESCRIPTION=Meta package for qscintilla-python (install qscintilla-python-qt4 or qscintilla-python-qt5 instead)
 EAPI=6
 HOMEPAGE=https://www.riverbankcomputing.com/software/qscintilla/intro
-IUSE=debug +qt4 qt5
+IUSE=debug +qt4 qt5 python_targets_python2_7 python_targets_python3_4 python_targets_python3_5
 KEYWORDS=~amd64 ~x86
 LICENSE=metapackage
 RDEPEND=qt4? ( =dev-python/qscintilla-python-qt4-2.10 ) !qt4? ( =dev-python/qscintilla-python-qt5-2.10 )
 SLOT=0
 _eclass_exported_funcs=-
-_md5_=ff178c95196dd2f5b675126c17381721
+_eclasses_=multibuild	72647e255187a1fadc81097b3657e5c3	multilib	97f470f374f2e94ccab04a2fb21d811e	python-r1	e9350ec46bb5c9f3504b4fbe8b8d8987	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=9cd2fc55e6bc57990b0175fdac72fb57
