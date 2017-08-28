@@ -159,7 +159,7 @@ dev-vcs/git-gui-tools 2.13.3 2.14.1: GUI tools derived from git: gitk, git-gui a
 dev-vcs/git-subversion 2.13.3 2.14.1: Subversion module for git
 dev-vcs/subversion 1.9.5 1.9.7: Advanced version control system
 dev-vcs/subversion-java 1.9.5 1.9.7: Java bindings for Subversion
-gnome-base/gdm 3.22.1-r1 3.22.3 3.22.3-r1: GNOME Display Manager for managing graphical display servers and user logins
+gnome-base/gdm 3.22.1-r1 3.22.3 3.22.3-r1 3.24.2: GNOME Display Manager for managing graphical display servers and user logins
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
 kde-apps/kde-l10n 16.08.3 16.12.3: KDE internationalization package meta includer
 kde-apps/kde-l10n-ar 16.08.3 16.12.3: KDE Arabic localization package
