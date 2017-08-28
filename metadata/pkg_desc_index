@@ -145,9 +145,9 @@ app-text/poppler-qt5 0.56.0: Qt5 bindings for poppler
 dev-libs/libcec-raspberrypi 3.1.0 4.0.0_p3: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.
 dev-libs/libtimezonemap 0.4.1: GTK+3 timezone map widget used by the Unity desktop
-dev-python/pygobject 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python, meta package
-dev-python/pygobject-base 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python
-dev-python/pygobject-cairo 3.18.2 3.20.1 3.22.0: GLib's GObject library bindings for Python, Cairo Libraries
+dev-python/pygobject 3.22.0 3.24.1: GLib's GObject library bindings for Python, meta package
+dev-python/pygobject-base 3.22.0 3.24.1: GLib's GObject library bindings for Python
+dev-python/pygobject-cairo 3.22.0 3.24.1: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 1.0.10: A python module for system storage configuration
 dev-python/qscintilla-python 2.10.1: Meta package for qscintilla-python (install qscintilla-python-qt4 or qscintilla-python-qt5 instead)
 dev-python/qscintilla-python-qt4 2.10.1: Python bindings for Qscintilla
