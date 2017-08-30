@@ -356,8 +356,8 @@ www-client/firefox-l10n-vi 55.0.2: Firefox language pack (vi)
 www-client/firefox-l10n-xh 55.0.2: Firefox language pack (xh)
 www-client/firefox-l10n-zh-CN 55.0.2: Firefox language pack (zh-CN)
 www-client/firefox-l10n-zh-TW 55.0.2: Firefox language pack (zh-TW)
-x11-drivers/nvidia-drivers 304.134 304.135 340.101 340.102 375.26-r1 381.09: NVIDIA X11 userspace libraries and applications
-x11-drivers/nvidia-userspace 304.134 304.135 340.101 340.102 375.26 381.09: NVIDIA X11 userspace libraries and applications
+x11-drivers/nvidia-drivers 304.134 304.135 340.102 340.102-r1 375.26-r1 381.09 384.69: NVIDIA X11 userspace libraries and applications
+x11-drivers/nvidia-userspace 304.134 304.135 340.101 340.102 375.26 381.09 384.69: NVIDIA X11 userspace libraries and applications
 x11-libs/qscintilla 2.10.1: Meta package for qscintilla (install qscintilla-qt4 or qscintilla-qt5 instead)
 x11-libs/qscintilla-qt4 2.10.1: A Qt port of Neil Hodgson's Scintilla C++ editor class
 x11-libs/qscintilla-qt5 2.10.1: A Qt port of Neil Hodgson's Scintilla C++ editor class
