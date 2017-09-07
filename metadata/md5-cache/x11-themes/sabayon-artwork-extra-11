@@ -6,5 +6,4 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CCPL-Attribution-ShareAlike-3.0
 SLOT=0
 SRC_URI=mirror://sabayon/x11-themes/sabayon-artwork-extra/sabayon-artwork-extra-11.tar.xz
-_eclass_exported_funcs=src_install:-
 _md5_=56b60c024e2bb175db4a78fce6e89cd6

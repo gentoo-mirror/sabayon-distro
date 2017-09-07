@@ -7,5 +7,4 @@ LICENSE=ApostrophicLabs
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sabayon/media-fonts/asenine/asenine-1.0.tar.lzma
-_eclass_exported_funcs=src_unpack:- src_install:-
 _md5_=b7f3f0b9390f812f0d13a714c8132f5f

@@ -8,5 +8,4 @@ LICENSE=CC-BY-SA-4.0
 RDEPEND=>=app-admin/calamares-1.0
 SLOT=0
 SRC_URI=mirror://sabayon/app-misc/calamares-sabayon-branding/calamares-sabayon-branding-15.10.tar.xz
-_eclass_exported_funcs=src_install:-
 _md5_=3b26524bac00f0378c800b897c566c5f

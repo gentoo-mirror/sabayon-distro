@@ -9,6 +9,5 @@ LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
 RDEPEND=systemd? ( >=sys-apps/systemd-209:= ) ~net-p2p/transmission-base-2.92 >=dev-libs/libevent-2.0.10:= !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) net-libs/libnatpmp >=net-libs/miniupnpc-1.7:= >=net-misc/curl-7.16.3[ssl] sys-libs/zlib:=
 SLOT=0
 SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.92.tar.xz
-_eclass_exported_funcs=pkg_preinst:transmission-2.92-r2 pkg_postrm:transmission-2.92-r2 pkg_postinst:transmission-2.92-r2 src_prepare:transmission-2.92-r2 src_configure:transmission-2.92-r2 src_compile:transmission-2.92-r2 src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	2274fcc1e7ef6affaff5bcd636275417	libtool	0081a71a261724730ec4c248494f044d	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	34815d3b76e745c5ca33eec9f95074c2	toolchain-funcs	185a06792159ca143528e7010368e8af	transmission-2.92-r2	3926e033065198b0df0758872e2f6514
 _md5_=0fefdb8742c4b1d2d08851c52be4e165

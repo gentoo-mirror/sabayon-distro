@@ -7,5 +7,4 @@ LICENSE=animal-tracks
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sabayon/media-fonts/animal-tracks/animal-tracks-1.0.tar.lzma
-_eclass_exported_funcs=src_unpack:- src_install:-
 _md5_=fa96d94fcf86705ef80f186ac9b4f010
