@@ -142,6 +142,7 @@ app-text/poppler-base 0.57.0: PDF rendering library based on the xpdf-3.0 code b
 app-text/poppler-glib 0.57.0: Glib bindings for poppler
 app-text/poppler-qt4 0.57.0: Qt4 bindings for poppler
 app-text/poppler-qt5 0.57.0: Qt5 bindings for poppler
+dev-lang/python-exec 2.4.5: Python script wrapper
 dev-libs/libcec-raspberrypi 3.1.0 4.0.0_p3: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.
 dev-libs/libtimezonemap 0.4.1: GTK+3 timezone map widget used by the Unity desktop
