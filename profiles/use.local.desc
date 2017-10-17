@@ -108,6 +108,7 @@ sys-devel/base-gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
 sys-devel/base-gcc:objc - Build support for the Objective C code language
 sys-devel/base-gcc:objc++ - Build support for the Objective C++ language
 sys-devel/base-gcc:objc-gc - Build support for the Objective C code language Garbage Collector
+sys-devel/base-gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
 sys-devel/base-gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 sys-devel/base-gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 sys-devel/base-gcc:ssp - Build packages with stack smashing protector on by default
@@ -125,6 +126,7 @@ sys-devel/gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
 sys-devel/gcc:objc - Build support for the Objective C code language
 sys-devel/gcc:objc++ - Build support for the Objective C++ language
 sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
+sys-devel/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
 sys-devel/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
 sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
