@@ -150,9 +150,9 @@ dev-python/pygobject 3.22.0 3.24.1: GLib's GObject library bindings for Python, 
 dev-python/pygobject-base 3.22.0 3.24.1: GLib's GObject library bindings for Python
 dev-python/pygobject-cairo 3.22.0 3.24.1: GLib's GObject library bindings for Python, Cairo Libraries
 dev-python/python-blivet 1.0.10: A python module for system storage configuration
-dev-python/qscintilla-python 2.10.1: Meta package for qscintilla-python (install qscintilla-python-qt4 or qscintilla-python-qt5 instead)
-dev-python/qscintilla-python-qt4 2.10.1: Python bindings for Qscintilla
-dev-python/qscintilla-python-qt5 2.10.1: Python bindings for Qscintilla
+dev-python/qscintilla-python 2.10.2: Meta package for qscintilla-python (install qscintilla-python-qt4 or qscintilla-python-qt5 instead)
+dev-python/qscintilla-python-qt4 2.10.2: Python bindings for Qscintilla
+dev-python/qscintilla-python-qt5 2.10.2: Python bindings for Qscintilla
 dev-python/shyaml 0.5.0: YAML for command line
 dev-vcs/git 2.14.2 2.15.0: stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-cvs 2.14.2 2.15.0: CVS module for git
@@ -359,9 +359,9 @@ www-client/firefox-l10n-zh-CN 57.0: Firefox language pack (zh-CN)
 www-client/firefox-l10n-zh-TW 57.0: Firefox language pack (zh-TW)
 x11-drivers/nvidia-drivers 304.135 304.137 340.102-r1 340.104 375.26-r1 384.90 387.22: NVIDIA X11 userspace libraries and applications
 x11-drivers/nvidia-userspace 304.135 304.137 340.102 340.104 375.26 384.90 387.22: NVIDIA X11 userspace libraries and applications
-x11-libs/qscintilla 2.10.1: Meta package for qscintilla (install qscintilla-qt4 or qscintilla-qt5 instead)
-x11-libs/qscintilla-qt4 2.10.1: A Qt port of Neil Hodgson's Scintilla C++ editor class
-x11-libs/qscintilla-qt5 2.10.1: A Qt port of Neil Hodgson's Scintilla C++ editor class
+x11-libs/qscintilla 2.10.2: Meta package for qscintilla (install qscintilla-qt4 or qscintilla-qt5 instead)
+x11-libs/qscintilla-qt4 2.10.2: A Qt port of Neil Hodgson's Scintilla C++ editor class
+x11-libs/qscintilla-qt5 2.10.2: A Qt port of Neil Hodgson's Scintilla C++ editor class
 x11-misc/lightdm 1.22.0: LightDM meta package
 x11-misc/lightdm-base 1.22.0: A lightweight display manager, base libraries and programs
 x11-misc/lightdm-gtk-greeter 2.0.1-r1 2.0.2: LightDM GTK+ Greeter
