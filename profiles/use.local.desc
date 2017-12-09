@@ -152,4 +152,6 @@ x11-drivers/nvidia-userspace:x-multilib - Old multilib flag for x
 x11-libs/qscintilla-qt4:designer - Build plugin for Qt Designer
 x11-libs/qscintilla-qt5:designer - Build plugin for Qt Designer
 x11-misc/lightdm-base:introspection - Use dev-libs/gobject-introspection for introspection
+x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by default in Xsession (no native support)
+x11-misc/sddm:elogind - Use sys-auth/elogind for session tracking.
 x11-wm/awesome:luajit - Use dev-lang/luajit instead of dev-lang/lua
