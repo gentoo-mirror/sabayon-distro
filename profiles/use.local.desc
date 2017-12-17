@@ -2,77 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-misc/screenfetch:X - Use the media-gfx/scrot package to take screenshots
-app-text/poppler:nss - Enable signatures handling with dev-libs/nss
-app-text/poppler:utils - Install command-line PDF converters and various utilities.
-app-text/poppler-base:nss - Enable signatures handling with dev-libs/nss
-app-text/poppler-base:utils - Install command-line PDF converters and various utilities.
-app-text/poppler-glib:introspection - Enable GObject introspection.
-app-text/poppler-glib:nss - Enable signatures handling with dev-libs/nss
-app-text/poppler-glib:utils - Install command-line PDF converters and various utilities.
-app-text/poppler-qt4:nss - Enable signatures handling with dev-libs/nss
-app-text/poppler-qt4:utils - Install command-line PDF converters and various utilities.
-app-text/poppler-qt5:nss - Enable signatures handling with dev-libs/nss
-app-text/poppler-qt5:utils - Install command-line PDF converters and various utilities.
-dev-vcs/git:blksha1 - Use the new optimized SHA1 implementation
-dev-vcs/git:cgi - Install gitweb too
-dev-vcs/git:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
-dev-vcs/git:gpg - Pull in gnupg for signing -- without gnupg, attempts at signing will fail at runtime!
-dev-vcs/git:highlight - GitWeb support for app-text/highlight
-dev-vcs/git:mediawiki - Support pulling and pushing from MediaWiki
-dev-vcs/git:mediawiki-experimental - Add experimental patches for improved MediaWiki support
-dev-vcs/git:pcre-jit - Enable JIT for pcre
-dev-vcs/git:ppcsha1 - Make use of a bundled routine that is optimized for the PPC arch
-dev-vcs/git:subversion - Include git-svn for dev-vcs/subversion support
-dev-vcs/git:tk - Include the 'gitk' and 'git gui' tools
-dev-vcs/git:webdav - Adds support for push'ing to HTTP/HTTPS repositories via DAV
-dev-vcs/subversion:ctypes-python - Build and install Ctypes Python bindings
-dev-vcs/subversion:dso - Enable runtime module search
-dev-vcs/subversion:extras - Install extra scripts (examples, tools, hooks)
-dev-vcs/subversion:http - Enable http support using net-libs/serf
-dev-vcs/subversion:kwallet - Enable encrypted storage of passwords with kde-apps/kwalletd
-gnome-base/gdm:fprint - Enables experimental fingerprint authentication using sys-auth/fprintd
-gnome-base/gdm:plymouth - Enable support for smooth transition from sys-boot/plymouth
-lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
-lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
-net-analyzer/nmap:ncat - Install the ncat utility
-net-analyzer/nmap:ndiff - Install the ndiff utility
-net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
-net-analyzer/nmap:nping - Install the nping utility
-net-analyzer/nmap:nse - Include support for the Nmap Scripting Engine (NSE)
-net-analyzer/nmap:system-lua - Use dev-lang/lua instead of the bundled liblua
-net-analyzer/nmap:zenmap - Install the GTK+ based nmap GUI, zenmap
-net-dns/avahi:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
-net-dns/avahi:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
-net-dns/avahi:gtk3 - Build the avahi-ui-gtk3 library, and use gtk3 for the avahi utilities under USE=utils
-net-dns/avahi:howl-compat - Enable compat libraries for howl
-net-dns/avahi:mdnsresponder-compat - Enable compat libraries for mDNSResponder
-net-dns/avahi:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
-net-dns/avahi-base:autoipd - Build and install the IPv4LL (RFC3927) network address configuration daemon
-net-dns/avahi-base:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
-net-dns/avahi-base:gtk3 - Build the avahi-ui-gtk3 library, and use gtk3 for the avahi utilities under USE=utils
-net-dns/avahi-base:howl-compat - Enable compat libraries for howl
-net-dns/avahi-base:mdnsresponder-compat - Enable compat libraries for mDNSResponder
-net-dns/avahi-gtk:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
-net-dns/avahi-gtk3:bookmarks - Install the avahi-bookmarks application (requires dev-python/twisted-core and dev-python/twisted-web)
-net-dns/avahi-gtk3:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
-net-dns/avahi-mono:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
-net-dns/avahi-qt:utils - Install the avahi gtk+ utils avahi-discover, bssh, and bvnc
-net-irc/quassel:X - Build the Qt5 GUI client for quassel. If this USE flag is disabled, the GUI is not built, and cannot be used. You might want to disable this on the server, but you need it enabled on the client.
-net-irc/quassel:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca SLOT 2.
-net-irc/quassel:dbus - Support desktop notifications via the StatusNotifier D-Bus service (used by most modern desktop environments).
-net-irc/quassel:monolithic - Build standalone client with integrated core, no external quasselcore needed. Only useful if you don't want to use Quassel's client/server model. The server and X flags are not needed in this case but it is possible to enable them too.
-net-irc/quassel:phonon - Build client with phonon backend support. This enables sound playback in client.
-net-irc/quassel:server - Build the server binary. If this USE flag is disabled, the 'core' server binary for quassel is not built, and cannot be used. You need this enabled on the server, but you might want to disable it on the client.
-net-irc/quassel:snorenotify - Support for Snore notification framework.
-net-irc/quassel-client:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca:2.
-net-irc/quassel-client:phonon - Build client with phonon backend support. This enables sound playback in client.
-net-irc/quassel-client:snorenotify - Support for snore notification framework.
-net-irc/quassel-client:webkit - Use qt-webkit rendering engine for showing URL thumbnails and for other things that need web browser integration.
-net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
-net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
-net-p2p/transmission-base:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
-net-p2p/transmission-base:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 sys-apps/systemd:apparmor - Enable AppArmor support
 sys-apps/systemd:audit - Enable support for sys-process/audit
 sys-apps/systemd:cryptsetup - Enable cryptsetup tools (includes unit generator for crypttab)
@@ -131,27 +60,3 @@ sys-devel/gcc:regression-test - Run the testsuite and install the results (requi
 sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
 sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
-www-apache/mod_dav_svn:dso - Enable runtime module search
-www-apps/gitweb:highlight - GitWeb support for app-text/highlight.
-x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
-x11-drivers/nvidia-drivers:compat - Install non-GLVND libGL for backwards compatibility
-x11-drivers/nvidia-drivers:driver - Install the kernel driver module
-x11-drivers/nvidia-drivers:gtk3 - Install nvidia-settings with support for GTK+ 3
-x11-drivers/nvidia-drivers:kms - Enable KMS support.
-x11-drivers/nvidia-drivers:pax_kernel - PaX patches from the PaX project
-x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings
-x11-drivers/nvidia-drivers:uvm - Install the Unified Memory kernel module (nvidia-uvm) for sharing memory between CPU and GPU in CUDA programs
-x11-drivers/nvidia-drivers:x-multilib - Old multilib flag for x
-x11-drivers/nvidia-userspace:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
-x11-drivers/nvidia-userspace:compat - Install non-GLVND libGL for backwards compatibility
-x11-drivers/nvidia-userspace:gtk3 - Install nvidia-settings with support for GTK+ 3
-x11-drivers/nvidia-userspace:pax_kernel - PaX patches from the PaX project
-x11-drivers/nvidia-userspace:tools - Install additional tools such as nvidia-settings
-x11-drivers/nvidia-userspace:uvm - Install the Unified Memory kernel module (nvidia-uvm) for sharing memory between CPU and GPU in CUDA programs
-x11-drivers/nvidia-userspace:x-multilib - Old multilib flag for x
-x11-libs/qscintilla-qt4:designer - Build plugin for Qt Designer
-x11-libs/qscintilla-qt5:designer - Build plugin for Qt Designer
-x11-misc/lightdm-base:introspection - Use dev-libs/gobject-introspection for introspection
-x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by default in Xsession (no native support)
-x11-misc/sddm:elogind - Use sys-auth/elogind for session tracking.
-x11-wm/awesome:luajit - Use dev-lang/luajit instead of dev-lang/lua
