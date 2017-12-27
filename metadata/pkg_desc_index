@@ -22,7 +22,7 @@ sys-boot/grub 2.02_beta2-r9: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
 sys-boot/plymouth 0.8.8-r4: Graphical boot animation (splash) and logger
 sys-devel/base-gcc 4.9.3 5.4.0-r3: The GNU Compiler Collection
-sys-devel/gcc 4.9.3 5.4.0-r3: The GNU Compiler Collection
+sys-devel/gcc 5.4.0-r3: The GNU Compiler Collection
 sys-devel/gcc-config 1.7.3: utility to manage compilers
 sys-libs/efivar 0.21: Tools and library to manipulate EFI variables
 virtual/bitcoin-leveldb 0-r1: Virtual for LevelDB versions known to be compatible with Bitcoin Core 0.9+
