@@ -8,5 +8,5 @@ LICENSE=CCPL-Attribution-ShareAlike-3.0
 RDEPEND=x11-themes/sabayon-artwork-core x11-themes/equinox-themes x11-themes/elementary-icon-theme[monochrome,branding] x11-themes/korora-shell-theme x11-themes/numix-icon-theme-circle x11-themes/numix-icon-theme >=gnome-extra/gnome-shell-extensions-3.12
 SLOT=0
 SRC_URI=mirror://sabayon/x11-themes/sabayon-artwork-gnome/sabayon-artwork-gnome-14-r4.tar.xz
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	97ce9decef1ff4b6c5be700283f67343	gnome2-utils	4d211d7614f303710fca59db6ec12c88	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
+_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	97ce9decef1ff4b6c5be700283f67343	gnome2-utils	4d211d7614f303710fca59db6ec12c88	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
 _md5_=932f760b46816e0784ee35a6d52cfc30
