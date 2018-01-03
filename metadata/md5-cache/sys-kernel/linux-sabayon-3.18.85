@@ -5,10 +5,10 @@ EAPI=5
 HOMEPAGE=https://github.com/Sabayon/kernel
 IUSE=symlink build btrfs dmraid dracut iscsi luks lvm mdadm plymouth splash
 KEYWORDS=~amd64
-LICENSE=GPL-2 freedist
+LICENSE=GPL-2 linux-firmware
 RDEPEND=!build? ( >=sys-libs/ncurses-5.2 sys-devel/make dev-lang/perl sys-devel/bc ) sys-apps/sed sys-kernel/linux-firmware dracut? ( sys-apps/v86d sys-kernel/dracut ) >=sys-kernel/linux-firmware-20171009
 RESTRICT=mirror
 SLOT=3.18
 SRC_URI=mirror://kernel/linux/kernel/v3.x/linux-3.18.tar.xz mirror://sabayon/sys-kernel/3.18-sabayon-3.18.85.patch.xz
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	97ce9decef1ff4b6c5be700283f67343	kernel-2	880361b861490d9503f47d4f16e05f2c	linux-info	ca370deef9d44125d829f2eb6ebc83e0	ltprune	2770eed66a9b8ef944714cd0e968182e	mount-boot	1e82d96b7a7dcb483b412497a90bb646	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	27d7f9da7187d283b7f3eae8390b7b09	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	sabayon-artwork	0c7988bbdfdcc7440a68ed9df5fdff73	sabayon-kernel	bca6e1e986d01af3fd850c6baf489767	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	97ce9decef1ff4b6c5be700283f67343	kernel-2	acc3c4cb9ec833aefc2d4ac61704a1ed	linux-info	ca370deef9d44125d829f2eb6ebc83e0	ltprune	2770eed66a9b8ef944714cd0e968182e	mount-boot	1e82d96b7a7dcb483b412497a90bb646	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	27d7f9da7187d283b7f3eae8390b7b09	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	sabayon-artwork	0c7988bbdfdcc7440a68ed9df5fdff73	sabayon-kernel	bca6e1e986d01af3fd850c6baf489767	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=67d8a45d58241b7034754118d4457f3e
