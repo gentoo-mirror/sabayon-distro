@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Sabayon LightDM slick greeter configurations
+EAPI=6
+HOMEPAGE=http://www.sabayon.org/
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=CCPL-Attribution-ShareAlike-3.0
+RDEPEND=x11-themes/sabayon-artwork-core x11-misc/lightdm-slick-greeter x11-misc/lightdm-settings !!x11-misc/lightdm-gtk-greeter
+SLOT=0
+_md5_=2b24d626d9e40fca8cbac175af6685ff
