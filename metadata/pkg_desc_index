@@ -16,7 +16,7 @@ net-print/brother-hl5340d-drivers 2.0.4-r1 2.0.4-r2: CUPS filters and drivers fo
 net-print/xerox-phaser6000-drivers 20110222 20110222-r1: CUPS filters and drivers for Xerox Phaser 6000B and 6010
 sys-apps/baselayout 2.2-r1: Filesystem baselayout and init scripts
 sys-apps/lsb-release 1.4: LSB version query program
-sys-apps/systemd 233-r1 233-r3: System and service manager for Linux
+sys-apps/systemd 233-r1 233-r3 236-r5: System and service manager for Linux
 sys-boot/efibootmgr 0.12: User-space application to modify the EFI boot manager
 sys-boot/grub 2.02_beta2-r9: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
