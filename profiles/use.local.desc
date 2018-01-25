@@ -18,6 +18,7 @@ sys-apps/systemd:lz4 - Enable lz4 compression for the journal
 sys-apps/systemd:nat - Enable support for network address translation in networkd
 sys-apps/systemd:qrcode - Enable qrcode output support in journal
 sys-apps/systemd:sysv-utils - Install sysvinit compatibility symlinks and manpages for init, telinit, halt, poweroff, reboot, runlevel, and shutdown
+sys-apps/systemd:usrmerge - Enable /usr merge (experimental)
 sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
 sys-apps/systemd:xkb - Depend on x11-libs/libxkbcommon to allow logind to control the X11 keymap
 sys-boot/plymouth:gdm - Enables smooth transition to GDM
