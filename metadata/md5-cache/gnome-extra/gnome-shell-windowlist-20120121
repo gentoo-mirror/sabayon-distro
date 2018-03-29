@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 SLOT=0
-_eclasses_=git-2	195a672bfaf52d868442171c9469bbb6
+_eclasses_=git-2	45ff482316b52b3f96ff6b7309b77f03
 _md5_=44b907eed107c3eccf89bd7aaf53a841
