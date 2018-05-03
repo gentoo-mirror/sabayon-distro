@@ -63,11 +63,10 @@ def configure_services(root_install_path):
         """
         proc = subprocess.run(['/usr/bin/systemd-detect-virt'],
                               stdout=subprocess.PIPE)
-        exit_st = proc.wait()
-        outcome = proc.stdout.read(256)
-        proc.stdout.close()
+        exit_st = proc.returncode
+        outcome = proc.stdout
         if exit_st == 0:
-            return outcome.strip() == 'oracle'
+            return outcome.decode().strip() == 'oracle'
 
     if is_virtualbox():
         libcalamares.utils.target_env_call(
@@ -92,7 +91,7 @@ def remove_proprietary_drivers(root_install_path):
             if oglprof:
                 return oglprof
         ogl_path = '' if root_install_path is None else str(
-            root_install_path) + '/etc/env.d/03opengl'
+            root_install_path) + '/etc/env.d/000opengl'
         if os.path.isfile(ogl_path) and os.access(ogl_path, os.R_OK):
             with open(ogl_path, 'r') as f:
                 cont = [x.strip() for x in f.readlines() if \
