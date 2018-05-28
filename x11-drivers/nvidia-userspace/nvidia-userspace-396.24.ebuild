@@ -5,21 +5,18 @@ EAPI=6
 inherit eutils flag-o-matic linux-info linux-mod multilib nvidia-driver \
 	portability toolchain-funcs unpacker user udev
 
-NV_URI="http://http.download.nvidia.com/XFree86/"
-X86_NV_PACKAGE="NVIDIA-Linux-x86-${PV}"
+NV_URI="http://us.download.nvidia.com/XFree86/"
+AMD64_FBSD_NV_PACKAGE="NVIDIA-FreeBSD-x86_64-${PV}"
 AMD64_NV_PACKAGE="NVIDIA-Linux-x86_64-${PV}"
 ARM_NV_PACKAGE="NVIDIA-Linux-armv7l-gnueabihf-${PV}"
 X86_FBSD_NV_PACKAGE="NVIDIA-FreeBSD-x86-${PV}"
-AMD64_FBSD_NV_PACKAGE="NVIDIA-FreeBSD-x86_64-${PV}"
+X86_NV_PACKAGE="NVIDIA-Linux-x86-${PV}"
 
 DESCRIPTION="NVIDIA X11 userspace libraries and applications"
 HOMEPAGE="http://www.nvidia.com/ http://www.nvidia.com/Download/Find.aspx"
 SRC_URI="
 	amd64-fbsd? ( ${NV_URI}FreeBSD-x86_64/${PV}/${AMD64_FBSD_NV_PACKAGE}.tar.gz )
 	amd64? ( ${NV_URI}Linux-x86_64/${PV}/${AMD64_NV_PACKAGE}.run )
-	arm? ( ${NV_URI}Linux-32bit-ARM/${PV}/${ARM_NV_PACKAGE}.run )
-	x86-fbsd? ( ${NV_URI}FreeBSD-x86/${PV}/${X86_FBSD_NV_PACKAGE}.tar.gz )
-	x86? ( ${NV_URI}Linux-x86/${PV}/${X86_NV_PACKAGE}.run )
 	tools? (
 		https://download.nvidia.com/XFree86/nvidia-settings/nvidia-settings-${PV}.tar.bz2
 	)
@@ -73,7 +70,7 @@ RDEPEND="
 	tools? ( !media-video/nvidia-settings )
 	wayland? ( dev-libs/wayland )
 	X? (
-		<x11-base/xorg-server-1.19.99:=
+		<x11-base/xorg-server-1.20.99:=
 		>=x11-libs/libX11-1.6.2[abi_x86_32]
 		>=x11-libs/libXext-1.3.2[abi_x86_32]
 		>=x11-libs/libvdpau-1.0
@@ -396,12 +393,12 @@ src_install-libs() {
 
 	if use X; then
 		NV_GLX_LIBRARIES=(
-			"libEGL.so.1 ${GL_ROOT}"
+			"libEGL.so.$(usex compat ${NV_SOVER} 1.1.0) ${GL_ROOT}"
 			"libEGL_nvidia.so.${NV_SOVER} ${GL_ROOT}"
-			"libGL.so.$(usex compat ${NV_SOVER} 1.0.0) ${GL_ROOT}"
-			"libGLESv1_CM.so.1 ${GL_ROOT}"
+			"libGL.so.$(usex compat ${NV_SOVER} 1.7.0) ${GL_ROOT}"
+			"libGLESv1_CM.so.1.2.0 ${GL_ROOT}"
 			"libGLESv1_CM_nvidia.so.${NV_SOVER} ${GL_ROOT}"
-			"libGLESv2.so.2 ${GL_ROOT}"
+			"libGLESv2.so.2.1.0 ${GL_ROOT}"
 			"libGLESv2_nvidia.so.${NV_SOVER} ${GL_ROOT}"
 			"libGLX.so.0 ${GL_ROOT}"
 			"libGLX_nvidia.so.${NV_SOVER} ${GL_ROOT}"
@@ -417,6 +414,7 @@ src_install-libs() {
 			"libnvidia-fbc.so.${NV_SOVER}"
 			"libnvidia-glcore.so.${NV_SOVER}"
 			"libnvidia-glsi.so.${NV_SOVER}"
+			"libnvidia-glvkspirv.so.${NV_SOVER}"
 			"libnvidia-ifr.so.${NV_SOVER}"
 			"libnvidia-opencl.so.${NV_SOVER}"
 			"libnvidia-ptxjitcompiler.so.${NV_SOVER}"
@@ -426,7 +424,7 @@ src_install-libs() {
 		if use wayland && has_multilib_profile && [[ ${ABI} == "amd64" ]];
 		then
 			NV_GLX_LIBRARIES+=(
-				"libnvidia-egl-wayland.so.1.0.2"
+				"libnvidia-egl-wayland.so.1.0.3"
 			)
 		fi
 
