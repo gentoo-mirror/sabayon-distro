@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CCPL-Attribution-ShareAlike-3.0
 RDEPEND=x11-themes/sabayon-artwork-core x11-misc/lightdm-slick-greeter x11-misc/lightdm-settings
 SLOT=0
-_md5_=70225b4e9ac0983ef88be126a758f962
+_md5_=954fb4213e63c5847fb623743e6c058d
