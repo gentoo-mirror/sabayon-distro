@@ -57,3 +57,5 @@ sys-devel/gcc:regression-test - Run the testsuite and install the results (requi
 sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
 sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
+x11-misc/sddm:consolekit - Use ck-launch-session from sys-auth/consolekit by default in Xsession (no native support)
+x11-misc/sddm:elogind - Use sys-auth/elogind for session tracking.
