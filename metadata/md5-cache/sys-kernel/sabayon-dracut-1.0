@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Sabayon Dracut Configuration
+EAPI=7
+HOMEPAGE=https://www.sabayon.org/
+KEYWORDS=~amd64
+LICENSE=GPL-3
+SLOT=0
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_md5_=958cb022302f113397e9982f9495bffd
