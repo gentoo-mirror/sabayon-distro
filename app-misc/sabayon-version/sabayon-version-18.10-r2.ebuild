@@ -22,9 +22,8 @@ RDEPEND="!app-admin/eselect-init
 	!<sys-apps/sysvinit-1000
 	!sys-apps/hal
 	!sys-auth/consolekit
-	!net-misc/lldpad
-	!net-misc/fcoe-utils
 	sys-apps/systemd
+	sys-kernel/sabayon-dracut
 	virtual/man
 	sys-devel/base-gcc:${GCC_VER}
 	sys-devel/gcc-config"
