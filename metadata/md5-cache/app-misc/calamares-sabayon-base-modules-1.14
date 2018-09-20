@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-SA-4.0
 RDEPEND=app-admin/calamares[networkmanager,upower]
 SLOT=0
-SRC_URI=https://github.com/Sabayon/calamares-sabayon/archive/v1.13.tar.gz -> calamares-sabayon-base-modules-1.13.tar.gz
-_md5_=ba63471006b2c09ea5f4d06fbd20df84
+SRC_URI=https://github.com/Sabayon/calamares-sabayon/archive/v1.14.tar.gz -> calamares-sabayon-base-modules-1.14.tar.gz
+_md5_=52cbf03d01c3c2bc0ae2da67e05531cd
