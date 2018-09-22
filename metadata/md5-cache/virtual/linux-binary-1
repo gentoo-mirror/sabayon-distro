@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Linux kernel binaries
+EAPI=7
+KEYWORDS=~amd64
+RDEPEND=sys-kernel/linux-sabayon
+SLOT=0
+_md5_=d1e844275c32c131758769bd41385a75
