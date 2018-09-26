@@ -12,7 +12,11 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND=""
+RDEPEND="sys-fs/btrfs-progs
+	sys-fs/mdadm
+	sys-fs/lvm2
+	sys-boot/plymouth
+"
 DEPEND="${RDEPEND}"
 
 src_unpack () {
@@ -21,5 +25,9 @@ src_unpack () {
 
 src_install () {
 	insinto /etc/dracut.conf.d/
-	doins "${FILESDIR}"/sabayon.conf
+	newins "${FILESDIR}"/sabayon.conf 99-sabayon.conf
+
+	exeinto /usr/bin/
+	doexe "${FILESDIR}"/sabayon-dracut
 }
+
