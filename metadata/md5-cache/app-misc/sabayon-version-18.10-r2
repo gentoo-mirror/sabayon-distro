@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm ~x86 ~arm64
 LICENSE=GPL-2
 RDEPEND=!app-admin/eselect-init !<sys-apps/sysvinit-1000 !sys-apps/hal !sys-auth/consolekit sys-apps/systemd sys-kernel/sabayon-dracut virtual/man sys-devel/base-gcc:6.4.0 sys-devel/gcc-config
 SLOT=0
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
 _md5_=375144998629eeb155c560a7df9da2e6
