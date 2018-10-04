@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DESCRIPTION=Simple passphrase entry dialogs which utilize the Assuan protocol (meta package)
+EAPI=6
+HOMEPAGE=https://gnupg.org/aegypten2/index.html
+IUSE=caps emacs gnome-keyring fltk gtk ncurses qt5 static
+KEYWORDS=~arm ~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=~app-crypt/pinentry-base-1.1.0 caps? ( ~app-crypt/pinentry-base-1.1.0[caps] ) gnome-keyring? ( ~app-crypt/pinentry-gnome-1.1.0 ) gtk? ( ~app-crypt/pinentry-gtk2-1.1.0 ) qt5? ( ~app-crypt/pinentry-qt5-1.1.0 ) static? ( ~app-crypt/pinentry-base-1.1.0[static] )
+REQUIRED_USE=gtk? ( !static ) qt5? ( !static )
+SLOT=0
+_md5_=d736275e3488eb3bb863b3bdab98378f
