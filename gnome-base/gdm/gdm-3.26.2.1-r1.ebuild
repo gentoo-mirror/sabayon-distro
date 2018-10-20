@@ -1,10 +1,10 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 GNOME2_LA_PUNT="yes"
 
-inherit autotools eutils gnome2 pam readme.gentoo-r1 systemd user versionator
+inherit eutils gnome2 pam readme.gentoo-r1 systemd user
 
 DESCRIPTION="GNOME Display Manager for managing graphical display servers and user logins"
 HOMEPAGE="https://wiki.gnome.org/Projects/GDM"
@@ -83,12 +83,12 @@ RDEPEND="${COMMON_DEPEND}
 DEPEND="${COMMON_DEPEND}
 	app-text/docbook-xml-dtd:4.1.2
 	dev-util/gdbus-codegen
+	dev-util/glib-utils
 	>=dev-util/intltool-0.40.0
 	dev-util/itstool
 	virtual/pkgconfig
 	x11-base/xorg-proto
 	test? ( >=dev-libs/check-0.9.4 )
-	xinerama? ( x11-proto/xineramaproto )
 "
 
 DOC_CONTENTS="
@@ -127,10 +127,13 @@ src_prepare() {
 	# Gentoo does not have a fingerprint-auth pam stack
 	eapply "${FILESDIR}/${PN}-3.8.4-fingerprint-auth.patch"
 
+	# CVE-2018-14424, bug #662782
+	eapply "${FILESDIR}/3.24.3-CVE-2018-14424.patch"
+	eapply "${FILESDIR}/3.24.3-display-object-lifetime-fix.patch"
+
 	# Show logo when branding is enabled
 	use branding && eapply "${FILESDIR}/${PN}-3.8.4-logo.patch"
 
-	eautoreconf
 	gnome2_src_prepare
 }
 
@@ -200,18 +203,7 @@ src_install() {
 }
 
 pkg_postinst() {
-	local d ret
-
 	gnome2_pkg_postinst
-
-	# bug #436456; gdm crashes if /var/lib/gdm subdirs are not owned by gdm:gdm
-	ret=0
-	ebegin "Fixing "${EROOT}"var/lib/gdm ownership"
-	chown gdm:gdm "${EROOT}var/lib/gdm" || ret=1
-	for d in "${EROOT}var/lib/gdm/"{.cache,.config,.local}; do
-		[[ ! -e "${d}" ]] || chown -R gdm:gdm "${d}" || ret=1
-	done
-	eend ${ret}
-
+	systemd_reenable gdm.service
 	readme.gentoo_print_elog
 }
