@@ -8,4 +8,4 @@ LICENSE=CC-BY-SA-4.0
 RDEPEND=app-admin/calamares[networkmanager,upower]
 SLOT=0
 SRC_URI=https://github.com/Sabayon/calamares-sabayon/archive/v1.14.tar.gz -> calamares-sabayon-base-modules-1.14.tar.gz
-_md5_=52cbf03d01c3c2bc0ae2da67e05531cd
+_md5_=c867906fce044cf2fe2e657989ba7d5b
