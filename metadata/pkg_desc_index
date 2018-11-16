@@ -1,6 +1,6 @@
 app-admin/anaconda 22.8 22.8-r6 22.9 22.9-r3 22.9-r4: Sabayon Redhat Anaconda Installer Port
 app-misc/sabayon-dockerscripts 15.12-r2 16.12: Sabayon live image scripts and tools
-app-misc/sabayon-live 23: Sabayon live image scripts and tools
+app-misc/sabayon-live 24: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
 dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.

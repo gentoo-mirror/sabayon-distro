@@ -5,9 +5,9 @@ EAPI=5
 HOMEPAGE=http://www.sabayon.org
 KEYWORDS=amd64 arm x86
 LICENSE=GPL-2
-RDEPEND=!app-misc/livecd-tools !sys-apps/gpu-detector app-eselect/eselect-opengl dev-util/dialog sys-apps/gawk sys-apps/pciutils sys-apps/keyboard-configuration-helpers sys-apps/sed sys-apps/dmidecode
+RDEPEND=!app-misc/livecd-tools !sys-apps/gpu-detector app-eselect/eselect-opengl dev-util/dialog sys-apps/gawk sys-apps/pciutils sys-apps/keyboard-configuration-helpers sys-apps/sed >=sys-apps/systemd-239-r2 sys-apps/dmidecode
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Sabayon/sabayon-live/archive/v23.tar.gz -> 23.tar.gz
+SRC_URI=https://github.com/Sabayon/sabayon-live/archive/v24.tar.gz -> 24.tar.gz
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	systemd	47c677ae1d7b69031f11f630ac09f0d1	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=ef6469f8aa1d49ce9780df2c15b02155
+_md5_=f5ed7d655112c7ab5997197d12cf0ed5
