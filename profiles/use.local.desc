@@ -6,10 +6,9 @@ sys-apps/baselayout:split-usr - Enable this if /bin and /usr/bin are separate di
 sys-apps/systemd:apparmor - Enable AppArmor support
 sys-apps/systemd:audit - Enable support for sys-process/audit
 sys-apps/systemd:cryptsetup - Enable cryptsetup tools (includes unit generator for crypttab)
-sys-apps/systemd:curl - Enable support for uploading journals; required to build systemd-import/systemd-pull
-sys-apps/systemd:doc - Generate systemd.index.7 and systemd.directives.7
+sys-apps/systemd:curl - Enable support for uploading journals
 sys-apps/systemd:elfutils - Enable coredump stacktraces in the journal
-sys-apps/systemd:gcrypt - Enable sealing of journal files using gcrypt; required to build systemd-import/systemd-pull
+sys-apps/systemd:gcrypt - Enable sealing of journal files using gcrypt
 sys-apps/systemd:gnuefi - Enable EFI boot manager and stub loader (built using sys-boot/gnu-efi)
 sys-apps/systemd:http - Enable embedded HTTP server in journald
 sys-apps/systemd:importd - Enable import daemon
@@ -18,8 +17,9 @@ sys-apps/systemd:libidn2 - If IDN support is enabled, use net-dns/libidn2 instea
 sys-apps/systemd:lz4 - Enable lz4 compression for the journal
 sys-apps/systemd:nat - Enable support for network address translation in networkd
 sys-apps/systemd:qrcode - Enable qrcode output support in journal
+sys-apps/systemd:resolvconf - Install resolvconf symlink for systemd-resolve
+sys-apps/systemd:split-usr - Enable this if /bin and /usr/bin are separate directories
 sys-apps/systemd:sysv-utils - Install sysvinit compatibility symlinks and manpages for init, telinit, halt, poweroff, reboot, runlevel, and shutdown
-sys-apps/systemd:usrmerge - Enable /usr merge (experimental)
 sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
 sys-apps/systemd:xkb - Depend on x11-libs/libxkbcommon to allow logind to control the X11 keymap
 sys-boot/plymouth:gdm - Enables smooth transition to GDM
