@@ -16,7 +16,6 @@ sys-apps/baselayout 2.6-r1: Filesystem baselayout and init scripts
 sys-apps/lsb-release 1.4: LSB version query program
 sys-apps/systemd 233-r3 239-r2: System and service manager for Linux
 sys-boot/efibootmgr 0.12: User-space application to modify the EFI boot manager
-sys-boot/grub 2.02_beta2-r9: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
 sys-boot/plymouth 0.8.8-r4: Graphical boot animation (splash) and logger
 sys-devel/base-gcc 6.4.0-r1: The GNU Compiler Collection
