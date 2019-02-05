@@ -24,4 +24,5 @@ sys-devel/gcc-config 1.7.3: utility to manage compilers
 sys-libs/efivar 0.21: Tools and library to manipulate EFI variables
 virtual/fortran 0: Virtual for Fortran Compiler
 virtual/linux-sources 0: Virtual for Linux kernel sources
+www-client/epiphany 3.30.2: GNOME webbrowser based on Webkit
 x11-misc/sddm 0.18.0: Simple Desktop Display Manager
