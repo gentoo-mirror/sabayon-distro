@@ -2,6 +2,15 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+media-sound/clementine:box - Enable filesharing via Box.com
+media-sound/clementine:dropbox - Enable Dropbox support
+media-sound/clementine:googledrive - Enable Google Drive support
+media-sound/clementine:lastfm - Use liblastfm for fetching song info, scrobbling and radio streams
+media-sound/clementine:moodbar - Enable moodbar support
+media-sound/clementine:projectm - Build with ProjectM visualization
+media-sound/clementine:seafile - Enable support for seafile: a file sync service
+media-sound/clementine:skydrive - Enable Skydrive support
+media-sound/clementine:wiimote - Enable support for Wii remote
 sys-apps/baselayout:split-usr - Enable this if /bin and /usr/bin are separate directories
 sys-apps/systemd:apparmor - Enable AppArmor support
 sys-apps/systemd:audit - Enable support for sys-process/audit
