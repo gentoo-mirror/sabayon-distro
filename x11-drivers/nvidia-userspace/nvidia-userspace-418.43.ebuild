@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -11,16 +11,11 @@ HOMEPAGE="http://www.nvidia.com/ http://www.nvidia.com/Download/Find.aspx"
 AMD64_FBSD_NV_PACKAGE="NVIDIA-FreeBSD-x86_64-${PV}"
 AMD64_NV_PACKAGE="NVIDIA-Linux-x86_64-${PV}"
 ARM_NV_PACKAGE="NVIDIA-Linux-armv7l-gnueabihf-${PV}"
-X86_FBSD_NV_PACKAGE="NVIDIA-FreeBSD-x86-${PV}"
-X86_NV_PACKAGE="NVIDIA-Linux-x86-${PV}"
 
-NV_URI="http://us.download.nvidia.com/XFree86/"
+NV_URI="https://us.download.nvidia.com/XFree86/"
 SRC_URI="
 	amd64-fbsd? ( ${NV_URI}FreeBSD-x86_64/${PV}/${AMD64_FBSD_NV_PACKAGE}.tar.gz )
 	amd64? ( ${NV_URI}Linux-x86_64/${PV}/${AMD64_NV_PACKAGE}.run )
-	arm? ( ${NV_URI}Linux-x86-ARM/${PV}/${ARM_NV_PACKAGE}.run )
-	x86-fbsd? ( ${NV_URI}FreeBSD-x86/${PV}/${X86_FBSD_NV_PACKAGE}.tar.gz )
-	x86? ( ${NV_URI}Linux-x86/${PV}/${X86_NV_PACKAGE}.run )
 	tools? (
 		https://download.nvidia.com/XFree86/nvidia-settings/nvidia-settings-${PV}.tar.bz2
 	)
@@ -28,7 +23,7 @@ SRC_URI="
 
 LICENSE="GPL-2 NVIDIA-r2"
 SLOT="0/${PV%.*}"
-KEYWORDS="-* ~amd64 ~x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="-* ~amd64 ~amd64-fbsd"
 RESTRICT="bindist mirror"
 EMULTILIB_PKG="true"
 
@@ -101,7 +96,6 @@ pkg_setup() {
 
 	# set variables to where files are in the package structure
 	if use kernel_FreeBSD; then
-		use x86-fbsd   && S="${WORKDIR}/${X86_FBSD_NV_PACKAGE}"
 		use amd64-fbsd && S="${WORKDIR}/${AMD64_FBSD_NV_PACKAGE}"
 		NV_DOC="${S}/doc"
 		NV_OBJ="${S}/obj"
@@ -122,13 +116,6 @@ pkg_setup() {
 }
 
 src_prepare() {
-	if use pax_kernel; then
-		ewarn "Using PAX patches is not supported. You will be asked to"
-		ewarn "use a standard kernel should you have issues. Should you"
-		ewarn "need support with these patches, contact the PaX team."
-		eapply "${FILESDIR}"/nvidia-drivers-375.20-pax.patch
-	fi
-
 	local man_file
 	for man_file in "${NV_MAN}"/*1.gz; do
 		gunzip $man_file || die
@@ -259,8 +246,8 @@ src_install() {
 		doins ${NV_X11}/nvidia_drv.so
 
 		# Xorg GLX driver
-		donvidia ${NV_X11}/libglx.so.${NV_SOVER} \
-			/usr/$(get_libdir)/opengl/nvidia/extensions
+		donvidia ${NV_X11}/libglxserver_nvidia.so.${NV_SOVER} \
+			/usr/$(get_libdir)/xorg/modules/extensions
 
 		# Xorg nvidia.conf
 		if has_version '>=x11-base/xorg-server-1.16'; then
@@ -418,6 +405,7 @@ src_install-libs() {
 			"libnvidia-fbc.so.${NV_SOVER}"
 			"libnvidia-glcore.so.${NV_SOVER}"
 			"libnvidia-glsi.so.${NV_SOVER}"
+			"libnvidia-glvkspirv.so.${NV_SOVER}"
 			"libnvidia-ifr.so.${NV_SOVER}"
 			"libnvidia-opencl.so.${NV_SOVER}"
 			"libnvidia-ptxjitcompiler.so.${NV_SOVER}"
@@ -427,14 +415,7 @@ src_install-libs() {
 		if use wayland && has_multilib_profile && [[ ${ABI} == "amd64" ]];
 		then
 			NV_GLX_LIBRARIES+=(
-				"libnvidia-egl-wayland.so.1.0.2"
-			)
-		fi
-
-		if use kernel_linux && has_multilib_profile && [[ ${ABI} == "amd64" ]];
-		then
-			NV_GLX_LIBRARIES+=(
-				"libnvidia-wfb.so.${NV_SOVER}"
+				"libnvidia-egl-wayland.so.1.1.2"
 			)
 		fi
 
@@ -447,7 +428,16 @@ src_install-libs() {
 		if use kernel_linux; then
 			NV_GLX_LIBRARIES+=(
 				"libnvidia-ml.so.${NV_SOVER}"
-				"tls/libnvidia-tls.so.${NV_SOVER}"
+				"libnvidia-tls.so.${NV_SOVER}"
+			)
+		fi
+
+		if use kernel_linux && has_multilib_profile && [[ ${ABI} == "amd64" ]];
+		then
+			NV_GLX_LIBRARIES+=(
+				"libnvidia-cbl.so.${NV_SOVER}"
+				"libnvidia-rtcore.so.${NV_SOVER}"
+				"libnvoptix.so.${NV_SOVER}"
 			)
 		fi
 
