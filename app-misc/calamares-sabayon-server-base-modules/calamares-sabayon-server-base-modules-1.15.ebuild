@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -13,7 +13,8 @@ IUSE=""
 
 DEPEND="app-admin/calamares[networkmanager,upower]"
 RDEPEND="${DEPEND}
-	>=sys-kernel/dracut-049"
+	>=sys-kernel/dracut-049
+	!!app-misc/calamares-sabayon-base-modules"
 
 S="${WORKDIR}/calamares-sabayon-${PV}"
 
