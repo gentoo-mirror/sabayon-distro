@@ -2,7 +2,7 @@ app-misc/sabayon-dockerscripts 15.12-r2 16.12: Sabayon live image scripts and to
 app-misc/sabayon-live 25: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
-dev-libs/libsuinput 0.4: Helper functions to simplify Uinput usage.
+dev-libs/libsuinput 0.4 0.5: Helper functions to simplify Uinput usage.
 media-fonts/animal-tracks 1.0: Animal Tracks by Andrew D. Taylor
 media-fonts/asenine 1.0: Asenine Fonts by Graham Meade of Apostrophic Labs
 media-fonts/cicle 1.0: Cicle Fonts by Joan Alegret (Tipomatika)
