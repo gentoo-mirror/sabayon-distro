@@ -28,7 +28,7 @@ IUSE=""
 
 DEPEND="
 	$(vala_depend)
-	>=x11-misc/lightdm-1.12[introspection,vala]
+	>=x11-misc/lightdm-base-1.12[introspection,vala]
 	>=dev-util/intltool-0.35.0
 	sys-devel/gettext
 "
@@ -45,12 +45,6 @@ src_prepare(){
 	default_src_prepare
 	export VALAC="$(type -P valac-$(vala_best_api_version))"
 	eautoreconf
-}
-
-src_install(){
-	default_src_install
-	insinto /etc/lightdm
-	doins "${FILESDIR}/${PN//lightdm-}.conf"
 }
 
 pkg_preinst(){
