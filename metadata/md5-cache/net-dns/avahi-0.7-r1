@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=LGPL-2.1
 RDEPEND==net-dns/avahi-base-0.7-r1[autoipd=,bookmarks=,dbus=,doc=,gdbm=,howl-compat=,introspection=,ipv6=,mdnsresponder-compat=,python=,test=,nls=,selinux=,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] gtk? ( =net-dns/avahi-gtk-0.7-r1[gdbm=,nls=,dbus=] ) gtk3? ( =net-dns/avahi-gtk3-0.7-r1[dbus=,gdbm=,introspection=,nls=,python=] ) mono? ( =net-dns/avahi-mono-0.7-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) qt5? ( =net-dns/avahi-qt5-0.7-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )
 SLOT=0
-_eclasses_=multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multilib-build	ac8683420858ffddaac1694eb787fdae	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
+_eclasses_=multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multilib-build	ac8683420858ffddaac1694eb787fdae	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
 _md5_=5b6db62c393a294531263ad44fa0f954
