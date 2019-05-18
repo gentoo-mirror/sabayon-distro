@@ -27,7 +27,7 @@ KEYWORDS="-* ~amd64 ~amd64-fbsd"
 RESTRICT="bindist mirror"
 EMULTILIB_PKG="true"
 
-IUSE="acpi compat multilib gtk3 kernel_FreeBSD kernel_linux pax_kernel static-libs tools uvm wayland +X x-multilib"
+IUSE="acpi compat gtk3 kernel_FreeBSD kernel_linux kms multilib static-libs tools uvm wayland +X"
 REQUIRED_USE="
 	tools? ( X )
 	static-libs? ( tools )
@@ -116,13 +116,6 @@ pkg_setup() {
 }
 
 src_prepare() {
-	if use pax_kernel; then
-		ewarn "Using PAX patches is not supported. You will be asked to"
-		ewarn "use a standard kernel should you have issues. Should you"
-		ewarn "need support with these patches, contact the PaX team."
-		eapply "${FILESDIR}"/nvidia-drivers-375.20-pax.patch
-	fi
-
 	local man_file
 	for man_file in "${NV_MAN}"/*1.gz; do
 		gunzip $man_file || die
@@ -219,7 +212,14 @@ src_install() {
 		# pkg_preinst, see bug #491414
 		insinto /etc/modprobe.d
 		newins "${FILESDIR}"/nvidia-169.07 nvidia.conf
-		doins "${FILESDIR}"/nvidia-rmmod.conf
+		if use uvm; then
+			doins "${FILESDIR}"/nvidia-rmmod.conf
+			udev_newrules "${FILESDIR}"/nvidia-uvm.udev-rule 99-nvidia-uvm.rules
+		else
+			sed -e 's|nvidia-uvm ||g' "${FILESDIR}"/nvidia-rmmod.conf \
+				> "${T}"/nvidia-rmmod.conf || die
+			doins "${T}"/nvidia-rmmod.conf
+		fi
 
 		# Ensures that our device nodes are created when not using X
 		exeinto "$(get_udevdir)"
@@ -276,24 +276,6 @@ src_install() {
 		insinto /etc/OpenCL/vendors
 		doins ${NV_OBJ}/nvidia.icd
 	fi
-
-	# Documentation
-	if use kernel_FreeBSD; then
-		dodoc "${NV_DOC}/README"
-		use X && doman "${NV_MAN}"/nvidia-xconfig.1
-		use tools && doman "${NV_MAN}"/nvidia-settings.1
-	else
-		# Docs
-		newdoc "${NV_DOC}/README.txt" README
-		dodoc "${NV_DOC}/NVIDIA_Changelog"
-		doman "${NV_MAN}"/nvidia-smi.1
-		use X && doman "${NV_MAN}"/nvidia-xconfig.1
-		use tools && doman "${NV_MAN}"/nvidia-settings.1
-		doman "${NV_MAN}"/nvidia-cuda-mps-control.1
-	fi
-
-	docinto html
-	dodoc -r ${NV_DOC}/html/*
 
 	# Helper Apps
 	exeinto /opt/bin/
@@ -376,7 +358,25 @@ src_install() {
 
 	is_final_abi || die "failed to iterate through all ABIs"
 
+	# Documentation
+	if use kernel_FreeBSD; then
+		dodoc "${NV_DOC}/README"
+		use X && doman "${NV_MAN}"/nvidia-xconfig.1
+		use tools && doman "${NV_MAN}"/nvidia-settings.1
+	else
+		# Docs
+		newdoc "${NV_DOC}/README.txt" README
+		dodoc "${NV_DOC}/NVIDIA_Changelog"
+		doman "${NV_MAN}"/nvidia-smi.1
+		use X && doman "${NV_MAN}"/nvidia-xconfig.1
+		use tools && doman "${NV_MAN}"/nvidia-settings.1
+		doman "${NV_MAN}"/nvidia-cuda-mps-control.1
+	fi
+
 	readme.gentoo_create_doc
+
+	docinto html
+	dodoc -r ${NV_DOC}/html/*
 }
 
 src_install-libs() {
@@ -422,14 +422,7 @@ src_install-libs() {
 		if use wayland && has_multilib_profile && [[ ${ABI} == "amd64" ]];
 		then
 			NV_GLX_LIBRARIES+=(
-				"libnvidia-egl-wayland.so.1.1.0"
-			)
-		fi
-
-		if use kernel_linux && has_multilib_profile && [[ ${ABI} == "amd64" ]];
-		then
-			NV_GLX_LIBRARIES+=(
-				"libnvidia-wfb.so.${NV_SOVER}"
+				"libnvidia-egl-wayland.so.1.1.2"
 			)
 		fi
 
@@ -442,7 +435,7 @@ src_install-libs() {
 		if use kernel_linux; then
 			NV_GLX_LIBRARIES+=(
 				"libnvidia-ml.so.${NV_SOVER}"
-				"tls/libnvidia-tls.so.${NV_SOVER}"
+				"libnvidia-tls.so.${NV_SOVER}"
 			)
 		fi
 
