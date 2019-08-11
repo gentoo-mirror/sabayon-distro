@@ -1,21 +1,329 @@
+app-admin/enman 1.4.0: a layman equivalent for entropy repositories
+app-crypt/pinentry 1.0.0-r2 1.1.0-r2: Simple passphrase entry dialogs which utilize the Assuan protocol (meta package)
+app-crypt/pinentry-base 1.0.0-r2 1.1.0-r2: Simple passphrase entry dialogs which utilize the Assuan protocol
+app-crypt/pinentry-gnome 1.0.0-r2 1.1.0-r2: GNOME 3 frontend for pinentry
+app-crypt/pinentry-gtk2 1.0.0-r2 1.1.0-r2: Gtk+2 frontend for pinentry
+app-crypt/pinentry-qt5 1.0.0-r2 1.1.0-r2: Qt5 frontend for pinentry
+app-misc/calamares-sabayon 1.2: Sabayon Official Installer
+app-misc/calamares-sabayon-base-modules 1.15: Sabayon Official Calamares base modules
+app-misc/calamares-sabayon-branding 15.10: Sabayon Official Calamares branding
+app-misc/calamares-sabayon-server 1.1: Sabayon Official Installer
+app-misc/calamares-sabayon-server-base-modules 1.15: Sabayon Official Calamares base modules
+app-misc/calamares-sabayon-server-branding 15.10: Sabayon Official Calamares server branding
+app-misc/entrofoo 1 2 3: Sabayon Linux Entropy Test Package (fooooon't install this)
+app-misc/entrofoo-fail 1: Sabayon Linux Entropy/Portage failure (fooooon't install this)
+app-misc/entropy_unittest 1.0: Sabayon Linux Entropy Test Package (fooooon't install this)
+app-misc/passwordless-upgrade 1: Allow users in the entropy group to run system upgrades without password
+app-misc/sabayon-auto-updater 0.4: Sabayon Automatic Updater systemd service. Do not use in production or @home!
+app-misc/sabayon-devkit 1.7.8 1.7.9: Sabayon Development Kit
 app-misc/sabayon-dockerscripts 15.12-r2 16.12: Sabayon live image scripts and tools
-app-misc/sabayon-live 25: Sabayon live image scripts and tools
+app-misc/sabayon-greeter 0.11: Sabayon Welcome screen
+app-misc/sabayon-live 25 9999: Sabayon live image scripts and tools
 app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
+app-misc/sabayon-mce-rpi 0.1: RaspberryPi MCE package
+app-misc/sabayon-sark 1.1.3 1.1.5: Sabayon Automated Repository Kit
+app-misc/sabayon-skel 17-r8: Sabayon Linux skel tree
 app-misc/sabayon-steambox 12 13: Sabayon Steam Box provisioning tools
+app-misc/sabayon-version 19.06 19.07 19.08: Sabayon system release virtual package
+app-misc/screenfetch 3.8.0-r1: Bash Screenshot Information Tool
+app-office/libreoffice-l10n-af 6.2.5.2: LibreOffice.org Afrikaans localisation
+app-office/libreoffice-l10n-am 6.2.5.2: LibreOffice.org Amharic localisation
+app-office/libreoffice-l10n-ar 6.2.5.2: LibreOffice.org Arabic localisation
+app-office/libreoffice-l10n-as 6.2.5.2: LibreOffice.org Assamese localisation
+app-office/libreoffice-l10n-ast 6.2.5.2: LibreOffice.org Asturian localisation
+app-office/libreoffice-l10n-be 6.2.5.2: LibreOffice.org Belorussian localisation
+app-office/libreoffice-l10n-bg 6.2.5.2: LibreOffice.org Bulgarian localisation
+app-office/libreoffice-l10n-bn 6.2.5.2: LibreOffice.org Bengali localisation
+app-office/libreoffice-l10n-bo 6.2.5.2: LibreOffice.org Tibetan localisation
+app-office/libreoffice-l10n-br 6.2.5.2: LibreOffice.org Breton localisation
+app-office/libreoffice-l10n-brx 6.2.5.2: LibreOffice.org Bodo localisation
+app-office/libreoffice-l10n-bs 6.2.5.2: LibreOffice.org Bosnian localisation
+app-office/libreoffice-l10n-ca 6.2.5.2: LibreOffice.org Catalan localisation
+app-office/libreoffice-l10n-cs 6.2.5.2: LibreOffice.org Czech localisation
+app-office/libreoffice-l10n-cy 6.2.5.2: LibreOffice.org Welsh localisation
+app-office/libreoffice-l10n-da 6.2.5.2: LibreOffice.org Danish localisation
+app-office/libreoffice-l10n-de 6.2.5.2: LibreOffice.org German localisation
+app-office/libreoffice-l10n-dgo 6.2.5.2: LibreOffice.org Dogri localisation
+app-office/libreoffice-l10n-dz 6.2.5.2: LibreOffice.org Dzongkha localisation
+app-office/libreoffice-l10n-el 6.2.5.2: LibreOffice.org Greek localisation
+app-office/libreoffice-l10n-en_GB 6.2.5.2: LibreOffice.org English (Britain) localisation
+app-office/libreoffice-l10n-en_US 6.2.5.2: LibreOffice.org English (American) localisation
+app-office/libreoffice-l10n-en_ZA 6.2.5.2: LibreOffice.org English (ZA) localisation
+app-office/libreoffice-l10n-eo 6.2.5.2: LibreOffice.org Esperanto localisation
+app-office/libreoffice-l10n-es 6.2.5.2: LibreOffice.org Spanish localisation
+app-office/libreoffice-l10n-et 6.2.5.2: LibreOffice.org Estonian localisation
+app-office/libreoffice-l10n-eu 6.2.5.2: LibreOffice.org Basque localisation
+app-office/libreoffice-l10n-fa 6.2.5.2: LibreOffice.org Farsi localisation
+app-office/libreoffice-l10n-fi 6.2.5.2: LibreOffice.org Italian localisation
+app-office/libreoffice-l10n-fr 6.2.5.2: LibreOffice.org French localisation
+app-office/libreoffice-l10n-ga 6.2.5.2: LibreOffice.org Irish localisation
+app-office/libreoffice-l10n-gd 6.2.5.2: LibreOffice.org Gaelic localisation
+app-office/libreoffice-l10n-gl 6.2.5.2: LibreOffice.org Galician localisation
+app-office/libreoffice-l10n-gu 6.2.5.2: LibreOffice.org Gujarati localisation
+app-office/libreoffice-l10n-gug 6.2.5.2: LibreOffice.org Paraguayan Guarani localisation
+app-office/libreoffice-l10n-he 6.2.5.2: LibreOffice.org Hebrew localisation
+app-office/libreoffice-l10n-hi 6.2.5.2: LibreOffice.org Hindi localisation
+app-office/libreoffice-l10n-hr 6.2.5.2: LibreOffice.org Croatian localisation
+app-office/libreoffice-l10n-hu 6.2.5.2: LibreOffice.org Hungarian localisation
+app-office/libreoffice-l10n-id 6.2.5.2: LibreOffice.org Indonesian localisation
+app-office/libreoffice-l10n-is 6.2.5.2: LibreOffice.org Icelandic localisation
+app-office/libreoffice-l10n-it 6.2.5.2: LibreOffice.org Italian localisation
+app-office/libreoffice-l10n-ja 6.2.5.2: LibreOffice.org Japanese localisation
+app-office/libreoffice-l10n-ka 6.2.5.2: LibreOffice.org Georgian localisation
+app-office/libreoffice-l10n-kk 6.2.5.2: LibreOffice.org Kazakh localisation
+app-office/libreoffice-l10n-km 6.2.5.2: LibreOffice.org Khmer (Cambodia) localisation
+app-office/libreoffice-l10n-kn 6.2.5.2: LibreOffice.org Kannada localisation
+app-office/libreoffice-l10n-ko 6.2.5.2: LibreOffice.org Korean localisation
+app-office/libreoffice-l10n-kok 6.2.5.2: LibreOffice.org Konkani localisation
+app-office/libreoffice-l10n-ks 6.2.5.2: LibreOffice.org Kashmiri localisation
+app-office/libreoffice-l10n-lb 6.2.5.2: LibreOffice.org Luxembourgish localisation
+app-office/libreoffice-l10n-lo 6.2.5.2: LibreOffice.org Laotian localisation
+app-office/libreoffice-l10n-lt 6.2.5.2: LibreOffice.org Lithuanian localisation
+app-office/libreoffice-l10n-lv 6.2.5.2: LibreOffice.org Latvian localisation
+app-office/libreoffice-l10n-mai 6.2.5.2: LibreOffice.org Maithili localisation
+app-office/libreoffice-l10n-meta 6.2.5.2: LibreOffice.org localisation meta-package
+app-office/libreoffice-l10n-mk 6.2.5.2: LibreOffice.org Macedonian localisation
+app-office/libreoffice-l10n-ml 6.2.5.2: LibreOffice.org Malayalam localisation
+app-office/libreoffice-l10n-mn 6.2.5.2: LibreOffice.org Mongolian localisation
+app-office/libreoffice-l10n-mni 6.2.5.2: LibreOffice.org Meithei localisation
+app-office/libreoffice-l10n-mr 6.2.5.2: LibreOffice.org Marathi localisation
+app-office/libreoffice-l10n-my 6.2.5.2: LibreOffice.org Burmi localisation
+app-office/libreoffice-l10n-nb 6.2.5.2: LibreOffice.org Norwegian localisation
+app-office/libreoffice-l10n-ne 6.2.5.2: LibreOffice.org Nepali localisation
+app-office/libreoffice-l10n-nl 6.2.5.2: LibreOffice.org Dutch localisation
+app-office/libreoffice-l10n-nn 6.2.5.2: LibreOffice.org Norwegian localisation
+app-office/libreoffice-l10n-nr 6.2.5.2: LibreOffice.org Ndebele (South) localisation
+app-office/libreoffice-l10n-nso 6.2.5.2: LibreOffice.org Northern Sotho localisation
+app-office/libreoffice-l10n-oc 6.2.5.2: LibreOffice.org Occitan localisation
+app-office/libreoffice-l10n-om 6.2.5.2: LibreOffice.org Oromo localisation
+app-office/libreoffice-l10n-or 6.2.5.2: LibreOffice.org Oriya localisation
+app-office/libreoffice-l10n-pa_IN 6.2.5.2: LibreOffice.org Punjabi localisation
+app-office/libreoffice-l10n-pl 6.2.5.2: LibreOffice.org Polish localisation
+app-office/libreoffice-l10n-pt 6.2.5.2: LibreOffice.org Portuguese localisation
+app-office/libreoffice-l10n-pt_BR 6.2.5.2: LibreOffice.org Brazil (Port.) localisation
+app-office/libreoffice-l10n-ro 6.2.5.2: LibreOffice.org Romanian localisation
+app-office/libreoffice-l10n-ru 6.2.5.2: LibreOffice.org Russian localisation
+app-office/libreoffice-l10n-rw 6.2.5.2: LibreOffice.org Kinyarwanda localisation
+app-office/libreoffice-l10n-sa_IN 6.2.5.2: LibreOffice.org Sanskrit localisation
+app-office/libreoffice-l10n-sat 6.2.5.2: LibreOffice.org Santali localisation
+app-office/libreoffice-l10n-sd 6.2.5.2: LibreOffice.org Sindhi localisation
+app-office/libreoffice-l10n-si 6.2.5.2: LibreOffice.org Sinhala localisation
+app-office/libreoffice-l10n-sid 6.2.5.2: LibreOffice.org Sidamo localisation
+app-office/libreoffice-l10n-sk 6.2.5.2: LibreOffice.org Slovak localisation
+app-office/libreoffice-l10n-sl 6.2.5.2: LibreOffice.org Slovenian localisation
+app-office/libreoffice-l10n-sq 6.2.5.2: LibreOffice.org Shqip localisation
+app-office/libreoffice-l10n-sr 6.2.5.2: LibreOffice.org Serbian localisation
+app-office/libreoffice-l10n-ss 6.2.5.2: LibreOffice.org Swati localisation
+app-office/libreoffice-l10n-st 6.2.5.2: LibreOffice.org Southern Sotho localisation
+app-office/libreoffice-l10n-sv 6.2.5.2: LibreOffice.org Swedish localisation
+app-office/libreoffice-l10n-sw_TZ 6.2.5.2: LibreOffice.org Swahili (Tanzania) localisation
+app-office/libreoffice-l10n-ta 6.2.5.2: LibreOffice.org Tamil localisation
+app-office/libreoffice-l10n-te 6.2.5.2: LibreOffice.org Telugu localisation
+app-office/libreoffice-l10n-tg 6.2.5.2: LibreOffice.org Tajik localisation
+app-office/libreoffice-l10n-th 6.2.5.2: LibreOffice.org Thai localisation
+app-office/libreoffice-l10n-tn 6.2.5.2: LibreOffice.org Tswana localisation
+app-office/libreoffice-l10n-tr 6.2.5.2: LibreOffice.org Turkish localisation
+app-office/libreoffice-l10n-ts 6.2.5.2: LibreOffice.org Tsonga localisation
+app-office/libreoffice-l10n-tt 6.2.5.2: LibreOffice.org Tatar localisation
+app-office/libreoffice-l10n-ug 6.2.5.2: LibreOffice.org Uighur localisation
+app-office/libreoffice-l10n-uk 6.2.5.2: LibreOffice.org Ukrainian localisation
+app-office/libreoffice-l10n-uz 6.2.5.2: LibreOffice.org Uzbek localisation
+app-office/libreoffice-l10n-ve 6.2.5.2: LibreOffice.org Venda localisation
+app-office/libreoffice-l10n-vi 6.2.5.2: LibreOffice.org Vietnamese localisation
+app-office/libreoffice-l10n-xh 6.2.5.2: LibreOffice.org Xhosa localisation
+app-office/libreoffice-l10n-zh_CN 6.2.5.2: LibreOffice.org Chinese (simplified) localisation
+app-office/libreoffice-l10n-zh_TW 6.2.5.2: LibreOffice.org Chinese (traditional) localisation
+app-office/libreoffice-l10n-zu 6.2.5.2: LibreOffice.org Zulu localisation
+app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
+app-text/poppler 0.77.0: PDF rendering library based on the xpdf-3.0 code base (meta package)
+app-text/poppler-base 0.77.0: PDF rendering library based on the xpdf-3.0 code base
+app-text/poppler-glib 0.77.0: Glib bindings for poppler
+app-text/poppler-qt5 0.77.0: Qt5 bindings for poppler
+dev-libs/klibc 2.0.4-r3: A minimal libc subset for use with initramfs
+dev-libs/libcec-raspberrypi 4.0.2-r1: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libsuinput 0.4 0.5: Helper functions to simplify Uinput usage.
+dev-libs/libtimezonemap 0.4.1 0.4.5 0.4.6: GTK+3 timezone map widget used by the Unity desktop
+dev-python/ccxt 1.10.475 1.10.707: Python CryptoCurrency trading library
+dev-python/pygobject 3.24.1 3.28.3 3.32.0: GLib's GObject library bindings for Python, meta package
+dev-python/pygobject-base 3.24.1 3.28.3 3.32.0: Python bindings for GObject Introspection
+dev-python/pygobject-cairo 3.24.1 3.28.3 3.32.0: Python bindings for GObject Introspection
+dev-python/shyaml 0.5.2 0.6.0 0.6.1: YAML for command line
+dev-util/dirstr 0_p1: Makes a directory structure according to a specifcation file
+dev-util/pkgs-checker 0.2.0 0.3.0 0.3.1: Sabayon Packages Checker
+dev-vcs/git 2.19.2 2.21.0-r2: stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git-cvs 2.19.2 2.21.0-r2: CVS module for git
+dev-vcs/git-gui-tools 2.19.2 2.21.0-r2: GUI tools derived from git: gitk, git-gui and gitview
+dev-vcs/git-subversion 2.19.2 2.21.0-r2: Subversion module for git
+dev-vcs/subversion 1.12.0 1.12.2: Advanced version control system
+dev-vcs/subversion-java 1.12.0 1.12.2: Java bindings for Subversion
+gnome-base/gdm 3.26.2.1-r1 3.30.3-r2 3.30.3-r3: GNOME Display Manager for managing graphical display servers and user logins
+gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
+lxde-base/lxpanel 0.9.3 0.9.3-r1: Lightweight X11 desktop panel for LXDE
+media-fonts/animal-tracks 1.0: Animal Tracks by Andrew D. Taylor
+media-fonts/asenine 1.0: Asenine Fonts by Graham Meade of Apostrophic Labs
+media-fonts/cicle 1.0: Cicle Fonts by Joan Alegret (Tipomatika)
 media-fonts/sabayon-fonts 1.0: Meta Package to install the Sabayon Artwork fonts
+media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
+media-libs/jackd-firewire 0.124.1 0.125.0: FFADO backend for JACK Audio Connection Kit
 media-sound/clementine 1.3.1_p20190127: Modern music player and library organizer based on Amarok 1.4 and Qt
+media-tv/kodi-raspberrypi 16.0 16.1 17.0: Kodi is a free and open source media-player and entertainment hub
+net-analyzer/nmap 7.40-r1 7.70: A utility for network discovery and security auditing
+net-analyzer/zenmap 7.40-r1 7.70: Graphical frontend for nmap
+net-dns/avahi 0.6.32 0.7-r1: System which facilitates service discovery on a local network (meta package)
+net-dns/avahi-base 0.6.32 0.7-r1: System which facilitates service discovery on a local network (base pkg)
+net-dns/avahi-gtk 0.6.32 0.7-r1: System which facilitates service discovery on a local network (gtk pkg)
+net-dns/avahi-gtk3 0.6.32 0.7-r1: System which facilitates service discovery on a local network (gtk3 pkg)
+net-dns/avahi-mono 0.6.32 0.7-r1: System which facilitates service discovery on a local network (mono pkg)
+net-irc/quassel 0.12.5-r2 0.13.1: Qt/KDE IRC client - monolithic client only (no remote daemon)
+net-irc/quassel-client 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
+net-irc/quassel-common 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon (common files)
+net-irc/quassel-core 0.12.5-r2 0.13.1: Qt/KDE IRC client - the "core" (server) component
 net-p2p/bittornado 0.3.18-r4: TheShad0w's experimental BitTorrent client
+net-p2p/bittorrent 4.4.0-r5: Tool for distributing files via a distributed network of nodes
+net-p2p/transmission 2.93 2.94: A BitTorrent client (meta package)
+net-p2p/transmission-base 2.93 2.94: A Fast, Easy and Free BitTorrent client - base files
+net-p2p/transmission-cli 2.93 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
+net-p2p/transmission-daemon 2.93 2.94: A Fast, Easy and Free BitTorrent client - daemon
+net-p2p/transmission-gtk 2.93 2.94: A Fast, Easy and Free BitTorrent client - Gtk+ UI
+net-p2p/transmission-qt5 2.93 2.94: A Fast, Easy and Free BitTorrent client - Qt5 UI
+net-print/brother-hl5340d-drivers 2.0.4-r1 2.0.4-r2: CUPS filters and drivers for Brother HL-5340D
+net-print/xerox-phaser6000-drivers 20110222 20110222-r1: CUPS filters and drivers for Xerox Phaser 6000B and 6010
+net-vpn/wireguard 0.0.20190406-r1: Simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
 sys-apps/baselayout 2.6-r1: Filesystem baselayout and init scripts
+sys-apps/cookbug 0.4: Sabayon Bug Report hardware information collector
 sys-apps/lsb-release 1.4: LSB version query program
-sys-apps/systemd 239-r3 239-r4: System and service manager for Linux
+sys-apps/systemd 239-r3 239-r4 242-r3: System and service manager for Linux
 sys-boot/efibootmgr 0.12: User-space application to modify the EFI boot manager
+sys-boot/grub 0.97-r22 2.02_beta3-r1 2.02-r3: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
-sys-boot/plymouth 0.9.4-r1: Graphical boot animation (splash) and logger
+sys-boot/plymouth 0.9.0 0.9.2 0.9.4-r1: Graphical boot animation (splash) and logger
 sys-devel/base-gcc 6.4.0-r1 7.3.0-r3 8.2.0-r6: The GNU Compiler Collection
 sys-devel/gcc 6.4.0-r1 7.3.0-r3 8.2.0-r6: The GNU Compiler Collection
-sys-devel/gcc-config 1.7.3: utility to manage compilers
+sys-devel/gcc-config 1.7.3 1.8 1.8-r1: utility to manage compilers
+sys-kernel/linux-sabayon 3.16.56 3.16.57 4.4.136 4.4.137 4.4.138 4.4.139 4.4.140 4.4.141 4.4.142 4.4.143 4.4.144 4.4.145 4.4.146 4.4.147 4.4.148 4.4.149 4.4.150 4.4.151 4.4.152 4.4.153 4.4.154 4.4.155 4.4.156 4.4.157 4.4.158 4.4.159 4.4.160 4.4.161 4.4.162 4.4.163 4.4.164 4.4.165 4.4.166 4.4.167 4.4.168 4.4.169 4.4.170 4.4.171 4.4.172 4.4.173 4.4.174 4.4.175 4.4.176 4.4.177 4.4.178 4.4.179 4.4.180 4.4.181 4.4.182 4.4.183 4.4.184 4.4.185 4.4.186 4.9.107 4.9.108 4.9.109 4.9.110 4.9.111 4.9.112 4.9.113 4.9.114 4.9.115 4.9.116 4.9.117 4.9.118 4.9.119 4.9.120 4.9.121 4.9.122 4.9.123 4.9.124 4.9.125 4.9.126 4.9.127 4.9.128 4.9.129 4.9.130 4.9.131 4.9.132 4.9.133 4.9.134 4.9.135 4.9.136 4.9.137 4.9.138 4.9.139 4.9.140 4.9.141 4.9.142 4.9.143 4.9.144 4.9.145 4.9.146 4.9.147 4.9.148 4.9.149 4.9.150 4.9.151 4.9.152 4.9.153 4.9.154 4.9.155 4.9.156 4.9.157 4.9.158 4.9.159 4.9.160 4.9.161 4.9.162 4.9.163 4.9.164 4.9.165 4.9.166 4.9.167 4.9.168 4.9.169 4.9.170 4.9.171 4.9.172 4.9.173 4.9.174 4.9.175 4.9.176 4.9.177 4.9.178 4.9.179 4.9.180 4.9.181 4.9.182 4.9.183 4.9.184 4.9.185 4.9.186 4.14.100 4.14.101 4.14.102 4.14.103 4.14.104 4.14.105 4.14.106 4.14.107 4.14.108 4.14.109 4.14.110 4.14.111 4.14.112 4.14.113 4.14.114 4.14.115 4.14.116 4.14.117 4.14.118 4.14.119 4.14.120 4.14.121 4.14.122 4.14.123 4.14.124 4.14.125 4.14.126 4.14.127 4.14.128 4.14.129 4.14.130 4.14.131 4.14.132 4.14.133 4.14.134 4.14.135 4.19 4.19.1 4.19.2 4.19.3 4.19.4 4.19.5 4.19.6 4.19.7 4.19.8 4.19.9 4.19.10 4.19.11 4.19.12 4.19.13 4.19.14 4.19.15 4.19.16 4.19.17 4.19.18 4.19.19 4.19.20 4.19.21 4.19.22 4.19.23 4.19.24 4.19.25 4.19.26 4.19.27 4.19.28 4.19.29 4.19.30 4.19.31 4.19.32 4.19.33 4.19.34 4.19.35 4.19.36 4.19.37 4.19.38 4.19.39 4.19.40 4.19.41 4.19.42 4.19.43 4.19.44 4.19.45 4.19.46 4.19.47 4.19.48 4.19.49 4.19.50 4.19.51 4.19.52 4.19.53 4.19.54 4.19.55 4.19.56 4.19.57 4.19.58 4.19.59 4.19.60 4.19.61 4.19.62 4.19.63 4.20 4.20.1 4.20.2 4.20.3 4.20.4 4.20.5 4.20.6 4.20.7 4.20.8 4.20.9 4.20.10 4.20.11 4.20.12 4.20.13 4.20.14 4.20.15 4.20.16 4.20.17 5.0 5.0.1 5.0.2 5.0.3 5.0.4 5.0.5 5.0.6 5.0.7 5.0.8 5.0.9 5.0.10 5.0.11 5.0.12 5.0.13 5.0.14 5.0.15 5.0.16 5.0.17 5.0.18 5.0.19 5.0.20 5.0.21 5.1 5.1.1 5.1.2 5.1.3 5.1.4 5.1.5 5.1.6 5.1.7 5.1.8 5.1.9 5.1.10 5.1.11 5.1.12 5.1.13 5.1.14 5.1.15 5.1.16 5.1.17 5.1.18 5.1.19 5.1.20 5.1.21 5.2 5.2.1 5.2.2 5.2.3 5.2.4 5.2.5: Official Sabayon Linux Standard kernel image
+sys-kernel/sabayon-dracut 1.3-r1 1.4: Sabayon Dracut Configuration
+sys-kernel/sabayon-sources 3.16.56 3.16.57 4.4.136 4.4.137 4.4.138 4.4.139 4.4.140 4.4.141 4.4.142 4.4.143 4.4.144 4.4.145 4.4.146 4.4.147 4.4.148 4.4.149 4.4.150 4.4.151 4.4.152 4.4.153 4.4.154 4.4.155 4.4.156 4.4.157 4.4.158 4.4.159 4.4.160 4.4.161 4.4.162 4.4.163 4.4.164 4.4.165 4.4.166 4.4.167 4.4.168 4.4.169 4.4.170 4.4.171 4.4.172 4.4.173 4.4.174 4.4.175 4.4.176 4.4.177 4.4.178 4.4.179 4.4.180 4.4.181 4.4.182 4.4.183 4.4.184 4.4.185 4.4.186 4.9.107 4.9.108 4.9.109 4.9.110 4.9.111 4.9.112 4.9.113 4.9.114 4.9.115 4.9.116 4.9.117 4.9.118 4.9.119 4.9.120 4.9.121 4.9.122 4.9.123 4.9.124 4.9.125 4.9.126 4.9.127 4.9.128 4.9.129 4.9.130 4.9.131 4.9.132 4.9.133 4.9.134 4.9.135 4.9.136 4.9.137 4.9.138 4.9.139 4.9.140 4.9.141 4.9.142 4.9.143 4.9.144 4.9.145 4.9.146 4.9.147 4.9.148 4.9.149 4.9.150 4.9.151 4.9.152 4.9.153 4.9.154 4.9.155 4.9.156 4.9.157 4.9.158 4.9.159 4.9.160 4.9.161 4.9.162 4.9.163 4.9.164 4.9.165 4.9.166 4.9.167 4.9.168 4.9.169 4.9.170 4.9.171 4.9.172 4.9.173 4.9.174 4.9.175 4.9.176 4.9.177 4.9.178 4.9.179 4.9.180 4.9.181 4.9.182 4.9.183 4.9.184 4.9.185 4.9.186 4.14.100 4.14.101 4.14.102 4.14.103 4.14.104 4.14.105 4.14.106 4.14.107 4.14.108 4.14.109 4.14.110 4.14.111 4.14.112 4.14.113 4.14.114 4.14.115 4.14.116 4.14.117 4.14.118 4.14.119 4.14.120 4.14.121 4.14.122 4.14.123 4.14.124 4.14.125 4.14.126 4.14.127 4.14.128 4.14.129 4.14.130 4.14.131 4.14.132 4.14.133 4.14.134 4.14.135 4.19 4.19.1 4.19.2 4.19.3 4.19.4 4.19.5 4.19.6 4.19.7 4.19.8 4.19.9 4.19.10 4.19.11 4.19.12 4.19.13 4.19.14 4.19.15 4.19.16 4.19.17 4.19.18 4.19.19 4.19.20 4.19.21 4.19.22 4.19.23 4.19.24 4.19.25 4.19.26 4.19.27 4.19.28 4.19.29 4.19.30 4.19.31 4.19.32 4.19.33 4.19.34 4.19.35 4.19.36 4.19.37 4.19.38 4.19.39 4.19.40 4.19.41 4.19.42 4.19.43 4.19.44 4.19.45 4.19.46 4.19.47 4.19.48 4.19.49 4.19.50 4.19.51 4.19.52 4.19.53 4.19.54 4.19.55 4.19.56 4.19.57 4.19.58 4.19.59 4.19.60 4.19.61 4.19.62 4.19.63 4.20 4.20.1 4.20.2 4.20.3 4.20.4 4.20.5 4.20.6 4.20.7 4.20.8 4.20.9 4.20.10 4.20.11 4.20.12 4.20.13 4.20.14 4.20.15 4.20.16 4.20.17 5.0 5.0.1 5.0.2 5.0.3 5.0.4 5.0.5 5.0.6 5.0.7 5.0.8 5.0.9 5.0.10 5.0.11 5.0.12 5.0.13 5.0.14 5.0.15 5.0.16 5.0.17 5.0.18 5.0.19 5.0.20 5.0.21 5.1 5.1.1 5.1.2 5.1.3 5.1.4 5.1.5 5.1.6 5.1.7 5.1.8 5.1.9 5.1.10 5.1.11 5.1.12 5.1.13 5.1.14 5.1.15 5.1.16 5.1.17 5.1.18 5.1.19 5.1.20 5.1.21 5.2 5.2.1 5.2.2 5.2.3 5.2.4 5.2.5: Official Sabayon Linux Standard kernel sources
 sys-libs/efivar 0.21: Tools and library to manipulate EFI variables
 virtual/fortran 0: Virtual for Fortran Compiler
-virtual/linux-sources 0: Virtual for Linux kernel sources
-x11-misc/sddm 0.18.0: Simple Desktop Display Manager
+virtual/linux-binary 0 1: Virtual for Linux kernel binaries
+virtual/linux-binary-lts 0 1: Virtual for Linux LTS kernel binaries
+virtual/linux-sources 0 1: Virtual for Linux kernel sources
+www-apache/mod_dav_svn 1.12.0 1.12.2: Subversion WebDAV support
+www-apps/gitweb 2.19.2 2.21.0-r2: A web interface to git
+www-client/firefox-l10n-ach 68.0.1: Firefox language pack (ach)
+www-client/firefox-l10n-af 68.0.1: Firefox language pack (af)
+www-client/firefox-l10n-an 68.0.1: Firefox language pack (an)
+www-client/firefox-l10n-ar 68.0.1: Firefox language pack (ar)
+www-client/firefox-l10n-ast 68.0.1: Firefox language pack (ast)
+www-client/firefox-l10n-az 68.0.1: Firefox language pack (az)
+www-client/firefox-l10n-be 68.0.1: Firefox language pack (be)
+www-client/firefox-l10n-bg 68.0.1: Firefox language pack (bg)
+www-client/firefox-l10n-bn 68.0.1: Firefox language pack (bn)
+www-client/firefox-l10n-br 68.0.1: Firefox language pack (br)
+www-client/firefox-l10n-bs 68.0.1: Firefox language pack (bs)
+www-client/firefox-l10n-ca 68.0.1: Firefox language pack (ca)
+www-client/firefox-l10n-cak 68.0.1: Firefox language pack (cak)
+www-client/firefox-l10n-cs 68.0.1: Firefox language pack (cs)
+www-client/firefox-l10n-cy 68.0.1: Firefox language pack (cy)
+www-client/firefox-l10n-da 68.0.1: Firefox language pack (da)
+www-client/firefox-l10n-de 68.0.1: Firefox language pack (de)
+www-client/firefox-l10n-dsb 68.0.1: Firefox language pack (dsb)
+www-client/firefox-l10n-el 68.0.1: Firefox language pack (el)
+www-client/firefox-l10n-en-CA 68.0.1: Firefox language pack (en-CA)
+www-client/firefox-l10n-en-GB 68.0.1: Firefox language pack (en-GB)
+www-client/firefox-l10n-eo 68.0.1: Firefox language pack (eo)
+www-client/firefox-l10n-es-AR 68.0.1: Firefox language pack (es-AR)
+www-client/firefox-l10n-es-CL 68.0.1: Firefox language pack (es-CL)
+www-client/firefox-l10n-es-ES 68.0.1: Firefox language pack (es-ES)
+www-client/firefox-l10n-es-MX 68.0.1: Firefox language pack (es-MX)
+www-client/firefox-l10n-et 68.0.1: Firefox language pack (et)
+www-client/firefox-l10n-eu 68.0.1: Firefox language pack (eu)
+www-client/firefox-l10n-fa 68.0.1: Firefox language pack (fa)
+www-client/firefox-l10n-ff 68.0.1: Firefox language pack (ff)
+www-client/firefox-l10n-fi 68.0.1: Firefox language pack (fi)
+www-client/firefox-l10n-fr 68.0.1: Firefox language pack (fr)
+www-client/firefox-l10n-fy-NL 68.0.1: Firefox language pack (fy-NL)
+www-client/firefox-l10n-ga-IE 68.0.1: Firefox language pack (ga-IE)
+www-client/firefox-l10n-gd 68.0.1: Firefox language pack (gd)
+www-client/firefox-l10n-gl 68.0.1: Firefox language pack (gl)
+www-client/firefox-l10n-gn 68.0.1: Firefox language pack (gn)
+www-client/firefox-l10n-gu-IN 68.0.1: Firefox language pack (gu-IN)
+www-client/firefox-l10n-he 68.0.1: Firefox language pack (he)
+www-client/firefox-l10n-hi-IN 68.0.1: Firefox language pack (hi-IN)
+www-client/firefox-l10n-hr 68.0.1: Firefox language pack (hr)
+www-client/firefox-l10n-hsb 68.0.1: Firefox language pack (hsb)
+www-client/firefox-l10n-hu 68.0.1: Firefox language pack (hu)
+www-client/firefox-l10n-hy-AM 68.0.1: Firefox language pack (hy-AM)
+www-client/firefox-l10n-ia 68.0.1: Firefox language pack (ia)
+www-client/firefox-l10n-id 68.0.1: Firefox language pack (id)
+www-client/firefox-l10n-is 68.0.1: Firefox language pack (is)
+www-client/firefox-l10n-it 68.0.1: Firefox language pack (it)
+www-client/firefox-l10n-ja 68.0.1: Firefox language pack (ja)
+www-client/firefox-l10n-ka 68.0.1: Firefox language pack (ka)
+www-client/firefox-l10n-kab 68.0.1: Firefox language pack (kab)
+www-client/firefox-l10n-kk 68.0.1: Firefox language pack (kk)
+www-client/firefox-l10n-km 68.0.1: Firefox language pack (km)
+www-client/firefox-l10n-kn 68.0.1: Firefox language pack (kn)
+www-client/firefox-l10n-ko 68.0.1: Firefox language pack (ko)
+www-client/firefox-l10n-lij 68.0.1: Firefox language pack (lij)
+www-client/firefox-l10n-lt 68.0.1: Firefox language pack (lt)
+www-client/firefox-l10n-lv 68.0.1: Firefox language pack (lv)
+www-client/firefox-l10n-mk 68.0.1: Firefox language pack (mk)
+www-client/firefox-l10n-mr 68.0.1: Firefox language pack (mr)
+www-client/firefox-l10n-ms 68.0.1: Firefox language pack (ms)
+www-client/firefox-l10n-my 68.0.1: Firefox language pack (my)
+www-client/firefox-l10n-nb-NO 68.0.1: Firefox language pack (nb-NO)
+www-client/firefox-l10n-nl 68.0.1: Firefox language pack (nl)
+www-client/firefox-l10n-nn-NO 68.0.1: Firefox language pack (nn-NO)
+www-client/firefox-l10n-oc 68.0.1: Firefox language pack (oc)
+www-client/firefox-l10n-pa-IN 68.0.1: Firefox language pack (pa-IN)
+www-client/firefox-l10n-pl 68.0.1: Firefox language pack (pl)
+www-client/firefox-l10n-pt-BR 68.0.1: Firefox language pack (pt-BR)
+www-client/firefox-l10n-pt-PT 68.0.1: Firefox language pack (pt-PT)
+www-client/firefox-l10n-rm 68.0.1: Firefox language pack (rm)
+www-client/firefox-l10n-ro 68.0.1: Firefox language pack (ro)
+www-client/firefox-l10n-ru 68.0.1: Firefox language pack (ru)
+www-client/firefox-l10n-si 68.0.1: Firefox language pack (si)
+www-client/firefox-l10n-sk 68.0.1: Firefox language pack (sk)
+www-client/firefox-l10n-sl 68.0.1: Firefox language pack (sl)
+www-client/firefox-l10n-son 68.0.1: Firefox language pack (son)
+www-client/firefox-l10n-sq 68.0.1: Firefox language pack (sq)
+www-client/firefox-l10n-sr 68.0.1: Firefox language pack (sr)
+www-client/firefox-l10n-sv-SE 68.0.1: Firefox language pack (sv-SE)
+www-client/firefox-l10n-ta 68.0.1: Firefox language pack (ta)
+www-client/firefox-l10n-te 68.0.1: Firefox language pack (te)
+www-client/firefox-l10n-th 68.0.1: Firefox language pack (th)
+www-client/firefox-l10n-tr 68.0.1: Firefox language pack (tr)
+www-client/firefox-l10n-uk 68.0.1: Firefox language pack (uk)
+www-client/firefox-l10n-ur 68.0.1: Firefox language pack (ur)
+www-client/firefox-l10n-uz 68.0.1: Firefox language pack (uz)
+www-client/firefox-l10n-vi 68.0.1: Firefox language pack (vi)
+www-client/firefox-l10n-xh 68.0.1: Firefox language pack (xh)
+www-client/firefox-l10n-zh-CN 68.0.1: Firefox language pack (zh-CN)
+www-client/firefox-l10n-zh-TW 68.0.1: Firefox language pack (zh-TW)
+x11-drivers/nvidia-drivers 340.104 340.107-r1 390.87-r2 390.116 430.14 430.26: NVIDIA X11 userspace libraries and applications
+x11-drivers/nvidia-userspace 340.104 340.107 390.87 390.116 430.14 430.26: NVIDIA X11 userspace libraries and applications
+x11-misc/lightdm 1.22.0 1.24.0-r1: LightDM meta package
+x11-misc/lightdm-base 1.22.0 1.24.0-r1: A lightweight display manager, base libraries and programs
+x11-misc/lightdm-gtk-greeter 2.0.2 2.0.3: LightDM GTK+ Greeter
+x11-misc/lightdm-qt5 1.22.0 1.24.0-r1: Qt5 libraries for LightDM
+x11-misc/lightdm-settings 1.2.3 1.2.4 1.2.5 1.2.6: LightDM settings app
+x11-misc/lightdm-slick-greeter 1.1.4 1.2.0 1.2.4 1.2.5: LightDM greeter forked from Unity by Linux Mint team
+x11-misc/sddm 0.17.0 0.18.0: Simple Desktop Display Manager
+x11-themes/gnome-colors-common 5.5.1-r12: Colorized icons shared between all gnome-colors iconsets
+x11-themes/sabayon-artwork-core 11-r4 12 13 13-r1 13-r2 14 14-r1 14-r2: Official Sabayon Linux Core Artwork
+x11-themes/sabayon-artwork-cursor 14: Official Sabayon Linux Core Artwork
+x11-themes/sabayon-artwork-extra 11 12 13: Official Sabayon Linux Artwork Extras
+x11-themes/sabayon-artwork-gnome 15-r1 15-r2: Sabayon Linux Official GNOME artwork
+x11-themes/sabayon-artwork-grub 13 14 14-r1: Sabayon GRUB2 background images
+x11-themes/sabayon-artwork-isolinux 13 14 14-r1: Sabayon Isolinux Live Images Background
+x11-themes/sabayon-artwork-lightdm-slick-greeter 1.0: Sabayon LightDM slick greeter configurations
+x11-themes/sabayon-artwork-lxde 11-r1 12 13: Sabayon LXDE Artwork
+x11-themes/sabayon-artwork-mate 14-r5: Sabayon Linux Official MATE artwork
+x11-themes/sabayon-artwork-nostalgia 14: Official Sabayon Linux Nostalgia Wallpapers Artwork
+x11-themes/sabayon-artwork-plymouth-base 14: Official Sabayon Linux Plymouth base Artwork
+x11-themes/sabayon-artwork-plymouth-default 14 17: Official Sabayon Linux Plymouth Artwork
+x11-themes/sabayon-artwork-sddm-base 17: Official Sabayon Linux SDDM base Artwork
+x11-themes/sabayon-artwork-sddm-default 15-r2: Official Sabayon Linux SDDM Artwork
+x11-themes/sabayon-artwork-wallpapers 16.10 18.04: Official Sabayon Linux Wallpapers Artwork
+x11-themes/tango-icon-theme 0.8.90-r1: SVG and PNG icon theme from the Tango project
