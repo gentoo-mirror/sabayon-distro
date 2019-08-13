@@ -307,8 +307,8 @@ x11-misc/lightdm 1.22.0 1.24.0-r1: LightDM meta package
 x11-misc/lightdm-base 1.22.0 1.24.0-r1: A lightweight display manager, base libraries and programs
 x11-misc/lightdm-gtk-greeter 2.0.2 2.0.3: LightDM GTK+ Greeter
 x11-misc/lightdm-qt5 1.22.0 1.24.0-r1: Qt5 libraries for LightDM
-x11-misc/lightdm-settings 1.2.3 1.2.4 1.2.5 1.2.6: LightDM settings app
-x11-misc/lightdm-slick-greeter 1.1.4 1.2.0 1.2.4 1.2.5: LightDM greeter forked from Unity by Linux Mint team
+x11-misc/lightdm-settings 1.2.4 1.2.5 1.2.6: LightDM settings app
+x11-misc/lightdm-slick-greeter 1.2.0 1.2.4 1.2.5: LightDM greeter forked from Unity by Linux Mint team
 x11-misc/sddm 0.17.0 0.18.0: Simple Desktop Display Manager
 x11-themes/gnome-colors-common 5.5.1-r12: Colorized icons shared between all gnome-colors iconsets
 x11-themes/sabayon-artwork-core 11-r4 12 13 13-r1 13-r2 14 14-r1 14-r2: Official Sabayon Linux Core Artwork
