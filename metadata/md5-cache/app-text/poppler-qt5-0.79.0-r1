@@ -1,15 +1,15 @@
 BDEPEND=dev-util/glib-utils virtual/pkgconfig dev-util/ninja >=dev-util/cmake-3.9.6
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=cairo? ( dev-libs/glib:2 x11-libs/cairo introspection? ( dev-libs/gobject-introspection:= ) )
-DESCRIPTION=Glib bindings for poppler
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtxml:5
+DESCRIPTION=Qt5 bindings for poppler
 EAPI=7
 HOMEPAGE=https://poppler.freedesktop.org/
-IUSE=cairo cjk curl cxx debug doc +introspection +jpeg +jpeg2k +lcms nss png tiff +utils
+IUSE=cjk curl cxx debug doc +jpeg +jpeg2k +lcms nss png tiff +utils
 KEYWORDS=~amd64 ~x86 ~arm
 LICENSE=GPL-2
-RDEPEND=cairo? ( dev-libs/glib:2 x11-libs/cairo introspection? ( dev-libs/gobject-introspection:= ) ) ~app-text/poppler-base-0.77.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtxml:5 ~app-text/poppler-base-0.79.0[cjk=,cxx=,jpeg=,jpeg2k=,lcms=,png=,tiff=,utils=,curl=,debug=,doc=,nss=]
 RESTRICT=test
-SLOT=0/88
-SRC_URI=https://poppler.freedesktop.org/poppler-0.77.0.tar.xz
+SLOT=0/89
+SRC_URI=https://poppler.freedesktop.org/poppler-0.79.0.tar.xz
 _eclasses_=cmake-utils	91d6ef31dc426240577497cacbf2508c	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=19ee226eeebf0ac6f5b6003b882a0d71
+_md5_=a942c61f3aa680cf8db59e8ceefe1de2
