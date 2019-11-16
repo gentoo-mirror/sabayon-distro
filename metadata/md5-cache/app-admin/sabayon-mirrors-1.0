@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst unpack
+DEPEND=net-misc/wget dev-python/shyaml
+DESCRIPTION=Sabayon Mirrors Updater
+EAPI=7
+HOMEPAGE=https://www.sabayon.org/
+KEYWORDS=amd64 arm arm64
+LICENSE=GPL-3
+RDEPEND=net-misc/wget dev-python/shyaml
+SLOT=0
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_md5_=27f59563382775545e31ac88af356517

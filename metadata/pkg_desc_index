@@ -1,4 +1,5 @@
 app-admin/enman 1.4.0 1.4.0-r1: a layman equivalent for entropy repositories
+app-admin/sabayon-mirrors 1.0: Sabayon Mirrors Updater
 app-crypt/pinentry 1.0.0-r2 1.1.0-r2 1.1.0-r3: Simple passphrase entry dialogs which utilize the Assuan protocol (meta package)
 app-crypt/pinentry-base 1.0.0-r2 1.1.0-r2: Simple passphrase entry dialogs which utilize the Assuan protocol
 app-crypt/pinentry-gnome 1.0.0-r2 1.1.0-r2: GNOME 3 frontend for pinentry
