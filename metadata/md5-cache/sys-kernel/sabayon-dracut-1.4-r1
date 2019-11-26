@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sys-fs/btrfs-progs sys-fs/mdadm sys-fs/lvm2 sys-boot/plymouth sys-kernel/dracut
 SLOT=0
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5
 _md5_=06813964b191e10d8e46fe9b42920b77
