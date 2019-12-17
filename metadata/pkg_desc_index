@@ -151,10 +151,10 @@ dev-python/pygobject-cairo 3.24.1 3.28.3 3.32.0: Python bindings for GObject Int
 dev-python/shyaml 0.5.2 0.6.0 0.6.1: YAML for command line
 dev-util/dirstr 0_p1: Makes a directory structure according to a specifcation file
 dev-util/pkgs-checker 0.2.0 0.3.0 0.3.1 0.4.0 0.4.1: Sabayon Packages Checker
-dev-vcs/git 2.21.0-r2 2.23.0-r1: stupid content tracker: distributed VCS designed for speed and efficiency
-dev-vcs/git-cvs 2.21.0-r2 2.23.0-r1: CVS module for git
-dev-vcs/git-gui-tools 2.21.0-r2 2.23.0-r1: GUI tools derived from git: gitk, git-gui and gitview
-dev-vcs/git-subversion 2.21.0-r2 2.23.0-r1: Subversion module for git
+dev-vcs/git 2.23.0-r1 2.24.1: stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git-cvs 2.23.0-r1 2.24.1: CVS module for git
+dev-vcs/git-gui-tools 2.23.0-r1 2.24.1: GUI tools derived from git: gitk, git-gui and gitview
+dev-vcs/git-subversion 2.23.0-r1 2.24.1: Subversion module for git
 dev-vcs/subversion 1.12.0 1.12.2: Advanced version control system
 dev-vcs/subversion-java 1.12.0 1.12.2: Java bindings for Subversion
 gnome-base/gdm 3.26.2.1-r1 3.30.3-r2 3.30.3-r3: GNOME Display Manager for managing graphical display servers and user logins
@@ -210,7 +210,7 @@ virtual/linux-binary 0 1: Virtual for Linux kernel binaries
 virtual/linux-binary-lts 0 1: Virtual for Linux LTS kernel binaries
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
 www-apache/mod_dav_svn 1.12.0 1.12.2: Subversion WebDAV support
-www-apps/gitweb 2.21.0-r2 2.23.0-r1: A web interface to git
+www-apps/gitweb 2.23.0-r1 2.24.1: A web interface to git
 www-client/firefox-l10n-ach 71.0: Firefox language pack (ach)
 www-client/firefox-l10n-af 71.0: Firefox language pack (af)
 www-client/firefox-l10n-an 71.0: Firefox language pack (an)
