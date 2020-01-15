@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=app-admin/calamares[networkmanager,upower]
+DESCRIPTION=Sabayon Official Calamares base modules
+EAPI=5
+HOMEPAGE=http://www.sabayon.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-SA-4.0
+RDEPEND=app-admin/calamares[networkmanager,upower] >=sys-kernel/dracut-049
+SLOT=0
+SRC_URI=https://github.com/Sabayon/calamares-sabayon/archive/v1.15.tar.gz -> calamares-sabayon-base-modules-1.15.tar.gz
+_md5_=32109f0ed7638e13fc6da9f55bb346ed
