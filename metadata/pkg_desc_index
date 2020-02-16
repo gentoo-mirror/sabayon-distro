@@ -150,7 +150,7 @@ dev-python/pygobject-base 3.28.3 3.32.0 3.34.0: Python bindings for GObject Intr
 dev-python/pygobject-cairo 3.24.1 3.28.3 3.32.0 3.34.0: Python bindings for GObject Introspection
 dev-python/shyaml 0.5.2 0.6.0 0.6.1: YAML for command line
 dev-util/dirstr 0_p1-r1: Makes a directory structure according to a specifcation file
-dev-util/pkgs-checker 0.3.1 0.4.0 0.4.1: Sabayon Packages Checker
+dev-util/pkgs-checker 0.4.0 0.4.1 0.5.0: Sabayon Packages Checker
 dev-vcs/git 2.23.0-r1 2.24.1: stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-cvs 2.23.0-r1 2.24.1: CVS module for git
 dev-vcs/git-gui-tools 2.23.0-r1 2.24.1: GUI tools derived from git: gitk, git-gui and gitview
