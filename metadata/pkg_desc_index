@@ -7,7 +7,7 @@ app-crypt/pinentry-gtk2 1.0.0-r2 1.1.0-r2: Gtk+2 frontend for pinentry
 app-crypt/pinentry-qt5 1.0.0-r2 1.1.0-r2: Qt5 frontend for pinentry
 app-misc/calamares-sabayon 1.2: Sabayon Official Installer
 app-misc/calamares-sabayon-base-modules 1.15 1.15-r1: Sabayon Official Calamares base modules
-app-misc/calamares-sabayon-branding 20.02: Sabayon Official Calamares branding
+app-misc/calamares-sabayon-branding 20.03: Sabayon Official Calamares branding
 app-misc/calamares-sabayon-server 1.1: Sabayon Official Installer
 app-misc/calamares-sabayon-server-base-modules 1.15 1.15-r1: Sabayon Official Calamares base modules
 app-misc/calamares-sabayon-server-branding 15.10: Sabayon Official Calamares server branding
