@@ -1,0 +1,9 @@
+DEFINED_PHASES=postinst
+DESCRIPTION=Migrate lib* as per default/linux/amd64/17.1/desktop
+EAPI=7
+HOMEPAGE=https://www.sabayon.org/
+KEYWORDS=~amd64
+LICENSE=metapackage
+RDEPEND=app-portage/unsymlink-lib
+SLOT=0
+_md5_=b185adfb62728f5cd19ecdbaacf2ec24
