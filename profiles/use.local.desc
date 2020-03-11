@@ -143,6 +143,17 @@ sys-devel/gcc:regression-test - Run the testsuite and install the results (requi
 sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
 sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
 sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
+sys-libs/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
+sys-libs/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
+sys-libs/glibc:crypt - build and install libcrypt and crypt.h
+sys-libs/glibc:debug - When USE=hardened, allow fortify/stack violations to dump core (SIGABRT) and not kill self (SIGKILL)
+sys-libs/glibc:gd - build memusage and memusagestat tools
+sys-libs/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
+sys-libs/glibc:nscd - Build, and enable support for, the Name Service Cache Daemon
+sys-libs/glibc:rpc - Enable obsolete RPC/NIS layers
+sys-libs/glibc:ssp - protect stack of glibc internals
+sys-libs/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
+sys-libs/glibc:systemtap - enable systemtap static probe points
 www-apache/mod_dav_svn:dso - Enable runtime module search
 www-apps/gitweb:highlight - GitWeb support for app-text/highlight.
 x11-drivers/nvidia-drivers:X - Install the X.org driver, OpenGL libraries, XvMC libraries, and VDPAU libraries
