@@ -331,5 +331,5 @@ x11-themes/sabayon-artwork-plymouth-base 14: Official Sabayon Linux Plymouth bas
 x11-themes/sabayon-artwork-plymouth-default 14 17: Official Sabayon Linux Plymouth Artwork
 x11-themes/sabayon-artwork-sddm-base 17: Official Sabayon Linux SDDM base Artwork
 x11-themes/sabayon-artwork-sddm-default 15-r2: Official Sabayon Linux SDDM Artwork
-x11-themes/sabayon-artwork-wallpapers 16.10 18.04: Official Sabayon Linux Wallpapers Artwork
+x11-themes/sabayon-artwork-wallpapers 16.10 18.04 20: Official Sabayon Linux Wallpapers Artwork
 x11-themes/tango-icon-theme 0.8.90-r1: SVG and PNG icon theme from the Tango project
