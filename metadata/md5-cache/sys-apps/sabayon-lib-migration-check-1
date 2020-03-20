@@ -1,4 +1,4 @@
-DEFINED_PHASES=prepare
+DEFINED_PHASES=setup
 DEPEND=sys-apps/sabayon-lib-migration
 DESCRIPTION=Verify lib* as per default/linux/amd64/17.1/desktop
 EAPI=7
@@ -7,4 +7,4 @@ KEYWORDS=~amd64
 LICENSE=metapackage
 RDEPEND=sys-apps/sabayon-lib-migration
 SLOT=0
-_md5_=0c7069b2a56d29fc026755b016990bd2
+_md5_=4029cf3dffe57c41be5b73753d83a6af
