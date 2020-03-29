@@ -135,6 +135,7 @@ app-office/libreoffice-l10n-xh 6.2.8.2 6.3.4.2: LibreOffice.org Xhosa localisati
 app-office/libreoffice-l10n-zh_CN 6.2.8.2 6.3.4.2: LibreOffice.org Chinese (simplified) localisation
 app-office/libreoffice-l10n-zh_TW 6.2.8.2 6.3.4.2: LibreOffice.org Chinese (traditional) localisation
 app-office/libreoffice-l10n-zu 6.2.8.2 6.3.4.2: LibreOffice.org Zulu localisation
+app-portage/unsymlink-lib 17-r1: Convert your system to SYMLINK_LIB=no
 app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
 app-text/poppler 0.82.0: PDF rendering library based on the xpdf-3.0 code base (meta package)
 app-text/poppler-base 0.82.0: PDF rendering library based on the xpdf-3.0 code base
