@@ -169,8 +169,8 @@ media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
 media-libs/jackd-firewire 0.124.1 0.125.0: FFADO backend for JACK Audio Connection Kit
 media-sound/clementine 1.3.1_p20190127: Modern music player and library organizer based on Amarok 1.4 and Qt
 media-tv/kodi-raspberrypi 16.0 16.1 17.0: Kodi is a free and open source media-player and entertainment hub
-net-analyzer/nmap 7.40-r1 7.70: A utility for network discovery and security auditing
-net-analyzer/zenmap 7.40-r1 7.70: Graphical frontend for nmap
+net-analyzer/nmap 7.70 7.80-r1: A utility for network discovery and security auditing
+net-analyzer/zenmap 7.70 7.80-r1: Graphical frontend for nmap
 net-dns/avahi 0.7-r1 0.7-r2 0.7-r3: System which facilitates service discovery on a local network (meta package)
 net-dns/avahi-base 0.7-r1 0.7-r2 0.7-r3: System which facilitates service discovery on a local network (base pkg)
 net-dns/avahi-gtk 0.7-r1 0.7-r2 0.7-r3: System which facilitates service discovery on a local network (gtk pkg)
