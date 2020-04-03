@@ -7,4 +7,4 @@ KEYWORDS=~amd64
 LICENSE=metapackage
 RDEPEND=sys-apps/sabayon-lib-migration
 SLOT=0
-_md5_=4029cf3dffe57c41be5b73753d83a6af
+_md5_=772a8c650c279e6eac9fca6845306bef
