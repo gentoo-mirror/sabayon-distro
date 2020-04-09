@@ -32,15 +32,6 @@ dev-vcs/subversion:kwallet - Enable encrypted storage of passwords with kde-apps
 gnome-base/gdm:bluetooth-sound - Allow loading of bluetooth sound modules. This may be necessary for accessibility screen readers, but may cause bluetooth sound issues for users logging in.
 gnome-base/gdm:fprint - Enables experimental fingerprint authentication using sys-auth/fprintd
 gnome-base/gdm:plymouth - Enable support for smooth transition from sys-boot/plymouth
-media-sound/clementine:box - Enable filesharing via Box.com
-media-sound/clementine:dropbox - Enable Dropbox support
-media-sound/clementine:googledrive - Enable Google Drive support
-media-sound/clementine:lastfm - Use liblastfm for fetching song info, scrobbling and radio streams
-media-sound/clementine:moodbar - Enable moodbar support
-media-sound/clementine:projectm - Build with ProjectM visualization
-media-sound/clementine:seafile - Enable support for seafile: a file sync service
-media-sound/clementine:skydrive - Enable Skydrive support
-media-sound/clementine:wiimote - Enable support for Wii remote
 net-analyzer/nmap:libssh2 - Enable SSH support through net-libs/libssh2
 net-analyzer/nmap:ncat - Install the ncat utility
 net-analyzer/nmap:ndiff - Install the ndiff utility
