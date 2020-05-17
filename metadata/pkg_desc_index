@@ -194,7 +194,7 @@ net-vpn/wireguard-modules 0.0.20200105 1.0.20200413: Simple yet fast and modern 
 sys-apps/baselayout 2.6-r1 2.7: Filesystem baselayout and init scripts
 sys-apps/cookbug 0.4: Sabayon Bug Report hardware information collector
 sys-apps/lsb-release 1.4: LSB version query program
-sys-apps/portage 2.3.69: Portage is the package management and distribution system for Gentoo
+sys-apps/portage 2.3.69 2.3.89-r3: Portage is the package management and distribution system for Gentoo
 sys-apps/sabayon-lib-migration 1: Migrate lib* as per default/linux/amd64/17.1/desktop
 sys-apps/sabayon-lib-migration-check 1: Verify lib* as per default/linux/amd64/17.1/desktop
 sys-apps/systemd 239-r4 242-r3 242-r4: System and service manager for Linux
