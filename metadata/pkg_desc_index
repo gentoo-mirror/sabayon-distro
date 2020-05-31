@@ -308,7 +308,7 @@ www-client/firefox-l10n-vi 75.0: Firefox language pack (vi)
 www-client/firefox-l10n-xh 75.0: Firefox language pack (xh)
 www-client/firefox-l10n-zh-CN 75.0: Firefox language pack (zh-CN)
 www-client/firefox-l10n-zh-TW 75.0: Firefox language pack (zh-TW)
-x11-drivers/nvidia-drivers 390.116 430.14 430.26 435.21 440.44: NVIDIA X11 userspace libraries and applications
+x11-drivers/nvidia-drivers 390.116 430.14 430.26 435.21 440.44 440.82: NVIDIA X11 userspace libraries and applications
 x11-drivers/nvidia-userspace 390.116 430.14 430.26 435.21 440.44: NVIDIA X11 userspace libraries and applications
 x11-misc/lightdm 1.24.0-r1 1.28.0: LightDM meta package
 x11-misc/lightdm-base 1.24.0-r1 1.28.0: A lightweight display manager, base libraries and programs
