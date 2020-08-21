@@ -136,10 +136,10 @@ app-office/libreoffice-l10n-zh_TW 6.4.3.2 6.4.4.2: LibreOffice.org Chinese (trad
 app-office/libreoffice-l10n-zu 6.4.3.2 6.4.4.2: LibreOffice.org Zulu localisation
 app-portage/unsymlink-lib 17-r1: Convert your system to SYMLINK_LIB=no
 app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
-app-text/poppler 0.85.0: PDF rendering library based on the xpdf-3.0 code base (meta package)
-app-text/poppler-base 0.85.0: PDF rendering library based on the xpdf-3.0 code base
-app-text/poppler-glib 0.85.0: Glib bindings for poppler
-app-text/poppler-qt5 0.85.0: Qt5 bindings for poppler
+app-text/poppler 0.85.0 0.89.0: PDF rendering library based on the xpdf-3.0 code base (meta package)
+app-text/poppler-base 0.85.0 0.89.0: PDF rendering library based on the xpdf-3.0 code base
+app-text/poppler-glib 0.85.0 0.89.0: Glib bindings for poppler
+app-text/poppler-qt5 0.85.0 0.89.0: Qt5 bindings for poppler
 app-text/texlive-core 2019-r11: A complete TeX distribution
 dev-libs/klibc 2.0.4-r3: A minimal libc subset for use with initramfs
 dev-libs/libcec-raspberrypi 4.0.2-r1: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
