@@ -171,11 +171,11 @@ media-libs/jackd-firewire 0.124.1 0.125.0: FFADO backend for JACK Audio Connecti
 media-tv/kodi-raspberrypi 16.0 16.1 17.0: Kodi is a free and open source media-player and entertainment hub
 net-analyzer/nmap 7.70 7.80-r1: A utility for network discovery and security auditing
 net-analyzer/zenmap 7.70 7.80-r1: Graphical frontend for nmap
-net-dns/avahi 0.7-r3: System which facilitates service discovery on a local network (meta package)
-net-dns/avahi-base 0.7-r3: System which facilitates service discovery on a local network (base pkg)
-net-dns/avahi-gtk 0.7-r3: System which facilitates service discovery on a local network (gtk pkg)
-net-dns/avahi-gtk3 0.7-r3: System which facilitates service discovery on a local network (gtk3 pkg)
-net-dns/avahi-mono 0.7-r3: System which facilitates service discovery on a local network (mono pkg)
+net-dns/avahi 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (meta package)
+net-dns/avahi-base 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (base pkg)
+net-dns/avahi-gtk 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (gtk pkg)
+net-dns/avahi-gtk3 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (gtk3 pkg)
+net-dns/avahi-mono 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (mono pkg)
 net-irc/quassel 0.12.5-r2 0.13.1: Qt/KDE IRC client - monolithic client only (no remote daemon)
 net-irc/quassel-client 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
 net-irc/quassel-common 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon (common files)
