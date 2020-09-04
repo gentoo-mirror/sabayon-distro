@@ -11,4 +11,4 @@ RDEPEND=~net-dns/avahi-base-0.8[dbus=,gdbm=,nls=] x11-libs/gtk+:2
 SLOT=0
 SRC_URI=https://github.com/lathiat/avahi/archive/v0.8.tar.gz -> avahi-0.8.tar.gz
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	2477ebe553d3e4d2c606191fe6c33602	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=e004d477d4f8bb3d5714e44f21230f9e
+_md5_=8443f86b59c17fb569e608002ae699ba
