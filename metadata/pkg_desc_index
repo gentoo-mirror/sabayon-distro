@@ -217,6 +217,7 @@ virtual/fortran 0: Virtual for Fortran Compiler
 virtual/linux-binary 0 1 2 3 4: Virtual for Linux kernel binaries
 virtual/linux-binary-lts 0 1 2: Virtual for Linux LTS kernel binaries
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
+virtual/pkgconfig 1: Virtual for the pkg-config implementation
 www-apache/mod_dav_svn 1.12.0 1.12.2: Subversion WebDAV support
 www-apps/gitweb 2.24.1 2.25.3: A web interface to git
 www-client/firefox-l10n-ach 78.0.2: Firefox language pack (ach)
