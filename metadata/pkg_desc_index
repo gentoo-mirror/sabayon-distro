@@ -194,7 +194,7 @@ sys-apps/lsb-release 1.4: LSB version query program
 sys-apps/portage 2.3.69 2.3.89-r3: Portage is the package management and distribution system for Gentoo
 sys-apps/sabayon-lib-migration 1: Migrate lib* as per default/linux/amd64/17.1/desktop
 sys-apps/sabayon-lib-migration-check 1: Verify lib* as per default/linux/amd64/17.1/desktop
-sys-apps/systemd 239-r4 242-r3 242-r4 242-r5: System and service manager for Linux
+sys-apps/systemd 242-r3 242-r4 242-r5: System and service manager for Linux
 sys-boot/efibootmgr 0.12 16: User-space application to modify the EFI boot manager
 sys-boot/grub 0.97-r22 2.02_beta3-r1 2.02-r3: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
@@ -210,7 +210,7 @@ sys-libs/efivar 0.21 37: Tools and library to manipulate EFI variables
 sys-libs/glibc 2.28-r6 2.29-r2 2.29-r7 2.30-r9 2.31-r1 9999: GNU libc C library
 sys-libs/kpmcore 4.0.2_rc1 4.1.0: Library for managing partitions
 virtual/fortran 0: Virtual for Fortran Compiler
-virtual/linux-binary 0 1 2 3 4: Virtual for Linux kernel binaries
+virtual/linux-binary 2 3 4: Virtual for Linux kernel binaries
 virtual/linux-binary-lts 0 1 2: Virtual for Linux LTS kernel binaries
 virtual/linux-sources 0 1: Virtual for Linux kernel sources
 virtual/pkgconfig 1: Virtual for the pkg-config implementation
