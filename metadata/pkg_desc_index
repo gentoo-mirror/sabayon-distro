@@ -1,10 +1,8 @@
 app-admin/enman 1.4.0 1.4.0-r1: a layman equivalent for entropy repositories
 app-admin/sabayon-mirrors 1.0: Sabayon Mirrors Updater
 app-crypt/pinentry 1.0.0-r2 1.1.0-r2 1.1.0-r3: Simple passphrase entry dialogs which utilize the Assuan protocol (meta package)
-app-crypt/pinentry-base 1.0.0-r2 1.1.0-r2: Simple passphrase entry dialogs which utilize the Assuan protocol
 app-crypt/pinentry-gnome 1.0.0-r2 1.1.0-r2: GNOME 3 frontend for pinentry
 app-crypt/pinentry-gtk2 1.0.0-r2 1.1.0-r2: Gtk+2 frontend for pinentry
-app-crypt/pinentry-qt5 1.0.0-r2 1.1.0-r2: Qt5 frontend for pinentry
 app-misc/calamares-sabayon 1.2: Sabayon Official Installer
 app-misc/calamares-sabayon-base-modules 1.15 1.15-r1: Sabayon Official Calamares base modules
 app-misc/calamares-sabayon-branding 20.03: Sabayon Official Calamares branding
@@ -181,7 +179,6 @@ net-p2p/transmission-base 2.93 2.94: A Fast, Easy and Free BitTorrent client - b
 net-p2p/transmission-cli 2.93 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/transmission-daemon 2.93 2.94: A Fast, Easy and Free BitTorrent client - daemon
 net-p2p/transmission-gtk 2.93 2.94: A Fast, Easy and Free BitTorrent client - Gtk+ UI
-net-p2p/transmission-qt5 2.93 2.94: A Fast, Easy and Free BitTorrent client - Qt5 UI
 net-print/brother-hl5340d-drivers 2.0.4-r1 2.0.4-r2: CUPS filters and drivers for Brother HL-5340D
 net-print/xerox-phaser6000-drivers 20110222 20110222-r1: CUPS filters and drivers for Xerox Phaser 6000B and 6010
 net-vpn/wireguard 0.0.20190406-r1: Simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
@@ -308,9 +305,7 @@ www-client/firefox-l10n-zh-TW 78.0.2: Firefox language pack (zh-TW)
 x11-drivers/nvidia-drivers 390.116 430.14 430.26 435.21 440.44 440.82 450.57 450.66: NVIDIA X11 userspace libraries and applications
 x11-drivers/nvidia-userspace 390.116 430.14 430.26 435.21 440.44 440.82 450.57 450.66: NVIDIA X11 userspace libraries and applications
 x11-misc/lightdm 1.24.0-r1 1.28.0: LightDM meta package
-x11-misc/lightdm-base 1.24.0-r1 1.28.0: A lightweight display manager, base libraries and programs
 x11-misc/lightdm-gtk-greeter 2.0.3 2.0.6: LightDM GTK+ Greeter
-x11-misc/lightdm-qt5 1.24.0-r1 1.28.0: Qt5 libraries for LightDM
 x11-misc/lightdm-settings 1.2.6 1.2.7 1.2.8 1.2.9: LightDM settings app
 x11-misc/lightdm-slick-greeter 1.2.5 1.2.6 1.2.7: LightDM greeter forked from Unity by Linux Mint team
 x11-misc/sddm 0.17.0 0.18.0: Simple Desktop Display Manager
