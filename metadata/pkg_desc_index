@@ -141,7 +141,6 @@ dev-libs/klibc 2.0.4-r3: A minimal libc subset for use with initramfs
 dev-libs/libcec-raspberrypi 4.0.2-r1: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libsuinput 0.4 0.5: Helper functions to simplify Uinput usage.
 dev-libs/libtimezonemap 0.4.1 0.4.5 0.4.6: GTK+3 timezone map widget used by the Unity desktop
-dev-python/ccxt 1.10.475 1.10.707: Python CryptoCurrency trading library
 dev-python/d2to1 0.2.12_p1: It converts distutils2's setup.cfg to setuptools' setup.py
 dev-python/pygobject 3.28.3 3.32.0 3.34.0 3.36.1: GLib's GObject library bindings for Python, meta package
 dev-python/pygobject-base 3.28.3 3.32.0 3.34.0 3.36.1: Python bindings for GObject Introspection
