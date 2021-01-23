@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
 RDEPEND=~net-p2p/transmission-base-2.94[lightweight=,xfs=,libressl=] || ( ~net-p2p/transmission-gtk-2.94[ayatana=,libressl=] ~net-p2p/transmission-qt5-2.94[libressl=] ) ~net-p2p/transmission-base-2.94
 SLOT=0
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	transmission-2.94	a82d0a92c1687a3cc18f30c49f560f6e
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	transmission-2.94	a82d0a92c1687a3cc18f30c49f560f6e
 _md5_=779daa9b41c7325cf1281c8ff3711449
