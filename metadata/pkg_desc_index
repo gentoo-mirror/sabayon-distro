@@ -132,13 +132,11 @@ app-office/libreoffice-l10n-zh_CN 6.4.5.2 6.4.6.2: LibreOffice.org Chinese (simp
 app-office/libreoffice-l10n-zh_TW 6.4.5.2 6.4.6.2: LibreOffice.org Chinese (traditional) localisation
 app-office/libreoffice-l10n-zu 6.4.5.2 6.4.6.2: LibreOffice.org Zulu localisation
 app-portage/unsymlink-lib 17-r1: Convert your system to SYMLINK_LIB=no
-app-text/pastebunz 1.4-r1: command line interface to http://pastebin.sabayonlinux.org/
 app-text/poppler 0.85.0 0.89.0: PDF rendering library based on the xpdf-3.0 code base (meta package)
 app-text/poppler-base 0.85.0 0.89.0: PDF rendering library based on the xpdf-3.0 code base
 app-text/poppler-glib 0.85.0 0.89.0: Glib bindings for poppler
 app-text/poppler-qt5 0.85.0 0.89.0: Qt5 bindings for poppler
 dev-libs/klibc 2.0.4-r3: A minimal libc subset for use with initramfs
-dev-libs/libcec-raspberrypi 4.0.2-r1: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libsuinput 0.4 0.5: Helper functions to simplify Uinput usage.
 dev-libs/libtimezonemap 0.4.1 0.4.5 0.4.6: GTK+3 timezone map widget used by the Unity desktop
 dev-python/d2to1 0.2.12_p1: It converts distutils2's setup.cfg to setuptools' setup.py
@@ -152,7 +150,6 @@ dev-vcs/git 2.24.1 2.25.3: stupid content tracker: distributed VCS designed for 
 dev-vcs/git-cvs 2.24.1 2.25.3: CVS module for git
 dev-vcs/git-gui-tools 2.24.1 2.25.3: GUI tools derived from git: gitk, git-gui and gitview
 dev-vcs/git-subversion 2.24.1 2.25.3: Subversion module for git
-dev-vcs/subversion 1.12.0 1.12.2: Advanced version control system
 dev-vcs/subversion-java 1.12.0 1.12.2 1.13.0: Java bindings for Subversion
 gnome-base/gdm 3.30.3-r2 3.30.3-r3 3.32.0: GNOME Display Manager for managing graphical display servers and user logins
 gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
@@ -163,7 +160,6 @@ media-fonts/cicle 1.0: Cicle Fonts by Joan Alegret (Tipomatika)
 media-fonts/sabayon-fonts 1.0: Meta Package to install the Sabayon Artwork fonts
 media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
 media-libs/jackd-firewire 0.124.1 0.125.0: FFADO backend for JACK Audio Connection Kit
-media-tv/kodi-raspberrypi 16.0 16.1 17.0: Kodi is a free and open source media-player and entertainment hub
 net-dns/avahi 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (meta package)
 net-dns/avahi-base 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (base pkg)
 net-dns/avahi-gtk 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (gtk pkg)
@@ -173,7 +169,6 @@ net-irc/quassel 0.12.5-r2 0.13.1: Qt/KDE IRC client - monolithic client only (no
 net-irc/quassel-client 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
 net-irc/quassel-common 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon (common files)
 net-irc/quassel-core 0.12.5-r2 0.13.1: Qt/KDE IRC client - the "core" (server) component
-net-p2p/bittornado 0.3.18-r4: TheShad0w's experimental BitTorrent client
 net-p2p/transmission 2.93 2.94: A BitTorrent client (meta package)
 net-p2p/transmission-base 2.93 2.94: A Fast, Easy and Free BitTorrent client - base files
 net-p2p/transmission-cli 2.93 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
