@@ -1,0 +1,10 @@
+DEFINED_PHASES=install postinst postrm preinst prerm pretend
+DESCRIPTION=Sabayon GRUB2 background images
+EAPI=6
+HOMEPAGE=http://www.sabayon.org/
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=CCPL-Attribution-ShareAlike-3.0
+SLOT=0
+SRC_URI=mirror://sabayon/x11-themes/sabayon-artwork-grub/sabayon-artwork-grub-14-r1.tar.xz
+_eclasses_=mount-boot	060ced4c5e0fd737db17cbb609bbf557
+_md5_=11288df41933ae1e4c1ca83243326c52
