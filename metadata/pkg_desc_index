@@ -168,11 +168,6 @@ net-irc/quassel 0.12.5-r2 0.13.1: Qt/KDE IRC client - monolithic client only (no
 net-irc/quassel-client 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
 net-irc/quassel-common 0.12.5-r2 0.13.1: Qt/KDE IRC client supporting a remote daemon (common files)
 net-irc/quassel-core 0.12.5-r2 0.13.1: Qt/KDE IRC client - the "core" (server) component
-net-p2p/transmission 2.93 2.94: A BitTorrent client (meta package)
-net-p2p/transmission-base 2.93 2.94: A Fast, Easy and Free BitTorrent client - base files
-net-p2p/transmission-cli 2.93 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
-net-p2p/transmission-daemon 2.93 2.94: A Fast, Easy and Free BitTorrent client - daemon
-net-p2p/transmission-gtk 2.93 2.94: A Fast, Easy and Free BitTorrent client - Gtk+ UI
 net-print/brother-hl5340d-drivers 2.0.4-r1 2.0.4-r2: CUPS filters and drivers for Brother HL-5340D
 net-print/xerox-phaser6000-drivers 20110222 20110222-r1: CUPS filters and drivers for Xerox Phaser 6000B and 6010
 net-vpn/wireguard 0.0.20190406-r1: Simple yet fast and modern VPN that utilizes state-of-the-art cryptography.

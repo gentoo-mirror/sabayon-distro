@@ -57,10 +57,6 @@ net-irc/quassel:snorenotify - Support for Snore notification framework.
 net-irc/quassel-client:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca.
 net-irc/quassel-client:phonon - Build client with phonon backend support. This enables sound playback in client.
 net-irc/quassel-client:snorenotify - Support for snore notification framework.
-net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
-net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
-net-p2p/transmission-base:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
-net-p2p/transmission-base:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 sys-apps/baselayout:split-usr - Enable this if /bin and /usr/bin are separate directories
 sys-apps/systemd:apparmor - Enable AppArmor support
 sys-apps/systemd:audit - Enable support for sys-process/audit
