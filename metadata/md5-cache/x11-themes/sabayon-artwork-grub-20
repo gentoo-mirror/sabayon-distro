@@ -2,6 +2,7 @@ DEFINED_PHASES=install postinst postrm preinst prerm pretend
 DESCRIPTION=Sabayon GRUB2 background images
 EAPI=6
 HOMEPAGE=http://www.sabayon.org/
+INHERIT=mount-boot
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CCPL-Attribution-ShareAlike-3.0
 SLOT=0

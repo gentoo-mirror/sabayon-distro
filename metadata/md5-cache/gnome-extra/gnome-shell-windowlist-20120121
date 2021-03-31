@@ -3,10 +3,11 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Adds a window switcher to the top bar of gnome-shell
 EAPI=4
 HOMEPAGE=https://extensions.gnome.org/extension/25/window-list/
+INHERIT=git-r3
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=687088406649475dc9762e280b6f4d74
