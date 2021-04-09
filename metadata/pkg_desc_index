@@ -189,7 +189,7 @@ sys-devel/gcc-config 1.8 1.8-r1 2.2.1: utility to manage compilers
 sys-kernel/genkernel-next 70: Gentoo automatic kernel building scripts, reloaded
 sys-kernel/linux-sabayon 4.4.233 4.4.234 4.4.238 4.4.239 4.4.240 4.4.241 4.9.233 4.9.234 4.9.238 4.9.239 4.9.240 4.9.241 4.14.195 4.14.200 4.14.201 4.14.202 4.14.203 4.19.142 4.19.149 4.19.150 4.19.151 4.19.152 4.19.153 4.19.154 5.4.72 5.4.73 5.5.17 5.5.18 5.5.19 5.6.18 5.7.19 5.8.5 5.8.13 5.8.14 5.8.15 5.8.16 5.8.17: Official Sabayon Linux Standard kernel image
 sys-kernel/sabayon-dracut 1.5: Sabayon Dracut Configuration
-sys-kernel/sabayon-sources 4.4.231 4.4.232 4.4.233 4.4.234 4.4.238 4.4.239 4.4.240 4.4.241 4.9.232 4.9.233 4.9.234 4.9.238 4.9.239 4.9.240 4.9.241 4.14.193 4.14.194 4.14.195 4.14.200 4.14.201 4.14.202 4.14.203 4.19.97 4.19.98 4.19.99 4.19.149 4.19.150 4.19.151 4.19.152 4.19.153 4.19.154 5.4.72 5.4.73 5.5 5.5.8 5.5.9 5.6 5.6.8 5.6.9 5.7 5.7.8 5.7.9 5.7.19 5.8 5.8.4 5.8.5 5.8.13 5.8.14 5.8.15 5.8.16 5.8.17: Official Sabayon Linux Standard kernel sources
+sys-kernel/sabayon-sources 4.4.231 4.4.232 4.4.233 4.4.234 4.4.238 4.4.239 4.4.240 4.4.241 4.9.232 4.9.233 4.9.234 4.9.238 4.9.239 4.9.240 4.9.241 4.14.193 4.14.194 4.14.195 4.14.200 4.14.201 4.14.202 4.14.203 4.19.97 4.19.98 4.19.99 4.19.149 4.19.150 4.19.151 4.19.152 4.19.153 4.19.154 5.4.72 5.4.73 5.5 5.5.8 5.5.9 5.6 5.6.8 5.6.9 5.6.18 5.7 5.7.8 5.7.9 5.7.19 5.8 5.8.4 5.8.5 5.8.13 5.8.14 5.8.15 5.8.16 5.8.17: Official Sabayon Linux Standard kernel sources
 sys-libs/efivar 0.21 37: Tools and library to manipulate EFI variables
 sys-libs/glibc 2.30-r9 2.31-r1 9999: GNU libc C library
 sys-libs/kpmcore 4.0.2_rc1 4.1.0: Library for managing partitions
