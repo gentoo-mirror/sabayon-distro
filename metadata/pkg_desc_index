@@ -178,7 +178,7 @@ sys-apps/lsb-release 1.4: LSB version query program
 sys-apps/portage 2.3.69 2.3.89-r3: Portage is the package management and distribution system for Gentoo
 sys-apps/sabayon-lib-migration 1: Migrate lib* as per default/linux/amd64/17.1/desktop
 sys-apps/sabayon-lib-migration-check 1: Verify lib* as per default/linux/amd64/17.1/desktop
-sys-apps/systemd 242-r3 242-r4 242-r5: System and service manager for Linux
+sys-apps/systemd 247.2-r4: System and service manager for Linux
 sys-boot/efibootmgr 0.12 16: User-space application to modify the EFI boot manager
 sys-boot/grub 2.02-r3: GNU GRUB boot loader
 sys-boot/grub-handler 0.2-r6: Sabayon Linux GRUB utilities
