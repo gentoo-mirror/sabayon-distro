@@ -199,8 +199,6 @@ virtual/linux-sources 0 1: Virtual for Linux kernel sources
 virtual/pkgconfig 1: Virtual for the pkg-config implementation
 www-apache/mod_dav_svn 1.12.0 1.12.2 1.14.0: Subversion WebDAV support
 www-apps/gitweb 2.24.1 2.25.3: A web interface to git
-x11-drivers/nvidia-drivers 440.82 450.57 450.66: NVIDIA X11 userspace libraries and applications
-x11-drivers/nvidia-userspace 440.82 450.57 450.66: NVIDIA X11 userspace libraries and applications
 x11-misc/lightdm 1.28.0: LightDM meta package
 x11-misc/lightdm-gtk-greeter 2.0.3 2.0.6: LightDM GTK+ Greeter
 x11-misc/lightdm-settings 1.2.6 1.2.7 1.2.8 1.2.9: LightDM settings app
