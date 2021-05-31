@@ -158,7 +158,6 @@ media-fonts/asenine 1.0: Asenine Fonts by Graham Meade of Apostrophic Labs
 media-fonts/cicle 1.0: Cicle Fonts by Joan Alegret (Tipomatika)
 media-fonts/sabayon-fonts 1.0: Meta Package to install the Sabayon Artwork fonts
 media-gfx/xsane-gimp 0.998-r1 0.999: XSane plugin for GIMP
-media-libs/jackd-firewire 0.124.1 0.125.0: FFADO backend for JACK Audio Connection Kit
 net-dns/avahi 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (meta package)
 net-dns/avahi-base 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (base pkg)
 net-dns/avahi-gtk 0.7-r3 0.8-r2: System which facilitates service discovery on a local network (gtk pkg)
