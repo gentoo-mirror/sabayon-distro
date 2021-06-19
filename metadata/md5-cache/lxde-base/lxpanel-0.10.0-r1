@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/keybinder:0= x11-libs/gtk+:2 >=x11-libs/libfm-1.2.0[gtk] x11-libs/libwnck:1 x11-libs/libXmu x11-libs/libXpm x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/libX11 lxde-base/lxmenu-data lxde-base/menu-cache alsa? ( media-libs/alsa-lib ) wifi? ( net-wireless/wireless-tools )
 SLOT=0
 SRC_URI=mirror://sourceforge/lxde/lxpanel-0.10.0.tar.xz
-_eclasses_=l10n	8cdd85e169b835d518bc2fd59f780d8e	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190
+_eclasses_=l10n	8cdd85e169b835d518bc2fd59f780d8e	readme.gentoo-r1	e51390d48521eb3d400db57d557b7530
 _md5_=66a3e3b6342809a25093576c437bbae9
