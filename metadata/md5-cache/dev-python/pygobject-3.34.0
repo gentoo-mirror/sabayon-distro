@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1+
 RDEPEND=~dev-python/pygobject-base-3.34.0[examples=,python_targets_python3_8(-)?,-python_single_target_python3_8(-)] cairo? ( ~dev-python/pygobject-cairo-3.34.0[test=,python_targets_python3_8(-)?,-python_single_target_python3_8(-)] ) !<dev-python/pygtk-2.13 !<dev-python/pygobject-2.28.6-r50:2[introspection]
 REQUIRED_USE=|| ( python_targets_python3_8 ) test? ( cairo )
 SLOT=3
-_eclasses_=multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-r1	26e4ad0a4190b14f70973dc253e86535
+_eclasses_=multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-r1	26e4ad0a4190b14f70973dc253e86535
 _md5_=67b83330fb61cfb9b5ebb03a5ebcbb93
