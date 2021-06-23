@@ -38,7 +38,6 @@ dev-util/dirstr 0_p1-r1: Makes a directory structure according to a specifcation
 dev-util/pkgs-checker 0.8.1: Sabayon Packages Checker
 dev-vcs/subversion-java 1.12.0 1.12.2 1.13.0: Java bindings for Subversion
 gnome-base/gdm 3.30.3-r2 3.30.3-r3 3.32.0: GNOME Display Manager for managing graphical display servers and user logins
-gnome-extra/gnome-shell-windowlist 20120121: Adds a window switcher to the top bar of gnome-shell
 lxde-base/lxpanel 0.10.0-r1: Lightweight X11 desktop panel for LXDE
 media-fonts/animal-tracks 1.0: Animal Tracks by Andrew D. Taylor
 media-fonts/asenine 1.0: Asenine Fonts by Graham Meade of Apostrophic Labs
