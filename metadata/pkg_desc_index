@@ -20,7 +20,7 @@ app-misc/sabayon-mce 1.1-r5: Sabayon Linux Media Center Infrastructure
 app-misc/sabayon-mce-rpi 0.1: RaspberryPi MCE package
 app-misc/sabayon-sark 1.1.3 1.1.5 1.2.0: Sabayon Automated Repository Kit
 app-misc/sabayon-skel 17-r8: Sabayon Linux skel tree
-app-misc/sabayon-version 20.01 20.03 20.10 20.12 21.04: Sabayon system release virtual package
+app-misc/sabayon-version 20.01 20.03 20.10 20.12 21.04 21.07: Sabayon system release virtual package
 app-misc/screenfetch 3.8.0-r1: Bash Screenshot Information Tool
 app-office/libreoffice-l10n-meta 6.4.6.2: LibreOffice.org localisation meta-package
 app-portage/unsymlink-lib 17-r1: Convert your system to SYMLINK_LIB=no
